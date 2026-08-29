@@ -132,7 +132,7 @@ function MobileEntry({
   if (!visible) return null;
   const zh = locale === "zh";
   return (
-    <div className={`mobile-entry ${leaving ? "entering" : ""}`} role="dialog" aria-label={zh ? "进入奶蛙博物馆" : "Enter Milk Frog Museum"}>
+    <div className={`mobile-entry ${leaving ? "entering" : ""}`} role="dialog" aria-hidden={leaving ? "true" : "false"} aria-label={zh ? "进入奶蛙博物馆" : "Enter Milk Frog Museum"}>
       {videoUrl ? <video src={videoUrl} autoPlay muted loop playsInline preload="auto" /> : <div className="mobile-entry-fallback" />}
       <div className="mobile-entry-wash" />
       <div className="mobile-entry-content">

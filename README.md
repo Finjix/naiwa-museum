@@ -13,14 +13,13 @@ npm run dev
 
 ## 内容与媒体迁移
 
-旧 HTML、`app.js.下载` 和本地资源仍保留在工作区，供一次性提取使用：
+迁移已完成：公开 Blob 中保存 55 张展品图和现有 MP4，私有 Blob 中保存草稿、已发布版本、历史快照和资产索引。原始 HTML、旧脚本和本地大媒体已从工作区清理；缺失的远程资源仍标记为“待补”。
 
 ```bash
-npm run legacy:extract
 npm run migration:check
 ```
 
-设置 `MUSEUM_DATA_SOURCE=blob`、`BLOB_MEDIA_READ_WRITE_TOKEN` 和 `BLOB_PRIVATE_READ_WRITE_TOKEN` 后执行：
+如需在保留原始导出的临时工作区重新执行迁移，设置 `MUSEUM_DATA_SOURCE=blob`、`BLOB_MEDIA_READ_WRITE_TOKEN` 和 `BLOB_PRIVATE_READ_WRITE_TOKEN` 后执行：
 
 ```bash
 npm run migration:blob
@@ -40,7 +39,7 @@ npm run migration:blob
 - `AUTH_SECRET`：随机、长期有效的会话签名密钥
 - `MUSEUM_PUBLIC_ORIGIN`：正式站点 origin，例如 `https://museum.example.com`
 
-部署前先执行 Blob 迁移，再运行 `npm run build`。确认公开站点和后台均能读取 Blob 后，才删除旧 HTML、旧脚本和本地大媒体；`.vercelignore` 已避免这些旧文件进入 Vercel 部署包。
+正式部署已绑定上述变量；`MUSEUM_PUBLIC_ORIGIN` 指向 `https://naiwa-museum.vercel.app`。后台初始账号为 `admin`，初始密码沿用本地回退密码 `milkfrog`，登录后应立即更换 `ADMIN_PASSWORD_HASH`。`.vercelignore` 仍屏蔽同名旧资源，防止误恢复时进入部署包。
 
 ## 管理后台
 
