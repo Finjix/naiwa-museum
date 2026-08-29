@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync, statSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import path from "node:path";
 import { parseContentDocument } from "../src/lib/content/schema";
 import type { ContentDocument } from "../src/lib/types";
@@ -21,9 +21,15 @@ for (const work of document.works) {
   if (!document.eras.some((era) => era.id === work.eraId)) errors.push(`${work.id} references an unknown era.`);
   if (work.artistId && !document.artists.some((artist) => artist.id === work.artistId)) errors.push(`${work.id} references an unknown artist.`);
 }
-const assetFiles = readdirSync(path.join(root, "奶蛙博物馆 · Musée du Milk Frog_files"));
-const localPrimaryFiles = document.works.map((work) => document.assets.find((asset) => asset.id === work.primaryAssetId)?.filename).filter(Boolean);
-for (const filename of localPrimaryFiles) if (!assetFiles.includes(filename as string)) errors.push(`Primary local media is missing: ${filename}`);
+const legacyAssetDirectory = path.join(root, "奶蛙博物馆 · Musée du Milk Frog_files");
+if (existsSync(legacyAssetDirectory)) {
+  const assetFiles = readdirSync(legacyAssetDirectory);
+  const localPrimaryFiles = document.works.map((work) => document.assets.find((asset) => asset.id === work.primaryAssetId)?.filename).filter(Boolean);
+  for (const filename of localPrimaryFiles) if (!assetFiles.includes(filename as string)) errors.push(`Primary local media is missing: ${filename}`);
+} else {
+  const migratedSourceAssets = document.assets.filter((asset) => asset.status === "active" && asset.source === "legacy-import");
+  if (migratedSourceAssets.length !== 56) errors.push(`Expected 56 migrated source assets after legacy cleanup, got ${migratedSourceAssets.length}.`);
+}
 function scan(directory: string) {
   for (const entry of readdirSync(directory)) {
     const absolute = path.join(directory, entry);

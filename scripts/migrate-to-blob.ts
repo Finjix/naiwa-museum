@@ -8,10 +8,6 @@ import type { ContentDocument, MediaAsset } from "../src/lib/types";
 
 const root = process.cwd();
 const assetsDirectory = path.join(root, "奶蛙博物馆 · Musée du Milk Frog_files");
-if (process.env.MUSEUM_DATA_SOURCE !== "blob") throw new Error("Set MUSEUM_DATA_SOURCE=blob before running the Blob migration.");
-if (!isBlobConfigured("media") || !isBlobConfigured("private")) throw new Error("BLOB_MEDIA_READ_WRITE_TOKEN and BLOB_PRIVATE_READ_WRITE_TOKEN are required.");
-
-const seed = parseContentDocument(JSON.parse(readFileSync(path.join(root, "src", "data", "legacy-seed.json"), "utf8"))) as ContentDocument;
 function sourcePath(asset: MediaAsset) {
   return asset.kind === "video" ? path.join(root, asset.filename) : path.join(assetsDirectory, asset.filename);
 }
@@ -33,12 +29,23 @@ async function migrateAsset(asset: MediaAsset) {
   return { ...asset, pathname: uploaded.pathname, url: uploaded.url, source: "uploaded" as const };
 }
 
-const migratedAssets: MediaAsset[] = [];
-for (const asset of seed.assets) migratedAssets.push(await migrateAsset(asset));
-const migrated: ContentDocument = { ...seed, assets: migratedAssets, revision: Math.max(1, seed.revision), updatedAt: new Date().toISOString() };
-const revision = `${migrated.revision}-migration-${Date.now()}`;
-await writeBlobJson(`content/history/${revision}.json`, migrated, "private");
-await writeBlobJson("content/draft.json", migrated, "private");
-await writeBlobJson("content/published.json", migrated, "private");
-await writeBlobJson("assets/index.json", { schemaVersion: 1, updatedAt: migrated.updatedAt, assets: migratedAssets }, "private");
-console.log(`Blob migration complete: ${migratedAssets.filter((asset) => asset.source === "uploaded").length} assets uploaded, ${migratedAssets.filter((asset) => asset.status === "missing").length} assets pending.`);
+async function main() {
+  if (process.env.MUSEUM_DATA_SOURCE !== "blob") throw new Error("Set MUSEUM_DATA_SOURCE=blob before running the Blob migration.");
+  if (!isBlobConfigured("media") || !isBlobConfigured("private")) throw new Error("BLOB_MEDIA_READ_WRITE_TOKEN and BLOB_PRIVATE_READ_WRITE_TOKEN are required.");
+
+  const seed = parseContentDocument(JSON.parse(readFileSync(path.join(root, "src", "data", "legacy-seed.json"), "utf8"))) as ContentDocument;
+  const migratedAssets: MediaAsset[] = [];
+  for (const asset of seed.assets) migratedAssets.push(await migrateAsset(asset));
+  const migrated: ContentDocument = { ...seed, assets: migratedAssets, revision: Math.max(1, seed.revision), updatedAt: new Date().toISOString() };
+  const revision = `${migrated.revision}-migration-${Date.now()}`;
+  await writeBlobJson(`content/history/${revision}.json`, migrated, "private");
+  await writeBlobJson("content/draft.json", migrated, "private");
+  await writeBlobJson("content/published.json", migrated, "private");
+  await writeBlobJson("assets/index.json", { schemaVersion: 1, updatedAt: migrated.updatedAt, assets: migratedAssets }, "private");
+  console.log(`Blob migration complete: ${migratedAssets.filter((asset) => asset.source === "uploaded").length} assets uploaded, ${migratedAssets.filter((asset) => asset.status === "missing").length} assets pending.`);
+}
+
+void main().catch((error) => {
+  console.error(error instanceof Error ? error.message : error);
+  process.exitCode = 1;
+});
