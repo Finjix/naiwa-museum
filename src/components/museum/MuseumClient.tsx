@@ -372,15 +372,22 @@ export default function MuseumClient({ content }: MuseumClientProps) {
     if (!audio) return;
     const tryPlay = () => { void audio.play().catch(() => undefined); };
     const resume = () => tryPlay();
-    audio.addEventListener("canplay", tryPlay);
-    window.addEventListener("pointerdown", resume, { once: true, passive: true });
-    window.addEventListener("keydown", resume, { once: true });
-    tryPlay();
-    return () => {
+    const cleanup = () => {
       audio.removeEventListener("canplay", tryPlay);
+      audio.removeEventListener("playing", cleanup);
       window.removeEventListener("pointerdown", resume);
       window.removeEventListener("keydown", resume);
+      window.removeEventListener("WeixinJSBridgeReady", resume);
+      window.removeEventListener("YixinJSBridgeReady", resume);
     };
+    audio.addEventListener("canplay", tryPlay);
+    audio.addEventListener("playing", cleanup);
+    window.addEventListener("pointerdown", resume, { passive: true });
+    window.addEventListener("keydown", resume);
+    window.addEventListener("WeixinJSBridgeReady", resume);
+    window.addEventListener("YixinJSBridgeReady", resume);
+    tryPlay();
+    return cleanup;
   }, [bgmAudio?.url]);
 
   useEffect(() => {
