@@ -1,6 +1,6 @@
 # 奶蛙博物馆
 
-基于 Next.js App Router、TypeScript 和 Vercel Blob 的奶蛙博物馆。公开展馆使用已发布内容，后台以单管理员维护草稿、发布版本、媒体和意见箱。
+基于 Next.js App Router、TypeScript 和 Vercel Blob 的奶蛙博物馆。
 
 ## 本地运行
 
@@ -8,8 +8,6 @@
 npm install
 npm run dev
 ```
-
-开发环境默认使用 `src/data/legacy-seed.json` 和本地 `.local-data/`，不会把内容写回旧 HTML。未配置生产凭据时，本地后台账号是 `admin` / `milkfrog`；该回退凭据只在非生产环境启用。
 
 ## Vercel 环境变量
 
@@ -22,8 +20,6 @@ npm run dev
 - `ADMIN_PASSWORD_HASH`：bcrypt 哈希，不保存明文密码
 - `AUTH_SECRET`：随机、长期有效的会话签名密钥
 - `MUSEUM_PUBLIC_ORIGIN`：正式站点 origin，例如 `https://museum.example.com`
-
-正式部署已绑定上述变量；`MUSEUM_PUBLIC_ORIGIN` 指向 `https://naiwa-museum.vercel.app`。后台初始账号为 `admin`，初始密码沿用本地回退密码 `milkfrog`，登录后应立即更换 `ADMIN_PASSWORD_HASH`。`.vercelignore` 仍屏蔽同名旧资源，防止误恢复时进入部署包。
 
 ## 管理后台
 
