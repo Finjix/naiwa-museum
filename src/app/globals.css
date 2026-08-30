@@ -42,7 +42,7 @@ a { color: inherit; text-decoration: none; }
 .hero { position: relative; min-height: min(820px, 100svh); display: flex; align-items: flex-end; overflow: hidden; background: #132126; color: #fff; }
 .hero-media, .hero-media video, .hero-wash { position: absolute; inset: 0; }
 .hero-media video { width: 100%; height: 100%; object-fit: cover; opacity: .72; }
-.hero-wash { background: linear-gradient(180deg, rgba(5,15,18,.08), rgba(5,15,18,.18) 45%, rgba(5,15,18,.82)); }
+.hero-wash { background: linear-gradient(180deg, rgba(5,15,18,.08), rgba(5,15,18,.18) 45%, rgba(5,15,18,.82)); pointer-events: none; }
 .hero-caption { position: relative; z-index: 1; width: min(1300px, 100%); margin: 0 auto; padding: 0 52px 94px; }
 .hero-kicker { font-size: 10px; letter-spacing: .32em; text-transform: uppercase; color: var(--gold-soft); }
 .hero-caption h1 { max-width: 720px; margin: 18px 0 24px; font: 300 clamp(60px, 9vw, 132px)/.86 var(--serif); letter-spacing: -.02em; }
@@ -244,6 +244,10 @@ a { color: inherit; text-decoration: none; }
   .admin-main { padding: 28px 24px 60px; }
   .admin-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+@media (min-width: 721px) {
+  .lightbox-control.prev { left: 0; }
+  .lightbox-control.next { right: 0; }
+}
 @media (max-width: 720px) {
   .brand { margin-left: 102px; font-size: 17px; letter-spacing: .25em; text-indent: .25em; }
   .site-header.scrolled { padding: 14px 20px; }
@@ -272,6 +276,7 @@ a { color: inherit; text-decoration: none; }
   .lightbox-copy { flex: 1; padding: 27px 24px 34px; }
   .lightbox-copy h2 { font-size: 32px; }
   .lightbox-control { width: 34px; height: 34px; }
+  .modal-close { top: 2px; right: 4px; }
   .artist-modal-inner { padding: 32px 24px 36px; }
   .artist-portrait { display: block; float: none; margin: 0 auto 22px; }
   .artist-modal-inner h2, .artist-modal-inner .life { text-align: center; }

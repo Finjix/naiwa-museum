@@ -347,6 +347,7 @@ export default function MuseumClient({ content }: MuseumClientProps) {
   const [selectedWorkId, setSelectedWorkId] = useState<string | null>(null);
   const [selectedSequence, setSelectedSequence] = useState<Work[]>([]);
   const [selectedArtistId, setSelectedArtistId] = useState<string | null>(null);
+  const heroVideoRef = useRef<HTMLVideoElement>(null);
   const bgmAudioRef = useRef<HTMLAudioElement>(null);
 
   const heroVideo = getAsset(content, content.site.heroVideoAssetId);
@@ -383,6 +384,23 @@ export default function MuseumClient({ content }: MuseumClientProps) {
   }, [bgmAudio?.url]);
 
   useEffect(() => {
+    const video = heroVideoRef.current;
+    if (!video) return;
+    const tryPlay = () => {
+      video.muted = true;
+      void video.play().catch(() => undefined);
+    };
+    video.defaultMuted = true;
+    video.addEventListener("loadeddata", tryPlay);
+    video.addEventListener("canplay", tryPlay);
+    tryPlay();
+    return () => {
+      video.removeEventListener("loadeddata", tryPlay);
+      video.removeEventListener("canplay", tryPlay);
+    };
+  }, [heroVideo?.url]);
+
+  useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") { setDrawer(null); setSelectedWorkId(null); setSelectedArtistId(null); }
       if (selectedWork && event.key === "ArrowRight") moveWork(1);
@@ -406,7 +424,7 @@ export default function MuseumClient({ content }: MuseumClientProps) {
     <Header locale={locale} scrolled={scrolled} onLogs={() => setDrawer("logs")} onFeedback={() => setDrawer("feedback")} onWestern={goWestern} onChina={goChina} />
     {collection === "western" ? <>
       <FloatingSchoolBadge />
-      <main id="top"><section className="hero" aria-label={locale === "zh" ? "奶蛙博物馆首页影像" : "Milk Frog Museum film"}><div className="hero-media">{heroVideo?.status === "active" && <video src={heroVideo.url} autoPlay muted loop playsInline preload="auto" onCanPlay={(event) => { event.currentTarget.muted = true; void event.currentTarget.play().catch(() => undefined); }} />}</div><div className="hero-wash" /><div className="hero-caption"><span className="hero-kicker">THE MILK FROG · 2026</span><h1>{locale === "zh" ? <>跨越艺术史的<br />静默凝视</> : <>A silent gaze<br />across art history</>}</h1><p>{locale === "zh" ? <>广东技术师范大学 × 奶娃博物馆<br />倾情呈现</> : "From cave fire to Impressionist afternoons, a rounded and quiet presence remains."}</p><div className="hero-links"><a href="#collection">{locale === "zh" ? "探索典藏" : "Explore the collection"}</a><button type="button" onClick={goChina}>{locale === "zh" ? "参观中国馆" : "Visit China Museum"}</button></div></div></section></main>
+      <main id="top"><section className="hero" aria-label={locale === "zh" ? "奶蛙博物馆首页影像" : "Milk Frog Museum film"}><div className="hero-media">{heroVideo?.status === "active" && <video ref={heroVideoRef} src={heroVideo.url} autoPlay muted loop playsInline preload="auto" controls={false} onCanPlay={(event) => { event.currentTarget.muted = true; void event.currentTarget.play().catch(() => undefined); }} onPointerUp={(event) => { if (event.currentTarget.paused) { event.currentTarget.muted = true; void event.currentTarget.play().catch(() => undefined); } }} />}</div><div className="hero-wash" /><div className="hero-caption"><span className="hero-kicker">THE MILK FROG · 2026</span><h1>{locale === "zh" ? <>跨越艺术史的<br />静默凝视</> : <>A silent gaze<br />across art history</>}</h1><p>{locale === "zh" ? <>广东技术师范大学 × 奶娃博物馆<br />倾情呈现</> : "From cave fire to Impressionist afternoons, a rounded and quiet presence remains."}</p><div className="hero-links"><a href="#collection">{locale === "zh" ? "探索典藏" : "Explore the collection"}</a><button type="button" onClick={goChina}>{locale === "zh" ? "参观中国馆" : "Visit China Museum"}</button></div></div></section></main>
       <section className="intro" id="intro"><div className="section-kicker">Curatorial Statement</div><p>{text(content.site.intro, locale).split("\n").map((line, index) => <span className="intro-line" key={`${line}-${index}`}>{line.includes("奶蛙") ? <>{line.split("奶蛙")[0]}<em>奶蛙</em>{line.split("奶蛙").slice(1).join("奶蛙")}</> : line}</span>)}</p><div className="intro-signature">— {text(content.site.curator, locale)}</div></section>
       <CollectionView key="western" content={content} locale={locale} collection="western" onOpenWork={openWork} />
       <Footer content={content} locale={locale} onChina={goChina} onFeedback={() => setDrawer("feedback")} />
