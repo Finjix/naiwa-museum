@@ -22,6 +22,7 @@ const PUBLISHED_PATH = "content/published.json";
 const HISTORY_PREFIX = "content/history";
 const ASSET_INDEX_PATH = "assets/index.json";
 const LOCAL_ROOT = path.join(process.cwd(), ".local-data");
+const FEEDBACK_RECORD_PATH = /^feedback\/[a-zA-Z0-9_-]+\.json$/;
 
 function cloneSeed() {
   return parseContentDocument(JSON.parse(JSON.stringify(seedJson)));
@@ -144,7 +145,7 @@ export async function getFeedback(id: string) {
 export async function listFeedback() {
   if (blobStoreEnabled()) {
     const { listBlobs } = await import("@/lib/blob");
-    const blobs = await listBlobs("private", "feedback/");
+    const blobs = (await listBlobs("private", "feedback/")).filter((blob) => FEEDBACK_RECORD_PATH.test(blob.pathname));
     const records = await Promise.all(
       blobs.map(async (blob) => {
         const value = await readBlobJson<FeedbackRecord>(blob.pathname, "private");
