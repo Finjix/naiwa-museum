@@ -247,9 +247,8 @@ a { color: inherit; text-decoration: none; }
   .admin-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (min-width: 721px) {
-  .lightbox-panel { overflow: visible; }
-  .lightbox-control.prev { left: -8px; }
-  .lightbox-control.next { right: -40px; }
+  .lightbox-control.prev { left: 8px; }
+  .lightbox-control.next { right: 8px; }
 }
 @media (max-width: 720px) {
   .brand { margin-left: 102px; font-size: 17px; letter-spacing: .25em; text-indent: .25em; }
