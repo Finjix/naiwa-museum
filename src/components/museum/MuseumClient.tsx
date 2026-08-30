@@ -1,7 +1,7 @@
 "use client";
 
 import { upload } from "@vercel/blob/client";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   erasForCollection,
   filterWorks,
@@ -132,34 +132,6 @@ function FloatingSchoolBadge() {
     >
       <img src="/school-badge.png" alt="广东技术师范大学校徽" />
     </a>
-  );
-}
-
-function MobileEntry({
-  visible,
-  leaving,
-  locale,
-  videoUrl,
-  onExplore,
-}: {
-  visible: boolean;
-  leaving: boolean;
-  locale: "zh" | "en";
-  videoUrl?: string;
-  onExplore: () => void;
-}) {
-  if (!visible) return null;
-  const zh = locale === "zh";
-  return (
-    <div className={`mobile-entry ${leaving ? "entering" : ""}`} role="dialog" aria-hidden={leaving ? "true" : "false"} aria-label={zh ? "进入奶蛙博物馆" : "Enter Milk Frog Museum"}>
-      {videoUrl ? <video src={videoUrl} autoPlay muted loop playsInline preload="auto" /> : <div className="mobile-entry-fallback" />}
-      <div className="mobile-entry-wash" />
-      <div className="mobile-entry-content">
-        <span>MUSÉE DU MILK FROG</span>
-        <h1>{zh ? "奶蛙博物馆" : "Milk Frog Museum"}</h1>
-        <button className="entry-explore" type="button" aria-label={zh ? "探索典藏" : "Explore the collection"} onClick={onExplore}>{zh ? "探索典藏" : "Explore the collection"}</button>
-      </div>
-    </div>
   );
 }
 
@@ -370,14 +342,11 @@ function ArtistModal({ artist, content, locale, onClose }: { artist: Artist; con
 export default function MuseumClient({ content }: MuseumClientProps) {
   const locale = "zh" as const;
   const [scrolled, setScrolled] = useState(false);
-  const [entryVisible, setEntryVisible] = useState(false);
-  const [entryLeaving, setEntryLeaving] = useState(false);
   const [collection, setCollection] = useState<CollectionId>("western");
   const [drawer, setDrawer] = useState<DrawerName>(null);
   const [selectedWorkId, setSelectedWorkId] = useState<string | null>(null);
   const [selectedSequence, setSelectedSequence] = useState<Work[]>([]);
   const [selectedArtistId, setSelectedArtistId] = useState<string | null>(null);
-  const heroVideoRef = useRef<HTMLVideoElement>(null);
 
   const heroVideo = getAsset(content, content.site.heroVideoAssetId);
   const selectedWork = selectedWorkId ? content.works.find((work) => work.id === selectedWorkId) : undefined;
@@ -388,13 +357,6 @@ export default function MuseumClient({ content }: MuseumClientProps) {
     const index = selectedSequence.findIndex((work) => work.id === selectedWork.id);
     setSelectedWorkId(selectedSequence[(index + offset + selectedSequence.length) % selectedSequence.length].id);
   }, [selectedSequence, selectedWork]);
-
-  useEffect(() => {
-    const query = window.matchMedia("(max-width: 720px)");
-    const updateMobile = () => { const value = query.matches; setEntryVisible(value && !window.sessionStorage.getItem("mfm-entered")); };
-    updateMobile(); query.addEventListener("change", updateMobile);
-    return () => query.removeEventListener("change", updateMobile);
-  }, []);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -413,33 +375,19 @@ export default function MuseumClient({ content }: MuseumClientProps) {
   }, [moveWork, selectedWork]);
 
   const goWestern = useCallback(() => {
-    setCollection("western"); setDrawer(null); setEntryVisible(false);
+    setCollection("western"); setDrawer(null);
     window.requestAnimationFrame(() => document.getElementById("top")?.scrollIntoView({ behavior: "smooth" }));
   }, []);
   const goChina = useCallback(() => {
-    setCollection("china"); setDrawer(null); setEntryVisible(false);
+    setCollection("china"); setDrawer(null);
     window.requestAnimationFrame(() => document.getElementById("collection")?.scrollIntoView({ behavior: "smooth" }));
   }, []);
   const openWork = useCallback((work: Work, sequence: Work[]) => { setSelectedWorkId(work.id); setSelectedSequence(sequence); }, []);
-  function enterMuseum() {
-    setEntryLeaving(true); window.sessionStorage.setItem("mfm-entered", "true");
-    window.setTimeout(() => { setEntryVisible(false); setEntryLeaving(false); }, 720);
-  }
-  function exploreCollection() {
-    enterMuseum();
-    const video = heroVideoRef.current;
-    if (video) {
-      video.muted = true;
-      void video.play().catch(() => undefined);
-    }
-    window.setTimeout(() => document.getElementById("collection")?.scrollIntoView({ behavior: "smooth" }), 760);
-  }
   return <div className="museum-app">
-    <MobileEntry visible={entryVisible} leaving={entryLeaving} locale={locale} videoUrl={heroVideo?.status === "active" ? heroVideo.url : undefined} onExplore={exploreCollection} />
     <Header locale={locale} scrolled={scrolled} onLogs={() => setDrawer("logs")} onFeedback={() => setDrawer("feedback")} onWestern={goWestern} onChina={goChina} />
     {collection === "western" ? <>
       <FloatingSchoolBadge />
-      <main id="top"><section className="hero" aria-label={locale === "zh" ? "奶蛙博物馆首页影像" : "Milk Frog Museum film"}><div className="hero-media">{heroVideo?.status === "active" && <video ref={heroVideoRef} src={heroVideo.url} autoPlay muted loop playsInline preload="auto" onCanPlay={(event) => { event.currentTarget.muted = true; void event.currentTarget.play().catch(() => undefined); }} />}</div><div className="hero-wash" /><div className="hero-caption"><span className="hero-kicker">THE MILK FROG · 2026</span><h1>{locale === "zh" ? <>跨越艺术史的<br />静默凝视</> : <>A silent gaze<br />across art history</>}</h1><p>{locale === "zh" ? <>广东技术师范大学 × 奶娃博物馆<br />倾情呈现</> : "From cave fire to Impressionist afternoons, a rounded and quiet presence remains."}</p><div className="hero-links"><a href="#collection">{locale === "zh" ? "探索典藏" : "Explore the collection"}</a><button type="button" onClick={goChina}>{locale === "zh" ? "参观中国馆" : "Visit China Museum"}</button></div></div></section></main>
+      <main id="top"><section className="hero" aria-label={locale === "zh" ? "奶蛙博物馆首页影像" : "Milk Frog Museum film"}><div className="hero-media">{heroVideo?.status === "active" && <video src={heroVideo.url} autoPlay muted loop playsInline preload="auto" onCanPlay={(event) => { event.currentTarget.muted = true; void event.currentTarget.play().catch(() => undefined); }} />}</div><div className="hero-wash" /><div className="hero-caption"><span className="hero-kicker">THE MILK FROG · 2026</span><h1>{locale === "zh" ? <>跨越艺术史的<br />静默凝视</> : <>A silent gaze<br />across art history</>}</h1><p>{locale === "zh" ? <>广东技术师范大学 × 奶娃博物馆<br />倾情呈现</> : "From cave fire to Impressionist afternoons, a rounded and quiet presence remains."}</p><div className="hero-links"><a href="#collection">{locale === "zh" ? "探索典藏" : "Explore the collection"}</a><button type="button" onClick={goChina}>{locale === "zh" ? "参观中国馆" : "Visit China Museum"}</button></div></div></section></main>
       <section className="intro" id="intro"><div className="section-kicker">Curatorial Statement</div><p>{text(content.site.intro, locale).split("\n").map((line, index) => <span className="intro-line" key={`${line}-${index}`}>{line.includes("奶蛙") ? <>{line.split("奶蛙")[0]}<em>奶蛙</em>{line.split("奶蛙").slice(1).join("奶蛙")}</> : line}</span>)}</p><div className="intro-signature">— {text(content.site.curator, locale)}</div></section>
       <CollectionView key="western" content={content} locale={locale} collection="western" onOpenWork={openWork} />
       <Footer content={content} locale={locale} onChina={goChina} onFeedback={() => setDrawer("feedback")} />
@@ -449,7 +397,6 @@ export default function MuseumClient({ content }: MuseumClientProps) {
     {drawer === "feedback" && <FeedbackPanel locale={locale} onClose={() => setDrawer(null)} />}
     {selectedWork && <Lightbox content={content} locale={locale} work={selectedWork} sequence={selectedSequence} onClose={() => setSelectedWorkId(null)} onOpenArtist={(artist) => setSelectedArtistId(artist.id)} onMove={(work) => { setSelectedWorkId(work.id); }} />}
     {selectedArtist && <ArtistModal artist={selectedArtist} content={content} locale={locale} onClose={() => setSelectedArtistId(null)} />}
-    {entryLeaving && <span className="sr-only">Entering museum</span>}
   </div>;
 }
 
