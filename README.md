@@ -1,6 +1,6 @@
 # 奶蛙博物馆
 
-基于 Next.js App Router、TypeScript 和 Vercel Blob 的奶蛙博物馆迁移版。公开展馆使用已发布内容，后台以单管理员维护草稿、发布版本、媒体和意见箱。
+基于 Next.js App Router、TypeScript 和 Vercel Blob 的奶蛙博物馆。公开展馆使用已发布内容，后台以单管理员维护草稿、发布版本、媒体和意见箱。
 
 ## 本地运行
 
@@ -10,22 +10,6 @@ npm run dev
 ```
 
 开发环境默认使用 `src/data/legacy-seed.json` 和本地 `.local-data/`，不会把内容写回旧 HTML。未配置生产凭据时，本地后台账号是 `admin` / `milkfrog`；该回退凭据只在非生产环境启用。
-
-## 内容与媒体迁移
-
-迁移已完成：公开 Blob 中保存 55 张展品图和现有 MP4，私有 Blob 中保存草稿、已发布版本、历史快照和资产索引。原始 HTML、旧脚本和本地大媒体已从工作区清理；缺失的远程资源仍标记为“待补”。
-
-```bash
-npm run migration:check
-```
-
-如需在保留原始导出的临时工作区重新执行迁移，设置 `MUSEUM_DATA_SOURCE=blob`、`BLOB_MEDIA_READ_WRITE_TOKEN` 和 `BLOB_PRIVATE_READ_WRITE_TOKEN` 后执行：
-
-```bash
-npm run migration:blob
-```
-
-迁移脚本会把本地 55 张展品图和现有 MP4 上传到 `media/`，把 `content/draft.json`、`content/published.json`、`content/history/{revision}.json` 和 `assets/index.json` 写入私有 Blob。远程缺失资源保持为“待补”，不会自动下载或生成。
 
 ## Vercel 环境变量
 
