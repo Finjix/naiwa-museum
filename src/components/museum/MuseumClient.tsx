@@ -140,13 +140,13 @@ function MobileEntry({
   leaving,
   locale,
   videoUrl,
-  onEnter,
+  onExplore,
 }: {
   visible: boolean;
   leaving: boolean;
   locale: "zh" | "en";
   videoUrl?: string;
-  onEnter: () => void;
+  onExplore: () => void;
 }) {
   if (!visible) return null;
   const zh = locale === "zh";
@@ -157,7 +157,7 @@ function MobileEntry({
       <div className="mobile-entry-content">
         <span>MUSÉE DU MILK FROG</span>
         <h1>{zh ? "奶蛙博物馆" : "Milk Frog Museum"}</h1>
-        <button type="button" aria-label={zh ? "进入博物馆" : "Enter museum"} onClick={onEnter}><Icon name="arrow" /></button>
+        <button className="entry-explore" type="button" aria-label={zh ? "探索典藏" : "Explore the collection"} onClick={onExplore}>{zh ? "探索典藏" : "Explore the collection"}</button>
       </div>
     </div>
   );
@@ -424,8 +424,12 @@ export default function MuseumClient({ content }: MuseumClientProps) {
     setEntryLeaving(true); window.sessionStorage.setItem("mfm-entered", "true");
     window.setTimeout(() => { setEntryVisible(false); setEntryLeaving(false); }, 720);
   }
+  function exploreCollection() {
+    enterMuseum();
+    window.setTimeout(() => document.getElementById("collection")?.scrollIntoView({ behavior: "smooth" }), 760);
+  }
   return <div className="museum-app">
-    <MobileEntry visible={entryVisible} leaving={entryLeaving} locale={locale} videoUrl={heroVideo?.status === "active" ? heroVideo.url : undefined} onEnter={enterMuseum} />
+    <MobileEntry visible={entryVisible} leaving={entryLeaving} locale={locale} videoUrl={heroVideo?.status === "active" ? heroVideo.url : undefined} onExplore={exploreCollection} />
     <Header locale={locale} scrolled={scrolled} onLogs={() => setDrawer("logs")} onFeedback={() => setDrawer("feedback")} onWestern={goWestern} onChina={goChina} />
     {collection === "western" ? <>
       <FloatingSchoolBadge />
