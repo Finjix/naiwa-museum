@@ -20,7 +20,6 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
-body.night { --paper: #161616; --paper-2: #202020; --ink: #f4ede0; --ink-soft: #b6b0a4; --line: rgba(244, 237, 224, .16); background: #0b0b0b; }
 body:has(.modal), body:has(.drawer), body:has(.mobile-entry) { overflow: hidden; }
 button, input, textarea, select { font: inherit; }
 button { color: inherit; }
@@ -44,17 +43,15 @@ a { color: inherit; text-decoration: none; }
 
 .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 26px 48px; color: #fff; mix-blend-mode: difference; transition: background .4s ease, padding .4s ease, box-shadow .4s ease, color .4s ease; }
 .site-header.scrolled { color: var(--ink); background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(14px); mix-blend-mode: normal; padding: 16px 48px; box-shadow: 0 1px 0 var(--line); }
-.brand { font: 400 22px var(--serif); letter-spacing: .42em; text-indent: .42em; text-transform: uppercase; white-space: nowrap; }
+.school-badge-float { position: fixed; z-index: 110; width: 100px; height: 100px; display: block; transition: left 1.8s ease-in-out, top 1.8s ease-in-out, transform 1.8s ease-in-out; }
+.school-badge-float img { display: block; width: 100%; height: 100%; object-fit: contain; image-rendering: pixelated; }
+.brand { margin-left: 102px; font: 400 22px var(--serif); letter-spacing: .42em; text-indent: .42em; text-transform: none; white-space: nowrap; }
 .header-actions { display: flex; align-items: center; gap: 22px; }
 .site-header nav { display: flex; gap: 34px; }
-.site-header nav a, .header-actions button { border: 0; background: transparent; font-size: 11px; letter-spacing: .24em; text-transform: uppercase; cursor: pointer; }
-.site-header nav a:hover, .header-actions button:hover { color: var(--gold-soft); }
-.menu-trigger { width: 34px; height: 28px; display: flex; flex-direction: column; justify-content: center; gap: 7px; padding: 0; border: 0; background: transparent; cursor: pointer; }
-.menu-trigger span { display: block; width: 22px; height: 1px; background: currentColor; }
+.site-header nav a, .site-header nav button, .header-actions button { border: 0; background: transparent; font-size: 11px; letter-spacing: .24em; text-transform: uppercase; cursor: pointer; }
+.site-header nav a:hover, .site-header nav button:hover, .header-actions button:hover { color: var(--gold-soft); }
 .visit-btn { padding: 11px 17px; border: 1px solid currentColor !important; }
 .visit-btn:hover { border-color: var(--gold-soft) !important; }
-.icon-button { display: inline-grid; place-items: center; width: 30px; height: 30px; padding: 0; }
-.icon-button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 
 .hero { position: relative; min-height: min(820px, 100svh); display: flex; align-items: flex-end; overflow: hidden; background: #132126; color: #fff; }
 .hero-media, .hero-media video, .hero-wash { position: absolute; inset: 0; }
@@ -65,7 +62,7 @@ a { color: inherit; text-decoration: none; }
 .hero-caption h1 { max-width: 720px; margin: 18px 0 24px; font: 300 clamp(60px, 9vw, 132px)/.86 var(--serif); letter-spacing: -.02em; }
 .hero-caption p { max-width: 420px; margin: 0 0 30px; color: rgba(255,255,255,.8); font: 300 17px/1.8 var(--serif); }
 .hero-links { display: flex; align-items: center; gap: 24px; }
-.hero-links a, .hero-links button { padding: 13px 21px; border: 1px solid rgba(255,255,255,.58); background: transparent; color: #fff; font-size: 11px; letter-spacing: .17em; cursor: pointer; }
+.hero-links a, .hero-links button { width: 108px; display: inline-flex; align-items: center; justify-content: center; padding: 13px 21px; border: 1px solid rgba(255,255,255,.58); background: transparent; color: #fff; font-size: 11px; letter-spacing: .17em; cursor: pointer; }
 .hero-links a:hover, .hero-links button:hover { background: #fff; color: #142024; }
 
 .intro { width: min(1080px, 100%); margin: 0 auto; padding: 142px 52px 134px; }
@@ -130,14 +127,6 @@ a { color: inherit; text-decoration: none; }
 .drawer h2 { margin: 14px 0 0; font: 300 42px/1.1 var(--serif); }
 .drawer-close { width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; background: transparent; cursor: pointer; font-size: 25px; line-height: 1; }
 .drawer-close:hover { border-color: var(--gold); color: var(--gold); transform: rotate(90deg); }
-.drawer-rule { height: 1px; margin: 36px 0 12px; background: var(--line); }
-.drawer-nav { display: flex; flex-direction: column; }
-.drawer-nav button { display: grid; grid-template-columns: 38px 1fr; gap: 10px; padding: 20px 0; border: 0; border-bottom: 1px solid var(--line); background: transparent; text-align: left; cursor: pointer; }
-.drawer-nav button:hover strong { color: var(--gold); }
-.drawer-nav button svg { width: 27px; height: 27px; fill: none; stroke: var(--gold); stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
-.drawer-nav strong { font: 400 19px/1.2 var(--serif); }
-.drawer-nav small { display: block; margin-top: 5px; color: var(--ink-soft); font-size: 11px; }
-.drawer-foot { margin-top: 48px; color: var(--gold); font-size: 9px; letter-spacing: .22em; }
 .log-entry { padding: 23px 0; border-bottom: 1px solid var(--line); }
 .log-entry time { color: var(--gold); font-size: 10px; letter-spacing: .22em; }
 .log-entry h3 { margin: 10px 0 8px; font: 400 23px/1.3 var(--serif); }
@@ -166,8 +155,6 @@ a { color: inherit; text-decoration: none; }
 .lightbox-front { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
 .lightbox-front .media-placeholder { height: 100%; }
 .lightbox-visual img { width: 100%; height: 100%; object-fit: contain; display: block; }
-.lightbox-back { position: absolute; inset: 0; padding: 50px; overflow-y: auto; background: var(--paper); transform: translateX(100%); transition: transform .5s cubic-bezier(.22,1,.36,1); }
-.lightbox-visual.flipped .lightbox-back { transform: translateX(0); }
 .lightbox-copy { min-width: 0; padding: 52px 46px; overflow-y: auto; }
 .lightbox-copy .kicker { color: var(--gold); font-size: 9px; letter-spacing: .24em; }
 .lightbox-copy h2 { margin: 15px 0 8px; font: 400 42px/1.08 var(--serif); }
@@ -179,18 +166,12 @@ a { color: inherit; text-decoration: none; }
 .detail-copy { margin-top: 28px; color: var(--ink-soft); font: 400 15px/1.9 var(--serif); white-space: pre-line; }
 .detail-copy h3 { margin: 24px 0 8px; color: var(--gold); font: 500 10px var(--sans); letter-spacing: .2em; text-transform: uppercase; }
 .detail-copy p { margin: 0; }
-.original-reference { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line); }
-.original-reference .media-placeholder { height: 180px; }
-.original-reference img { width: 100%; max-height: 260px; object-fit: contain; display: block; }
-.flip-note { margin-top: 28px; color: var(--gold); font-size: 11px; line-height: 1.7; }
 .modal-close { position: absolute; top: 16px; right: 18px; z-index: 3; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; background: color-mix(in srgb, var(--paper) 70%, transparent); color: var(--ink); cursor: pointer; font-size: 24px; line-height: 1; }
 .modal-close:hover { color: var(--gold); transform: rotate(90deg); }
 .lightbox-control { position: absolute; top: 50%; z-index: 3; width: 40px; height: 40px; border: 1px solid rgba(255,255,255,.45); border-radius: 50%; background: rgba(15,15,15,.3); color: #fff; cursor: pointer; transform: translateY(-50%); }
 .lightbox-control:hover { background: rgba(15,15,15,.7); }
 .lightbox-control.prev { left: 15px; }
 .lightbox-control.next { right: 15px; }
-.flip-hint { position: absolute; bottom: 15px; left: 50%; z-index: 2; transform: translateX(-50%); padding: 8px 14px; border-radius: 20px; background: rgba(20,16,12,.55); color: rgba(255,255,255,.75); font-size: 11px; white-space: nowrap; pointer-events: none; }
-.lightbox-visual.flipped .flip-hint { color: var(--gold); background: rgba(255,255,255,.75); }
 .artist-modal-inner { position: relative; width: min(700px, 92vw); max-height: 82vh; overflow-y: auto; padding: 48px; background: var(--paper); box-shadow: 0 20px 80px rgba(0,0,0,.6); }
 .artist-portrait { width: 130px; height: 165px; float: left; margin: 0 32px 20px 0; object-fit: cover; border: 1px solid var(--gold-soft); }
 .artist-modal-inner h2 { margin: 0 0 8px; font: 500 34px/1.2 var(--serif); }
@@ -215,7 +196,6 @@ a { color: inherit; text-decoration: none; }
 .spinner { width: 44px; height: 44px; margin: 0 auto 20px; border: 2px solid color-mix(in srgb, var(--gold) 25%, transparent); border-top-color: var(--gold); border-radius: 50%; animation: spin .9s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .spec-card { padding: 25px; border: 1px solid color-mix(in srgb, var(--gold) 40%, transparent); background: linear-gradient(#fffdf8, #f1ead9); color: var(--ink); }
-.night .spec-card { background: linear-gradient(#1c1c1c, #0e0e0e); }
 .spec-badge { margin: -25px -25px 24px; padding: 10px; background: var(--gold); color: #fff; text-align: center; font-size: 10px; letter-spacing: .24em; }
 .spec-image { max-height: 210px; width: 100%; object-fit: contain; display: block; margin: 0 auto 17px; }
 .spec-card h3 { margin: 0 0 15px; text-align: center; font: 500 28px/1.25 var(--serif); }
@@ -298,7 +278,6 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 900px) {
   .site-header { padding: 20px 24px; }
   .site-header nav, .site-header .visit-btn { display: none; }
-  .menu-trigger { display: flex; }
   .header-actions { gap: 10px; }
   .hero-caption { padding: 0 28px 75px; }
   .intro, .collection-shell, .china-page-top { padding-left: 28px; padding-right: 28px; }
@@ -310,7 +289,7 @@ a { color: inherit; text-decoration: none; }
   .admin-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 720px) {
-  .brand { font-size: 17px; letter-spacing: .25em; text-indent: .25em; }
+  .brand { margin-left: 102px; font-size: 17px; letter-spacing: .25em; text-indent: .25em; }
   .site-header.scrolled { padding: 14px 20px; }
   .hero { min-height: 760px; }
   .hero-caption h1 { font-size: 69px; }

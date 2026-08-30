@@ -8,19 +8,17 @@ import type { FeedbackAttachment } from "@/lib/types";
 import { z } from "zod";
 
 const MAX_FILE_SIZE = 10 * 1024 * 1024;
-const MAX_TOTAL_SIZE = 20 * 1024 * 1024;
 
 export async function POST(request: Request) {
   if (!sameOrigin(request)) return jsonError("Invalid request origin.", 403);
   const body = await request.json().catch(() => null) as { id?: unknown; message?: unknown; attachments?: unknown } | null;
   const id = typeof body?.id === "string" && body.id.length <= 80 && safePathSegment(body.id) ? body.id : crypto.randomUUID().replaceAll("-", "");
   const message = typeof body?.message === "string" ? body.message.trim() : "";
-  const attachmentResult = z.array(feedbackAttachmentSchema).max(6).safeParse(body?.attachments ?? []);
+  const attachmentResult = z.array(feedbackAttachmentSchema).max(1).safeParse(body?.attachments ?? []);
   if (!attachmentResult.success) return jsonError("附件格式无效。", 400);
   const attachments = attachmentResult.data as FeedbackAttachment[];
   if (!message || message.length > 10000) return jsonError("意见内容不能为空且不能超过 10000 字。", 400);
-  const total = attachments.reduce((sum, attachment) => sum + (typeof attachment.size === "number" ? attachment.size : 0), 0);
-  if (attachments.some((attachment) => typeof attachment.size !== "number" || attachment.size < 0 || attachment.size > MAX_FILE_SIZE) || total > MAX_TOTAL_SIZE) return jsonError("附件大小超出限制。", 400);
+  if (attachments.some((attachment) => typeof attachment.size !== "number" || attachment.size < 0 || attachment.size > MAX_FILE_SIZE)) return jsonError("只能上传一个文件，且文件不能超过 10 MB。", 400);
   if (attachments.length && !isBlobConfigured("private")) return jsonError("当前环境未配置私有 Blob 存储，暂不支持附件。", 503);
   if (attachments.length) {
     for (const attachment of attachments) {
