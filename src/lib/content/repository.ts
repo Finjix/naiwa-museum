@@ -96,7 +96,13 @@ export async function saveDraft(document: ContentDocument, baseRevision: number)
   } else {
     await writeLocal("draft.json", next);
   }
-  await writeAssetIndex(next);
+  // The content document is the source of truth. The asset index is derived
+  // data, so a transient index-write failure must not discard an admin save.
+  try {
+    await writeAssetIndex(next);
+  } catch (error) {
+    console.error("Failed to refresh asset index after saving content.", error);
+  }
   return next;
 }
 
