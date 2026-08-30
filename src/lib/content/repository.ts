@@ -90,9 +90,8 @@ export async function saveDraft(document: ContentDocument, baseRevision: number)
     revision: current.revision + 1,
     updatedAt: nowIso(),
   });
-  const currentMeta = await readDocument(DRAFT_PATH);
   if (blobStoreEnabled()) {
-    await writeBlobJson(DRAFT_PATH, next, "private", currentMeta?.etag);
+    await writeBlobJson(DRAFT_PATH, next, "private");
   } else {
     await writeLocal("draft.json", next);
   }
@@ -108,11 +107,10 @@ export async function saveDraft(document: ContentDocument, baseRevision: number)
 
 export async function publishDraft() {
   const draft = await getDraftContent();
-  const publishedMeta = await readDocument(PUBLISHED_PATH);
   const historyPath = `${HISTORY_PREFIX}/${draft.revision}-${Date.now()}.json`;
   if (blobStoreEnabled()) {
     await writeBlobJson(historyPath, draft, "private");
-    await writeBlobJson(PUBLISHED_PATH, draft, "private", publishedMeta?.etag);
+    await writeBlobJson(PUBLISHED_PATH, draft, "private");
   } else {
     await writeLocal(path.join("history", `${draft.revision}-${Date.now()}.json`), draft);
     await writeLocal("published.json", draft);
