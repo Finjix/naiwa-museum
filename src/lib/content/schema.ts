@@ -88,13 +88,6 @@ export const contentDocumentSchema = z.object({
   logs: z.array(updateLogSchema),
 });
 
-function isRemovedLegacyAsset(asset: { pathname: string; status: string }) {
-  return asset.status === "missing" && (
-    asset.pathname.startsWith("assets/context/works/") ||
-    asset.pathname.startsWith("assets/quiz/")
-  );
-}
-
 export const feedbackAttachmentSchema = z.object({
   id: z.string().min(1),
   pathname: z.string().min(1),
@@ -115,7 +108,18 @@ export const feedbackRecordSchema = z.object({
 
 export function parseContentDocument(value: unknown): ContentDocument {
   const parsed = contentDocumentSchema.parse(value) as ContentDocument;
-  return { ...parsed, assets: parsed.assets.filter((asset) => !isRemovedLegacyAsset(asset)) };
+  const assets = parsed.assets.filter((asset) => asset.status === "active");
+  const assetIds = new Set(assets.map((asset) => asset.id));
+  return {
+    ...parsed,
+    assets,
+    site: {
+      ...parsed.site,
+      heroVideoAssetId: parsed.site.heroVideoAssetId && assetIds.has(parsed.site.heroVideoAssetId) ? parsed.site.heroVideoAssetId : undefined,
+      bgmAudioAssetId: parsed.site.bgmAudioAssetId && assetIds.has(parsed.site.bgmAudioAssetId) ? parsed.site.bgmAudioAssetId : undefined,
+    },
+    artists: parsed.artists.map((artist) => artist.portraitAssetId && !assetIds.has(artist.portraitAssetId) ? { ...artist, portraitAssetId: undefined } : artist),
+  };
 }
 
 export function parseFeedbackRecord(value: unknown): FeedbackRecord {
