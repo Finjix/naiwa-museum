@@ -1,7 +1,7 @@
 "use client";
 
 import { upload } from "@vercel/blob/client";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   erasForCollection,
   filterWorks,
@@ -347,8 +347,10 @@ export default function MuseumClient({ content }: MuseumClientProps) {
   const [selectedWorkId, setSelectedWorkId] = useState<string | null>(null);
   const [selectedSequence, setSelectedSequence] = useState<Work[]>([]);
   const [selectedArtistId, setSelectedArtistId] = useState<string | null>(null);
+  const bgmAudioRef = useRef<HTMLAudioElement>(null);
 
   const heroVideo = getAsset(content, content.site.heroVideoAssetId);
+  const bgmAudio = getAsset(content, content.site.bgmAudioAssetId);
   const selectedWork = selectedWorkId ? content.works.find((work) => work.id === selectedWorkId) : undefined;
   const selectedArtist = selectedArtistId ? content.artists.find((artist) => artist.id === selectedArtistId) : undefined;
 
@@ -363,6 +365,22 @@ export default function MuseumClient({ content }: MuseumClientProps) {
     onScroll(); window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    const audio = bgmAudioRef.current;
+    if (!audio) return;
+    const tryPlay = () => { void audio.play().catch(() => undefined); };
+    const resume = () => tryPlay();
+    audio.addEventListener("canplay", tryPlay);
+    window.addEventListener("pointerdown", resume, { once: true, passive: true });
+    window.addEventListener("keydown", resume, { once: true });
+    tryPlay();
+    return () => {
+      audio.removeEventListener("canplay", tryPlay);
+      window.removeEventListener("pointerdown", resume);
+      window.removeEventListener("keydown", resume);
+    };
+  }, [bgmAudio?.url]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -384,6 +402,7 @@ export default function MuseumClient({ content }: MuseumClientProps) {
   }, []);
   const openWork = useCallback((work: Work, sequence: Work[]) => { setSelectedWorkId(work.id); setSelectedSequence(sequence); }, []);
   return <div className="museum-app">
+    {bgmAudio?.status === "active" && <audio ref={bgmAudioRef} src={bgmAudio.url} autoPlay loop preload="auto" aria-hidden="true" />}
     <Header locale={locale} scrolled={scrolled} onLogs={() => setDrawer("logs")} onFeedback={() => setDrawer("feedback")} onWestern={goWestern} onChina={goChina} />
     {collection === "western" ? <>
       <FloatingSchoolBadge />

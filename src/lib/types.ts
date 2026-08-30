@@ -26,6 +26,7 @@ export interface MediaAsset {
 export interface SiteConfig {
   title: LocalizedText;
   heroVideoAssetId?: string;
+  bgmAudioAssetId?: string;
   intro: LocalizedText;
   curator: LocalizedText;
   footerTagline: LocalizedText;

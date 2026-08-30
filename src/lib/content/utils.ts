@@ -67,6 +67,7 @@ export function erasForCollection(document: ContentDocument, collection: Collect
 export function referencedAssetIds(document: ContentDocument) {
   const refs = new Set<string>();
   if (document.site.heroVideoAssetId) refs.add(document.site.heroVideoAssetId);
+  if (document.site.bgmAudioAssetId) refs.add(document.site.bgmAudioAssetId);
   document.works.forEach((work) => {
     refs.add(work.primaryAssetId);
   });

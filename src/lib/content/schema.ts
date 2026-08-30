@@ -23,6 +23,7 @@ export const mediaAssetSchema = z.object({
 const siteSchema = z.object({
   title: localizedTextSchema,
   heroVideoAssetId: z.string().optional(),
+  bgmAudioAssetId: z.string().optional(),
   intro: localizedTextSchema,
   curator: localizedTextSchema,
   footerTagline: localizedTextSchema,
