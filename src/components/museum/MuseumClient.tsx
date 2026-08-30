@@ -40,11 +40,9 @@ function safeUploadName(value: string) {
   return basename.replace(/[^a-zA-Z0-9._-]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 100) || "upload";
 }
 
-function Icon({ name }: { name: "arrow" | "close" | "download" | "museum" }) {
+function Icon({ name }: { name: "arrow" | "close" }) {
   if (name === "arrow") return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>;
   if (name === "close") return <span aria-hidden="true">×</span>;
-  if (name === "download") return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 11l5 5 5-5M4 20h16" /></svg>;
-  if (name === "museum") return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 9 9-5 9 5M5 10v9M9 10v9M15 10v9M19 10v9M3 21h18M2 9h20" /></svg>;
   return null;
 }
 
@@ -357,7 +355,7 @@ function Lightbox({
           <div className="lightbox-front"><MediaImage asset={asset} alt={text(work.title, locale)} /></div>
           <button className="lightbox-control prev" type="button" aria-label={zh ? "上一件作品" : "Previous work"} onClick={() => move(-1)}>‹</button><button className="lightbox-control next" type="button" aria-label={zh ? "下一件作品" : "Next work"} onClick={() => move(1)}>›</button>
         </div>
-        <div className="lightbox-copy"><div className="kicker">{era ? text(era.label, locale) : work.eraId}</div><h2>{text(work.title, locale)}</h2><p className="original">{text(work.originalTitle, locale)}</p><div className="detail-row"><span>{zh ? "馆藏编号" : "Accession"}</span><span>{work.accession}</span></div><div className="detail-row"><span>{zh ? "艺术家" : "Artist"}</span><span>{artist ? <button className="artist-trigger" type="button" onClick={() => onOpenArtist(artist)}>{text(artist.displayName, locale)}</button> : "Unknown"}</span></div><div className="detail-row"><span>{zh ? "年代" : "Date"}</span><span>{work.year}</span></div><div className="detail-copy"><h3>{zh ? "作品介绍" : "About the work"}</h3><p>{text(work.introduction, locale)}</p><h3>{zh ? "奶蛙馆藏故事" : "Studio note"}</h3><p>{text(work.curatorialNote, locale)}</p><h3>{zh ? "创作轶事" : "A small story"}</h3><p>{text(work.trivia, locale)}</p></div></div>
+        <div className="lightbox-copy"><div className="kicker">{era ? text(era.label, locale) : work.eraId}</div><h2>{text(work.title, locale)}</h2><p className="original">{text(work.originalTitle, locale)}</p><div className="detail-row"><span>{zh ? "馆藏编号" : "Accession"}</span><span>{work.accession}</span></div><div className="detail-row"><span>{zh ? "艺术家" : "Artist"}</span><span>{artist ? <button className="artist-trigger" type="button" onClick={() => onOpenArtist(artist)}>{text(artist.displayName, locale)}</button> : "Unknown"}</span></div><div className="detail-row"><span>{zh ? "年代" : "Date"}</span><span>{work.year}</span></div><div className="detail-copy"><h3>{zh ? "作品介绍" : "About the work"}</h3><p>{text(work.introduction, locale)}</p></div></div>
       </div>
     </div>
   );

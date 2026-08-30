@@ -6,8 +6,10 @@ describe("content schema", () => {
   it("accepts the complete extracted document", () => {
     const parsed = parseContentDocument(seed);
     expect(parsed.schemaVersion).toBe(1);
-    expect(parsed.quiz.questions).toHaveLength(4);
-    expect(parsed.quiz.results).toHaveLength(30);
+    expect(parsed.works).toHaveLength(55);
+    expect(parsed.assets).toHaveLength(71);
+    expect("quiz" in parsed).toBe(false);
+    expect(parsed.assets.some((asset) => asset.pathname.startsWith("assets/context/works/") || asset.pathname.startsWith("assets/quiz/"))).toBe(false);
   });
 
   it("rejects an invalid content version", () => {

@@ -8,7 +8,6 @@ import type {
   Era,
   LocalizedText,
   MediaAsset,
-  QuizConfig,
   UpdateLog,
   Work,
 } from "../src/lib/types";
@@ -57,16 +56,6 @@ function evaluateLegacyData() {
     WORKS: Array<Record<string, string>>;
     ARTIST_BIO: Record<string, Record<string, string>>;
   };
-}
-
-function evaluateArray<T>(name: string, stopMarker: string) {
-  const start = appSource.indexOf(`const ${name}=`);
-  if (start < 0) return [] as T[];
-  const end = appSource.indexOf(stopMarker, start);
-  const source = appSource.slice(start, end < 0 ? appSource.length : end).replace(/\bconst\b/g, "var");
-  const context: Record<string, unknown> = {};
-  vm.runInNewContext(`${source}; result=${name};`, context, { timeout: 5000 });
-  return (context.result || []) as T[];
 }
 
 const legacy = evaluateLegacyData();
@@ -231,7 +220,6 @@ const works: Work[] = sortedLegacyWorks.map(({ work, index }) => {
   const primary = primaryFilename
     ? localAsset(primaryFilename, localized(work.zh, work.en))
     : missingAsset(work.url, localized(work.zh, work.en));
-  const original = work.originalImage ? missingAsset(work.originalImage, localized(`${work.orig}参考图`)) : undefined;
   const code = eraInfo[work.era]?.code || "GEN";
   eraCounters[code] = (eraCounters[code] || 0) + 1;
   const workId = `work-${String(index + 1).padStart(3, "0")}`;
@@ -247,10 +235,7 @@ const works: Work[] = sortedLegacyWorks.map(({ work, index }) => {
     year: work.year || "",
     accession: `MFM · ${code}-${String(eraCounters[code]).padStart(2, "0")}`,
     primaryAssetId: primary.id,
-    originalAssetId: original?.id,
     introduction: localized(note),
-    curatorialNote: localized(note),
-    trivia: localized(note),
     visible: true,
     order: sortedLegacyWorks.findIndex((item) => item.index === index),
   };
@@ -267,40 +252,17 @@ const eras: Era[] = eraOrder
     visible: true,
   }));
 
-const questions = evaluateArray<{ q: string; opts: string[] }>("QUESTIONS", "// 12");
-const frogs = evaluateArray<{ img: string; name: string; no?: string; rare?: number; habitat: string; sig?: string; comment?: string[] }>("FROGS", "const COMMENT_POOL");
-const quiz: QuizConfig = {
-  questions: questions.map((question, index) => ({
-    id: `question-${String(index + 1).padStart(2, "0")}`,
-    question: localized(question.q),
-    options: question.opts.map((option) => localized(option)),
-    order: index,
-    visible: true,
-  })),
-  results: frogs.map((frog, index) => {
-    const image = missingAsset(frog.img, localized(frog.name));
-    return {
-      id: `result-${String(index + 1).padStart(2, "0")}`,
-      name: localized(frog.name),
-      collectionNumber: frog.no || `N-${String(index + 1).padStart(4, "0")}`,
-      rarity: Math.min(5, Math.max(1, frog.rare || 3)),
-      habitat: localized(frog.habitat),
-      comment: (frog.comment || [frog.sig || "一只值得被认真观察的奶蛙。"]).map((line) => localized(line)),
-      imageAssetId: image.id,
-      order: index,
-      visible: true,
-    };
-  }),
-};
-
 const logs: UpdateLog[] = [];
 const logPattern = /<article class="log-entry"><time datetime="([^"]+)">[\s\S]*?<\/time><h3>([\s\S]*?)<\/h3><p>([\s\S]*?)<\/p><\/article>/g;
 for (const [index, match] of [...html.matchAll(logPattern)].entries()) {
+  const title = plainText(match[2]);
+  const body = plainText(match[3]);
+  if (/鉴定所|双语界面|夜间模式/.test(`${title}${body}`)) continue;
   logs.push({
     id: `log-${String(index + 1).padStart(3, "0")}`,
     date: match[1],
-    title: localized(plainText(match[2])),
-    body: localized(plainText(match[3])),
+    title: localized(title),
+    body: localized(body.replace("补充原作参考图、作品介绍、艺术鉴赏与创作轶事", "补充作品介绍")),
     visible: true,
     order: index,
   });
@@ -338,20 +300,15 @@ const document: ContentDocument = {
       "穿越三万年的凝视，\n奶蛙栖身于人类最伟大的画布之中。\n从洞窟的火光到印象派的午后，\n一个圆润而沉静的身影，始终在场。",
       "Across thirty thousand years of looking,\nthe Milk Frog inhabits humanity’s greatest canvases.\nFrom cave fire to Impressionist afternoons,\na rounded, quiet presence remains.",
     ),
-    curator: localized("奶蛙馆长", "The Milk Frog Curator"),
+    curator: localized("广东技术师范大学奶娃博物馆馆长", "广东技术师范大学奶娃博物馆馆长"),
     footerTagline: localized("崇高与宁静在此相遇。", "Where the sublime meets the serene."),
     openingHours: localized("周二 — 周日\n10:00 — 18:00\n周一闭馆", "Tuesday — Sunday\n10:00 — 18:00\nClosed on Monday"),
-    contact: localized("奶蛙馆长\n1610636536@qq.com\n+00 000 0000", "The Milk Frog Curator\n1610636536@qq.com\n+00 000 0000"),
-    easterNote: localized(
-      "请勿再发布丑化、恶搞奶蛙的非官方表情包，奶蛙的形象需要大家共同守护，建议分享正版素材。请大家遵守一起维护积极愉快的氛围，感谢配合。",
-      "Please help protect the Milk Frog’s official image and keep the museum welcoming, playful and respectful. Thank you for sharing responsibly.",
-    ),
+    contact: localized("奶蛙馆长\n1145@qq.com\n+00 000 0000", "奶蛙馆长\n1145@qq.com\n+00 000 0000"),
   },
   assets: [...assets.values()],
   eras,
   artists,
   works,
-  quiz,
   logs,
 };
 

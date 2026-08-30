@@ -27,10 +27,6 @@
     "contact": {
       "zh": "奶蛙馆长\n1145@qq.com\n+00 000 0000",
       "en": "The Milk Frog Curator\n1610636536@qq.com\n+00 000 0000"
-    },
-    "easterNote": {
-      "zh": "",
-      "en": "Please help protect the Milk Frog’s official image and keep the museum welcoming, playful and respectful. Thank you for sharing responsibly."
     }
   },
   "assets": [
@@ -275,22 +271,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w14",
-      "pathname": "assets/context/works/w14.jpg",
-      "url": "",
-      "filename": "w14.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 阿尔塔米拉洞窟壁画参考图",
-        "en": "仿 阿尔塔米拉洞窟壁画参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-9322c6a5-d83f-4ef8-8d3e-d42d3029bb76",
       "pathname": "legacy/9322c6a5-d83f-4ef8-8d3e-d42d3029bb76.jpg",
       "url": "/api/legacy-media/9322c6a5-d83f-4ef8-8d3e-d42d3029bb76.jpg",
@@ -304,22 +284,6 @@
         "en": "Milk Frog of Cueva de las Manos"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-w18",
-      "pathname": "assets/context/works/w18.jpg",
-      "url": "",
-      "filename": "w18.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 手印洞岩画参考图",
-        "en": "仿 手印洞岩画参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -339,22 +303,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w20",
-      "pathname": "assets/context/works/w20.jpg",
-      "url": "",
-      "filename": "w20.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 塞拉山岩画参考图",
-        "en": "仿 塞拉山岩画参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-54558fe5-13cd-42e0-98cb-bcef367f2871",
       "pathname": "legacy/54558fe5-13cd-42e0-98cb-bcef367f2871.png",
       "url": "/api/legacy-media/54558fe5-13cd-42e0-98cb-bcef367f2871.png",
@@ -368,22 +316,6 @@
         "en": "Ritual Milk Frog at Stonehenge"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-w21",
-      "pathname": "assets/context/works/w21.jpg",
-      "url": "",
-      "filename": "w21.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 巨石阵冬至仪式参考图",
-        "en": "仿 巨石阵冬至仪式参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -403,22 +335,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w22",
-      "pathname": "assets/context/works/w22.jpg",
-      "url": "",
-      "filename": "w22.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 卡莫尼卡岩刻参考图",
-        "en": "仿 卡莫尼卡岩刻参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-8cbfffda-c93c-4e34-924d-5a1f8468936b",
       "pathname": "legacy/8cbfffda-c93c-4e34-924d-5a1f8468936b.jpg",
       "url": "/api/legacy-media/8cbfffda-c93c-4e34-924d-5a1f8468936b.jpg",
@@ -432,22 +348,6 @@
         "en": "Venus de Milo Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-w10",
-      "pathname": "assets/context/works/w10.jpg",
-      "url": "",
-      "filename": "w10.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 米洛斯的维纳斯参考图",
-        "en": "仿 米洛斯的维纳斯参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -467,22 +367,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-nefertiti",
-      "pathname": "assets/context/works/original-nefertiti.jpg",
-      "url": "",
-      "filename": "original-nefertiti.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 纳芙蒂蒂头像参考图",
-        "en": "仿 纳芙蒂蒂头像参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-122576ea-6ce1-4b8b-89b0-685b91de59f5",
       "pathname": "legacy/122576ea-6ce1-4b8b-89b0-685b91de59f5.jpg",
       "url": "/api/legacy-media/122576ea-6ce1-4b8b-89b0-685b91de59f5.jpg",
@@ -496,22 +380,6 @@
         "en": "Charioteer of Delphi Milk Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-charioteer",
-      "pathname": "assets/context/works/original-charioteer.jpg",
-      "url": "",
-      "filename": "original-charioteer.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 德尔斐御者参考图",
-        "en": "仿 德尔斐御者参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -531,22 +399,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w11",
-      "pathname": "assets/context/works/w11.jpg",
-      "url": "",
-      "filename": "w11.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 巴黎圣母院参考图",
-        "en": "仿 巴黎圣母院参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-772af387-8105-412b-a662-2349b4eb5b70",
       "pathname": "legacy/772af387-8105-412b-a662-2349b4eb5b70.jpg",
       "url": "/api/legacy-media/772af387-8105-412b-a662-2349b4eb5b70.jpg",
@@ -560,22 +412,6 @@
         "en": "Madonna and Frog Child"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-w12",
-      "pathname": "assets/context/works/w12.jpg",
-      "url": "",
-      "filename": "w12.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 宝座圣母像参考图",
-        "en": "仿 宝座圣母像参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -595,22 +431,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w15",
-      "pathname": "assets/context/works/w15.jpg",
-      "url": "",
-      "filename": "w15.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 最后的晚餐参考图",
-        "en": "仿 最后的晚餐参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-1f031e8f-e028-43e1-a890-0aa1c2cc2ed0",
       "pathname": "legacy/1f031e8f-e028-43e1-a890-0aa1c2cc2ed0.jpg",
       "url": "/api/legacy-media/1f031e8f-e028-43e1-a890-0aa1c2cc2ed0.jpg",
@@ -624,22 +444,6 @@
         "en": "The Creation of Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-w16",
-      "pathname": "assets/context/works/w16.jpg",
-      "url": "",
-      "filename": "w16.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 创造亚当参考图",
-        "en": "仿 创造亚当参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -659,22 +463,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w17",
-      "pathname": "assets/context/works/w17.jpg",
-      "url": "",
-      "filename": "w17.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 雅典学院（中央）参考图",
-        "en": "仿 雅典学院（中央）参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-eecacb66-1966-4783-82d3-34b9b767ba02",
       "pathname": "legacy/eecacb66-1966-4783-82d3-34b9b767ba02.png",
       "url": "/api/legacy-media/eecacb66-1966-4783-82d3-34b9b767ba02.png",
@@ -688,22 +476,6 @@
         "en": "Milk Frog Hunters in the Snow"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-hunters-snow",
-      "pathname": "assets/context/works/original-hunters-snow.jpg",
-      "url": "",
-      "filename": "original-hunters-snow.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 雪中猎人参考图",
-        "en": "仿 雪中猎人参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -723,22 +495,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-ambassadors",
-      "pathname": "assets/context/works/original-ambassadors.jpg",
-      "url": "",
-      "filename": "original-ambassadors.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 大使们参考图",
-        "en": "仿 大使们参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-57d39942-8604-4a24-a1e2-a55f042fdeaa",
       "pathname": "legacy/57d39942-8604-4a24-a1e2-a55f042fdeaa.png",
       "url": "/api/legacy-media/57d39942-8604-4a24-a1e2-a55f042fdeaa.png",
@@ -752,22 +508,6 @@
         "en": "The Return of the Milk Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-prodigal",
-      "pathname": "assets/context/works/original-prodigal.jpg",
-      "url": "",
-      "filename": "original-prodigal.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 浪子回头参考图",
-        "en": "仿 浪子回头参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -787,22 +527,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-emmaus",
-      "pathname": "assets/context/works/original-emmaus.jpg",
-      "url": "",
-      "filename": "original-emmaus.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 以马忤斯的晚餐参考图",
-        "en": "仿 以马忤斯的晚餐参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-713861a5-f99f-4357-b118-a7e583931f69",
       "pathname": "legacy/713861a5-f99f-4357-b118-a7e583931f69.png",
       "url": "/api/legacy-media/713861a5-f99f-4357-b118-a7e583931f69.png",
@@ -816,22 +540,6 @@
         "en": "Milk Frog in The Art of Painting"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-art-of-painting",
-      "pathname": "assets/context/works/original-art-of-painting.jpg",
-      "url": "",
-      "filename": "original-art-of-painting.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 绘画的艺术参考图",
-        "en": "仿 绘画的艺术参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -851,22 +559,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-syndics",
-      "pathname": "assets/context/works/original-syndics.jpg",
-      "url": "",
-      "filename": "original-syndics.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 布商同业公会理事参考图",
-        "en": "仿 布商同业公会理事参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-b9fa594c-02e1-4eca-a855-593f339b48bd",
       "pathname": "legacy/b9fa594c-02e1-4eca-a855-593f339b48bd.png",
       "url": "/api/legacy-media/b9fa594c-02e1-4eca-a855-593f339b48bd.png",
@@ -880,22 +572,6 @@
         "en": "Milk Frog as the Allegory of Painting"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-artemisia",
-      "pathname": "assets/context/works/original-artemisia.jpg",
-      "url": "",
-      "filename": "original-artemisia.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 作为绘画寓意的自画像参考图",
-        "en": "仿 作为绘画寓意的自画像参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -915,22 +591,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-magdalen",
-      "pathname": "assets/context/works/original-magdalen.jpg",
-      "url": "",
-      "filename": "original-magdalen.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 油灯前的抹大拉参考图",
-        "en": "仿 油灯前的抹大拉参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-2c000d1b-076c-4b80-9821-2637cc525a6b",
       "pathname": "legacy/2c000d1b-076c-4b80-9821-2637cc525a6b.png",
       "url": "/api/legacy-media/2c000d1b-076c-4b80-9821-2637cc525a6b.png",
@@ -944,22 +604,6 @@
         "en": "Milk Frog Gleaners"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-gleaners",
-      "pathname": "assets/context/works/original-gleaners.jpg",
-      "url": "",
-      "filename": "original-gleaners.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 拾穗者参考图",
-        "en": "仿 拾穗者参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -979,22 +623,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-medusa",
-      "pathname": "assets/context/works/original-medusa.jpg",
-      "url": "",
-      "filename": "original-medusa.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 梅杜萨之筏参考图",
-        "en": "仿 梅杜萨之筏参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-ed0856cd-f09c-45f8-8cac-e6c1fd070216",
       "pathname": "legacy/ed0856cd-f09c-45f8-8cac-e6c1fd070216.png",
       "url": "/api/legacy-media/ed0856cd-f09c-45f8-8cac-e6c1fd070216.png",
@@ -1008,22 +636,6 @@
         "en": "The Third of May Milk Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-may3",
-      "pathname": "assets/context/works/original-may3.jpg",
-      "url": "",
-      "filename": "original-may3.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 1808年5月3日参考图",
-        "en": "仿 1808年5月3日参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1043,22 +655,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-liberty",
-      "pathname": "assets/context/works/original-liberty.jpg",
-      "url": "",
-      "filename": "original-liberty.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 自由引导人民参考图",
-        "en": "仿 自由引导人民参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-80e8c443-002b-47f8-a048-22fcf06e8350",
       "pathname": "legacy/80e8c443-002b-47f8-a048-22fcf06e8350.png",
       "url": "/api/legacy-media/80e8c443-002b-47f8-a048-22fcf06e8350.png",
@@ -1072,22 +668,6 @@
         "en": "Ophelia Milk Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-ophelia",
-      "pathname": "assets/context/works/original-ophelia.jpg",
-      "url": "",
-      "filename": "original-ophelia.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 奥菲莉亚参考图",
-        "en": "仿 奥菲莉亚参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1107,22 +687,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-beata-beatrix",
-      "pathname": "assets/context/works/original-beata-beatrix.jpg",
-      "url": "",
-      "filename": "original-beata-beatrix.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 贝娅塔·贝亚特丽克斯参考图",
-        "en": "仿 贝娅塔·贝亚特丽克斯参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-3ef4514f-fd5a-44e4-b5d5-f9fab483ba25",
       "pathname": "legacy/3ef4514f-fd5a-44e4-b5d5-f9fab483ba25.png",
       "url": "/api/legacy-media/3ef4514f-fd5a-44e4-b5d5-f9fab483ba25.png",
@@ -1136,22 +700,6 @@
         "en": "The Crystal Ball Milk Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-crystal-ball",
-      "pathname": "assets/context/works/original-crystal-ball.jpg",
-      "url": "",
-      "filename": "original-crystal-ball.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 水晶球参考图",
-        "en": "仿 水晶球参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1171,22 +719,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w03",
-      "pathname": "assets/context/works/w03.jpg",
-      "url": "",
-      "filename": "w03.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 神奈川冲浪里参考图",
-        "en": "仿 神奈川冲浪里参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-e65be311-19a7-4517-9119-73f51f9ef520",
       "pathname": "legacy/e65be311-19a7-4517-9119-73f51f9ef520.png",
       "url": "/api/legacy-media/e65be311-19a7-4517-9119-73f51f9ef520.png",
@@ -1203,22 +735,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w28",
-      "pathname": "assets/context/works/w28.jpg",
-      "url": "",
-      "filename": "w28.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 广重雪中桥参考图",
-        "en": "仿 广重雪中桥参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-image-01m11bkbwh100fjs0314082hpk",
       "pathname": "legacy/image_01M11BKBWH100FJS0314082HPK.png",
       "url": "/api/legacy-media/image_01M11BKBWH100FJS0314082HPK.png",
@@ -1232,22 +748,6 @@
         "en": "Edo Sumo Milk Frogs"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-w29",
-      "pathname": "assets/context/works/w29.jpg",
-      "url": "",
-      "filename": "w29.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 江户相扑绘参考图",
-        "en": "仿 江户相扑绘参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1299,22 +799,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w06",
-      "pathname": "assets/context/works/w06.jpg",
-      "url": "",
-      "filename": "w06.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 撑阳伞的女人参考图",
-        "en": "仿 撑阳伞的女人参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-52ac175f-35f1-4c97-bcbb-4815f2c2ade9",
       "pathname": "legacy/52ac175f-35f1-4c97-bcbb-4815f2c2ade9.png",
       "url": "/api/legacy-media/52ac175f-35f1-4c97-bcbb-4815f2c2ade9.png",
@@ -1328,22 +812,6 @@
         "en": "Milk Frog Haystacks"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-w30",
-      "pathname": "assets/context/works/w30.jpg",
-      "url": "",
-      "filename": "w30.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 干草堆参考图",
-        "en": "仿 干草堆参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1363,22 +831,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-paris-rain",
-      "pathname": "assets/context/works/original-paris-rain.jpg",
-      "url": "",
-      "filename": "original-paris-rain.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 雨天的巴黎街道参考图",
-        "en": "仿 雨天的巴黎街道参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-3e95ae62-0fcf-4701-990f-8680f0337980",
       "pathname": "legacy/3e95ae62-0fcf-4701-990f-8680f0337980.jpg",
       "url": "/api/legacy-media/3e95ae62-0fcf-4701-990f-8680f0337980.jpg",
@@ -1392,22 +844,6 @@
         "en": "The Starry Frog Night"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-w08",
-      "pathname": "assets/context/works/w08.jpg",
-      "url": "",
-      "filename": "w08.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 星月夜参考图",
-        "en": "仿 星月夜参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1427,22 +863,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-sunflowers",
-      "pathname": "assets/context/works/original-sunflowers.jpg",
-      "url": "",
-      "filename": "original-sunflowers.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 向日葵参考图",
-        "en": "仿 向日葵参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-0c5e0f75-faa7-40e3-869c-51e1f66e51f2",
       "pathname": "legacy/0c5e0f75-faa7-40e3-869c-51e1f66e51f2.png",
       "url": "/api/legacy-media/0c5e0f75-faa7-40e3-869c-51e1f66e51f2.png",
@@ -1456,22 +876,6 @@
         "en": "Milk Frog and Mont Sainte-Victoire"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-cezanne",
-      "pathname": "assets/context/works/original-cezanne.jpg",
-      "url": "",
-      "filename": "original-cezanne.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 圣维克多山参考图",
-        "en": "仿 圣维克多山参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1491,22 +895,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w01",
-      "pathname": "assets/context/works/w01.jpg",
-      "url": "",
-      "filename": "w01.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 构成 VIII参考图",
-        "en": "仿 构成 VIII参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-0fa1e94a-959f-4d8e-91ad-bd84a9c9c294",
       "pathname": "legacy/0fa1e94a-959f-4d8e-91ad-bd84a9c9c294.jpg",
       "url": "/api/legacy-media/0fa1e94a-959f-4d8e-91ad-bd84a9c9c294.jpg",
@@ -1520,22 +908,6 @@
         "en": "Constructivist Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-w04",
-      "pathname": "assets/context/works/w04.jpg",
-      "url": "",
-      "filename": "w04.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 构成主义海报参考图",
-        "en": "仿 构成主义海报参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1555,22 +927,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-w05",
-      "pathname": "assets/context/works/w05.jpg",
-      "url": "",
-      "filename": "w05.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 三个音乐家参考图",
-        "en": "仿 三个音乐家参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-d97df347-d862-4b3d-b283-455439db1e10",
       "pathname": "legacy/d97df347-d862-4b3d-b283-455439db1e10.jpg",
       "url": "/api/legacy-media/d97df347-d862-4b3d-b283-455439db1e10.jpg",
@@ -1584,22 +940,6 @@
         "en": "The Frog Scream"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-w07",
-      "pathname": "assets/context/works/w07.jpg",
-      "url": "",
-      "filename": "w07.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 呐喊参考图",
-        "en": "仿 呐喊参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1619,22 +959,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-sleeping-gypsy",
-      "pathname": "assets/context/works/original-sleeping-gypsy.jpg",
-      "url": "",
-      "filename": "original-sleeping-gypsy.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 沉睡的吉普赛人参考图",
-        "en": "仿 沉睡的吉普赛人参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-312270ba-8a5f-44b5-963b-234dd83355c5",
       "pathname": "legacy/312270ba-8a5f-44b5-963b-234dd83355c5.png",
       "url": "/api/legacy-media/312270ba-8a5f-44b5-963b-234dd83355c5.png",
@@ -1648,22 +972,6 @@
         "en": "Milk Frog Nighthawks"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-nighthawks",
-      "pathname": "assets/context/works/original-nighthawks.jpg",
-      "url": "",
-      "filename": "original-nighthawks.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 夜游者参考图",
-        "en": "仿 夜游者参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1683,22 +991,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-adele",
-      "pathname": "assets/context/works/original-adele.jpg",
-      "url": "",
-      "filename": "original-adele.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 阿黛尔·布洛赫-鲍尔肖像一号参考图",
-        "en": "仿 阿黛尔·布洛赫-鲍尔肖像一号参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-854b518d-e017-485c-a6f4-b28870548667",
       "pathname": "legacy/854b518d-e017-485c-a6f4-b28870548667.jpg",
       "url": "/api/legacy-media/854b518d-e017-485c-a6f4-b28870548667.jpg",
@@ -1712,22 +1004,6 @@
         "en": "Neolithic Painted Pottery Milk Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-neolithic-pottery",
-      "pathname": "assets/context/works/original-neolithic-pottery.jpg",
-      "url": "",
-      "filename": "original-neolithic-pottery.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 新石器彩陶纹样参考图",
-        "en": "仿 新石器彩陶纹样参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1747,22 +1023,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-liangzhu-cong",
-      "pathname": "assets/context/works/original-liangzhu-cong.jpg",
-      "url": "",
-      "filename": "original-liangzhu-cong.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 神人兽面纹玉琮参考图",
-        "en": "仿 神人兽面纹玉琮参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-120426e0-a5ee-462d-9924-5087513223e1",
       "pathname": "legacy/120426e0-a5ee-462d-9924-5087513223e1.png",
       "url": "/api/legacy-media/120426e0-a5ee-462d-9924-5087513223e1.png",
@@ -1776,22 +1036,6 @@
         "en": "Four-Ram Fangzun Milk Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-four-rams-zun",
-      "pathname": "assets/context/works/original-four-rams-zun.jpg",
-      "url": "",
-      "filename": "original-four-rams-zun.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 四羊方尊参考图",
-        "en": "仿 四羊方尊参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1811,22 +1055,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-kneeling-archer",
-      "pathname": "assets/context/works/original-kneeling-archer.jpg",
-      "url": "",
-      "filename": "original-kneeling-archer.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 秦始皇陵跪射俑参考图",
-        "en": "仿 秦始皇陵跪射俑参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-938681e1-ed72-43b3-8875-b558309427d3",
       "pathname": "legacy/938681e1-ed72-43b3-8875-b558309427d3.png",
       "url": "/api/legacy-media/938681e1-ed72-43b3-8875-b558309427d3.png",
@@ -1840,22 +1068,6 @@
         "en": "Changxin Palace Lamp Milk Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-lamp",
-      "pathname": "assets/context/works/original-lamp.jpg",
-      "url": "",
-      "filename": "original-lamp.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 长信宫灯参考图",
-        "en": "仿 长信宫灯参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1875,22 +1087,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-han-entertainer",
-      "pathname": "assets/context/works/original-han-entertainer.jpg",
-      "url": "",
-      "filename": "original-han-entertainer.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 击鼓说唱俑参考图",
-        "en": "仿 击鼓说唱俑参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-6a04de9a-0edd-45ac-8277-1011bff5e844",
       "pathname": "legacy/6a04de9a-0edd-45ac-8277-1011bff5e844.png",
       "url": "/api/legacy-media/6a04de9a-0edd-45ac-8277-1011bff5e844.png",
@@ -1904,22 +1100,6 @@
         "en": "Milk Frog in the Nymph of the Luo River"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-luoshen",
-      "pathname": "assets/context/works/original-luoshen.jpg",
-      "url": "",
-      "filename": "original-luoshen.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 洛神赋图参考图",
-        "en": "仿 洛神赋图参考图"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -1939,22 +1119,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-yungang-buddha",
-      "pathname": "assets/context/works/original-yungang-buddha.jpg",
-      "url": "",
-      "filename": "original-yungang-buddha.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 云冈石窟北魏佛像参考图",
-        "en": "仿 云冈石窟北魏佛像参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-be8fc0c8-fcdc-4172-acd1-94b7461428a1",
       "pathname": "legacy/be8fc0c8-fcdc-4172-acd1-94b7461428a1.png",
       "url": "/api/legacy-media/be8fc0c8-fcdc-4172-acd1-94b7461428a1.png",
@@ -1971,22 +1135,6 @@
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
-      "id": "asset-missing-assets-context-works-original-seven-sages",
-      "pathname": "assets/context/works/original-seven-sages.jpg",
-      "url": "",
-      "filename": "original-seven-sages.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 竹林七贤与荣启期砖画参考图",
-        "en": "仿 竹林七贤与荣启期砖画参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
       "id": "asset-local-85d3d313-e2a3-4b97-9200-8df0bb754346",
       "pathname": "legacy/85d3d313-e2a3-4b97-9200-8df0bb754346.png",
       "url": "/api/legacy-media/85d3d313-e2a3-4b97-9200-8df0bb754346.png",
@@ -2000,502 +1148,6 @@
         "en": "Tang Sancai Camel Musicians Milk Frog"
       },
       "source": "legacy-import",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-context-works-original-tangcamel",
-      "pathname": "assets/context/works/original-tangcamel.jpg",
-      "url": "",
-      "filename": "original-tangcamel.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "仿 唐三彩骆驼载乐俑参考图",
-        "en": "仿 唐三彩骆驼载乐俑参考图"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f01",
-      "pathname": "assets/quiz/f01.jpg",
-      "url": "",
-      "filename": "f01.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "雨天会自己长出来的蘑菇蛙",
-        "en": "雨天会自己长出来的蘑菇蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f02",
-      "pathname": "assets/quiz/f02.jpg",
-      "url": "",
-      "filename": "f02.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "只在凌晨 3:17 出现的蛙",
-        "en": "只在凌晨 3:17 出现的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f03",
-      "pathname": "assets/quiz/f03.jpg",
-      "url": "",
-      "filename": "f03.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "据说会帮人保管秘密的蛙",
-        "en": "据说会帮人保管秘密的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f04",
-      "pathname": "assets/quiz/f04.jpg",
-      "url": "",
-      "filename": "f04.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "已经绝版但本人不知道的蛙",
-        "en": "已经绝版但本人不知道的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f05",
-      "pathname": "assets/quiz/f05.jpg",
-      "url": "",
-      "filename": "f05.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "混进博物馆 27 年还没被发现的蛙",
-        "en": "混进博物馆 27 年还没被发现的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f06",
-      "pathname": "assets/quiz/f06.jpg",
-      "url": "",
-      "filename": "f06.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "看起来很贵但没人知道为什么的蛙",
-        "en": "看起来很贵但没人知道为什么的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f07",
-      "pathname": "assets/quiz/f07.jpg",
-      "url": "",
-      "filename": "f07.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "只喜欢坐电梯的蛙",
-        "en": "只喜欢坐电梯的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f08",
-      "pathname": "assets/quiz/f08.jpg",
-      "url": "",
-      "filename": "f08.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "来自馆长童年记忆的蛙",
-        "en": "来自馆长童年记忆的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f09",
-      "pathname": "assets/quiz/f09.jpg",
-      "url": "",
-      "filename": "f09.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "被误认为是雕塑的蛙",
-        "en": "被误认为是雕塑的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f10",
-      "pathname": "assets/quiz/f10.jpg",
-      "url": "",
-      "filename": "f10.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "一生只旅行一次的蛙",
-        "en": "一生只旅行一次的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f11",
-      "pathname": "assets/quiz/f11.jpg",
-      "url": "",
-      "filename": "f11.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "疑似拥有房产但拒绝提供证明的蛙",
-        "en": "疑似拥有房产但拒绝提供证明的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f12",
-      "pathname": "assets/quiz/f12.jpg",
-      "url": "",
-      "filename": "f12.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "会在别人睡觉时偷偷换位置的蛙",
-        "en": "会在别人睡觉时偷偷换位置的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f13",
-      "pathname": "assets/quiz/f13.jpg",
-      "url": "",
-      "filename": "f13.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "把纸箱当房子住的蛙",
-        "en": "把纸箱当房子住的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f14",
-      "pathname": "assets/quiz/f14.jpg",
-      "url": "",
-      "filename": "f14.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "拿了一张没人看得懂的证书的蛙",
-        "en": "拿了一张没人看得懂的证书的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f15",
-      "pathname": "assets/quiz/f15.jpg",
-      "url": "",
-      "filename": "f15.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "从早到晚都在伸懒腰的蛙",
-        "en": "从早到晚都在伸懒腰的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f16",
-      "pathname": "assets/quiz/f16.jpg",
-      "url": "",
-      "filename": "f16.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "只收集门票却从不入场的蛙",
-        "en": "只收集门票却从不入场的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f17",
-      "pathname": "assets/quiz/f17.jpg",
-      "url": "",
-      "filename": "f17.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "半夜偷偷把灯打开的蛙",
-        "en": "半夜偷偷把灯打开的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f18",
-      "pathname": "assets/quiz/f18.jpg",
-      "url": "",
-      "filename": "f18.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "影子和本人对不上的蛙",
-        "en": "影子和本人对不上的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f19",
-      "pathname": "assets/quiz/f19.jpg",
-      "url": "",
-      "filename": "f19.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "总装作很忙的蛙",
-        "en": "总装作很忙的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f20",
-      "pathname": "assets/quiz/f20.jpg",
-      "url": "",
-      "filename": "f20.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "晴天也在室内撑伞的蛙",
-        "en": "晴天也在室内撑伞的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f21",
-      "pathname": "assets/quiz/f21.jpg",
-      "url": "",
-      "filename": "f21.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "总躲在帘子后面偷看的蛙",
-        "en": "总躲在帘子后面偷看的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f22",
-      "pathname": "assets/quiz/f22.jpg",
-      "url": "",
-      "filename": "f22.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "一直坐在空展厅正中央的蛙",
-        "en": "一直坐在空展厅正中央的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f23",
-      "pathname": "assets/quiz/f23.jpg",
-      "url": "",
-      "filename": "f23.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "自己给自己过生日的蛙",
-        "en": "自己给自己过生日的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f24",
-      "pathname": "assets/quiz/f24.jpg",
-      "url": "",
-      "filename": "f24.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "被泡在标本瓶里但不介意的蛙",
-        "en": "被泡在标本瓶里但不介意的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f25",
-      "pathname": "assets/quiz/f25.jpg",
-      "url": "",
-      "filename": "f25.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "满墙都是自己画像的蛙",
-        "en": "满墙都是自己画像的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f26",
-      "pathname": "assets/quiz/f26.jpg",
-      "url": "",
-      "filename": "f26.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "一边看“请勿触碰”一边触碰的蛙",
-        "en": "一边看“请勿触碰”一边触碰的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f27",
-      "pathname": "assets/quiz/f27.jpg",
-      "url": "",
-      "filename": "f27.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "把自己埋进落叶堆的蛙",
-        "en": "把自己埋进落叶堆的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f28",
-      "pathname": "assets/quiz/f28.jpg",
-      "url": "",
-      "filename": "f28.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "站上体重秤出现不可能数字的蛙",
-        "en": "站上体重秤出现不可能数字的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f29",
-      "pathname": "assets/quiz/f29.jpg",
-      "url": "",
-      "filename": "f29.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "把一盆小苗当成挚友的蛙",
-        "en": "把一盆小苗当成挚友的蛙"
-      },
-      "source": "missing",
-      "createdAt": "2026-08-29T00:00:00.000Z"
-    },
-    {
-      "id": "asset-missing-assets-quiz-f30",
-      "pathname": "assets/quiz/f30.jpg",
-      "url": "",
-      "filename": "f30.jpg",
-      "kind": "image",
-      "contentType": "image/jpeg",
-      "size": 0,
-      "status": "missing",
-      "alt": {
-        "zh": "只在一束阳光里晒太阳的蛙",
-        "en": "只在一束阳光里晒太阳的蛙"
-      },
-      "source": "missing",
       "createdAt": "2026-08-29T00:00:00.000Z"
     },
     {
@@ -3282,16 +1934,7 @@
       "year": "c. 36,000 BCE",
       "accession": "MFM · PRE-01",
       "primaryAssetId": "asset-local-2b87318a-7b74-432d-8649-fbf810c572e0",
-      "originalAssetId": "asset-missing-assets-context-works-w14",
       "introduction": {
-        "zh": "西班牙阿尔塔米拉洞窟的壁画约作于公元前3.6万至1.4万年间，1879年由一位业余考古学家的小女儿在洞中抬头发现。天顶上以赭红与黑炭绘满野牛，古人巧妙利用岩石的天然鼓起来塑造牛背的体积，栩栩如生。起初学界拒不相信史前人有此技艺，斥之为伪作，直到多年后才获正名，被誉为\"史前的西斯廷\"。",
-        "en": "西班牙阿尔塔米拉洞窟的壁画约作于公元前3.6万至1.4万年间，1879年由一位业余考古学家的小女儿在洞中抬头发现。天顶上以赭红与黑炭绘满野牛，古人巧妙利用岩石的天然鼓起来塑造牛背的体积，栩栩如生。起初学界拒不相信史前人有此技艺，斥之为伪作，直到多年后才获正名，被誉为\"史前的西斯廷\"。"
-      },
-      "curatorialNote": {
-        "zh": "西班牙阿尔塔米拉洞窟的壁画约作于公元前3.6万至1.4万年间，1879年由一位业余考古学家的小女儿在洞中抬头发现。天顶上以赭红与黑炭绘满野牛，古人巧妙利用岩石的天然鼓起来塑造牛背的体积，栩栩如生。起初学界拒不相信史前人有此技艺，斥之为伪作，直到多年后才获正名，被誉为\"史前的西斯廷\"。",
-        "en": "西班牙阿尔塔米拉洞窟的壁画约作于公元前3.6万至1.4万年间，1879年由一位业余考古学家的小女儿在洞中抬头发现。天顶上以赭红与黑炭绘满野牛，古人巧妙利用岩石的天然鼓起来塑造牛背的体积，栩栩如生。起初学界拒不相信史前人有此技艺，斥之为伪作，直到多年后才获正名，被誉为\"史前的西斯廷\"。"
-      },
-      "trivia": {
         "zh": "西班牙阿尔塔米拉洞窟的壁画约作于公元前3.6万至1.4万年间，1879年由一位业余考古学家的小女儿在洞中抬头发现。天顶上以赭红与黑炭绘满野牛，古人巧妙利用岩石的天然鼓起来塑造牛背的体积，栩栩如生。起初学界拒不相信史前人有此技艺，斥之为伪作，直到多年后才获正名，被誉为\"史前的西斯廷\"。",
         "en": "西班牙阿尔塔米拉洞窟的壁画约作于公元前3.6万至1.4万年间，1879年由一位业余考古学家的小女儿在洞中抬头发现。天顶上以赭红与黑炭绘满野牛，古人巧妙利用岩石的天然鼓起来塑造牛背的体积，栩栩如生。起初学界拒不相信史前人有此技艺，斥之为伪作，直到多年后才获正名，被誉为\"史前的西斯廷\"。"
       },
@@ -3315,16 +1958,7 @@
       "year": "c. 7,300 BCE",
       "accession": "MFM · PRE-02",
       "primaryAssetId": "asset-local-9322c6a5-d83f-4ef8-8d3e-d42d3029bb76",
-      "originalAssetId": "asset-missing-assets-context-works-w18",
       "introduction": {
-        "zh": "阿根廷巴塔哥尼亚的\"手洞\"岩画约作于公元前7300年，绵延数千年。史前人将手贴壁，口含颜料管吹喷，留下数百个镂空的手印——绝大多数是左手，因多数人用右手持管。这是人类最早的\"我曾在此\"的印记之一。",
-        "en": "阿根廷巴塔哥尼亚的\"手洞\"岩画约作于公元前7300年，绵延数千年。史前人将手贴壁，口含颜料管吹喷，留下数百个镂空的手印——绝大多数是左手，因多数人用右手持管。这是人类最早的\"我曾在此\"的印记之一。"
-      },
-      "curatorialNote": {
-        "zh": "阿根廷巴塔哥尼亚的\"手洞\"岩画约作于公元前7300年，绵延数千年。史前人将手贴壁，口含颜料管吹喷，留下数百个镂空的手印——绝大多数是左手，因多数人用右手持管。这是人类最早的\"我曾在此\"的印记之一。",
-        "en": "阿根廷巴塔哥尼亚的\"手洞\"岩画约作于公元前7300年，绵延数千年。史前人将手贴壁，口含颜料管吹喷，留下数百个镂空的手印——绝大多数是左手，因多数人用右手持管。这是人类最早的\"我曾在此\"的印记之一。"
-      },
-      "trivia": {
         "zh": "阿根廷巴塔哥尼亚的\"手洞\"岩画约作于公元前7300年，绵延数千年。史前人将手贴壁，口含颜料管吹喷，留下数百个镂空的手印——绝大多数是左手，因多数人用右手持管。这是人类最早的\"我曾在此\"的印记之一。",
         "en": "阿根廷巴塔哥尼亚的\"手洞\"岩画约作于公元前7300年，绵延数千年。史前人将手贴壁，口含颜料管吹喷，留下数百个镂空的手印——绝大多数是左手，因多数人用右手持管。这是人类最早的\"我曾在此\"的印记之一。"
       },
@@ -3348,16 +1982,7 @@
       "year": "c. 5,500 BCE",
       "accession": "MFM · PRE-03",
       "primaryAssetId": "asset-local-0907b219-d92b-4e7d-8911-bb541dc825af",
-      "originalAssetId": "asset-missing-assets-context-works-w20",
       "introduction": {
-        "zh": "西班牙地中海沿岸的岩画（约公元前5500年及以后）以小巧灵动的人形著称，描绘狩猎、采蜜与舞蹈。与洞窟深处的巨兽不同，它们画在开敞的岩棚上，充满叙事与群体动作，记录了从狩猎向农耕过渡的生活。",
-        "en": "西班牙地中海沿岸的岩画（约公元前5500年及以后）以小巧灵动的人形著称，描绘狩猎、采蜜与舞蹈。与洞窟深处的巨兽不同，它们画在开敞的岩棚上，充满叙事与群体动作，记录了从狩猎向农耕过渡的生活。"
-      },
-      "curatorialNote": {
-        "zh": "西班牙地中海沿岸的岩画（约公元前5500年及以后）以小巧灵动的人形著称，描绘狩猎、采蜜与舞蹈。与洞窟深处的巨兽不同，它们画在开敞的岩棚上，充满叙事与群体动作，记录了从狩猎向农耕过渡的生活。",
-        "en": "西班牙地中海沿岸的岩画（约公元前5500年及以后）以小巧灵动的人形著称，描绘狩猎、采蜜与舞蹈。与洞窟深处的巨兽不同，它们画在开敞的岩棚上，充满叙事与群体动作，记录了从狩猎向农耕过渡的生活。"
-      },
-      "trivia": {
         "zh": "西班牙地中海沿岸的岩画（约公元前5500年及以后）以小巧灵动的人形著称，描绘狩猎、采蜜与舞蹈。与洞窟深处的巨兽不同，它们画在开敞的岩棚上，充满叙事与群体动作，记录了从狩猎向农耕过渡的生活。",
         "en": "西班牙地中海沿岸的岩画（约公元前5500年及以后）以小巧灵动的人形著称，描绘狩猎、采蜜与舞蹈。与洞窟深处的巨兽不同，它们画在开敞的岩棚上，充满叙事与群体动作，记录了从狩猎向农耕过渡的生活。"
       },
@@ -3381,16 +2006,7 @@
       "year": "c. 2,500 BCE",
       "accession": "MFM · PRE-04",
       "primaryAssetId": "asset-local-54558fe5-13cd-42e0-98cb-bcef367f2871",
-      "originalAssetId": "asset-missing-assets-context-works-w21",
       "introduction": {
-        "zh": "英格兰的巨石阵约建于公元前2500年，巨大的砂岩由数十公里外运来立起。其主轴精确对准夏至日出与冬至日落，说明它既是仪式圣所，也是观测天时的历法装置。建造者如何搬运并竖起这些数十吨的巨石，至今仍是谜。",
-        "en": "英格兰的巨石阵约建于公元前2500年，巨大的砂岩由数十公里外运来立起。其主轴精确对准夏至日出与冬至日落，说明它既是仪式圣所，也是观测天时的历法装置。建造者如何搬运并竖起这些数十吨的巨石，至今仍是谜。"
-      },
-      "curatorialNote": {
-        "zh": "英格兰的巨石阵约建于公元前2500年，巨大的砂岩由数十公里外运来立起。其主轴精确对准夏至日出与冬至日落，说明它既是仪式圣所，也是观测天时的历法装置。建造者如何搬运并竖起这些数十吨的巨石，至今仍是谜。",
-        "en": "英格兰的巨石阵约建于公元前2500年，巨大的砂岩由数十公里外运来立起。其主轴精确对准夏至日出与冬至日落，说明它既是仪式圣所，也是观测天时的历法装置。建造者如何搬运并竖起这些数十吨的巨石，至今仍是谜。"
-      },
-      "trivia": {
         "zh": "英格兰的巨石阵约建于公元前2500年，巨大的砂岩由数十公里外运来立起。其主轴精确对准夏至日出与冬至日落，说明它既是仪式圣所，也是观测天时的历法装置。建造者如何搬运并竖起这些数十吨的巨石，至今仍是谜。",
         "en": "英格兰的巨石阵约建于公元前2500年，巨大的砂岩由数十公里外运来立起。其主轴精确对准夏至日出与冬至日落，说明它既是仪式圣所，也是观测天时的历法装置。建造者如何搬运并竖起这些数十吨的巨石，至今仍是谜。"
       },
@@ -3414,16 +2030,7 @@
       "year": "c. 1,000 BCE",
       "accession": "MFM · PRE-05",
       "primaryAssetId": "asset-local-dc8680f1-7e98-4e43-b0a4-971664253de7",
-      "originalAssetId": "asset-missing-assets-context-works-w22",
       "introduction": {
-        "zh": "意大利卡莫尼卡山谷的岩刻绵延约八千年，多达数十万幅，是欧洲规模最大的史前岩刻群。人们在冰川磨光的岩面上凿刻战士、耕作、房屋与仪式游行，如同一部刻在石头上的漫长编年史。",
-        "en": "意大利卡莫尼卡山谷的岩刻绵延约八千年，多达数十万幅，是欧洲规模最大的史前岩刻群。人们在冰川磨光的岩面上凿刻战士、耕作、房屋与仪式游行，如同一部刻在石头上的漫长编年史。"
-      },
-      "curatorialNote": {
-        "zh": "意大利卡莫尼卡山谷的岩刻绵延约八千年，多达数十万幅，是欧洲规模最大的史前岩刻群。人们在冰川磨光的岩面上凿刻战士、耕作、房屋与仪式游行，如同一部刻在石头上的漫长编年史。",
-        "en": "意大利卡莫尼卡山谷的岩刻绵延约八千年，多达数十万幅，是欧洲规模最大的史前岩刻群。人们在冰川磨光的岩面上凿刻战士、耕作、房屋与仪式游行，如同一部刻在石头上的漫长编年史。"
-      },
-      "trivia": {
         "zh": "意大利卡莫尼卡山谷的岩刻绵延约八千年，多达数十万幅，是欧洲规模最大的史前岩刻群。人们在冰川磨光的岩面上凿刻战士、耕作、房屋与仪式游行，如同一部刻在石头上的漫长编年史。",
         "en": "意大利卡莫尼卡山谷的岩刻绵延约八千年，多达数十万幅，是欧洲规模最大的史前岩刻群。人们在冰川磨光的岩面上凿刻战士、耕作、房屋与仪式游行，如同一部刻在石头上的漫长编年史。"
       },
@@ -3447,16 +2054,7 @@
       "year": "c. 130 BCE",
       "accession": "MFM · ANT-01",
       "primaryAssetId": "asset-local-8cbfffda-c93c-4e34-924d-5a1f8468936b",
-      "originalAssetId": "asset-missing-assets-context-works-w10",
       "introduction": {
-        "zh": "《米洛斯的维纳斯》约作于公元前130年，1820年由一位农夫在爱琴海米洛斯岛上掘出。这尊希腊化时期的大理石像被认为是爱与美的女神阿芙洛狄忒，双臂在出土时或之后遗失，反而留下无尽想象。它现藏卢浮宫，是古典理想美的化身。",
-        "en": "《米洛斯的维纳斯》约作于公元前130年，1820年由一位农夫在爱琴海米洛斯岛上掘出。这尊希腊化时期的大理石像被认为是爱与美的女神阿芙洛狄忒，双臂在出土时或之后遗失，反而留下无尽想象。它现藏卢浮宫，是古典理想美的化身。"
-      },
-      "curatorialNote": {
-        "zh": "《米洛斯的维纳斯》约作于公元前130年，1820年由一位农夫在爱琴海米洛斯岛上掘出。这尊希腊化时期的大理石像被认为是爱与美的女神阿芙洛狄忒，双臂在出土时或之后遗失，反而留下无尽想象。它现藏卢浮宫，是古典理想美的化身。",
-        "en": "《米洛斯的维纳斯》约作于公元前130年，1820年由一位农夫在爱琴海米洛斯岛上掘出。这尊希腊化时期的大理石像被认为是爱与美的女神阿芙洛狄忒，双臂在出土时或之后遗失，反而留下无尽想象。它现藏卢浮宫，是古典理想美的化身。"
-      },
-      "trivia": {
         "zh": "《米洛斯的维纳斯》约作于公元前130年，1820年由一位农夫在爱琴海米洛斯岛上掘出。这尊希腊化时期的大理石像被认为是爱与美的女神阿芙洛狄忒，双臂在出土时或之后遗失，反而留下无尽想象。它现藏卢浮宫，是古典理想美的化身。",
         "en": "《米洛斯的维纳斯》约作于公元前130年，1820年由一位农夫在爱琴海米洛斯岛上掘出。这尊希腊化时期的大理石像被认为是爱与美的女神阿芙洛狄忒，双臂在出土时或之后遗失，反而留下无尽想象。它现藏卢浮宫，是古典理想美的化身。"
       },
@@ -3480,16 +2078,7 @@
       "year": "c. 1345 BCE",
       "accession": "MFM · ANT-02",
       "primaryAssetId": "asset-local-97dc3435-ceaa-4acb-87a5-8c914fa088a6",
-      "originalAssetId": "asset-missing-assets-context-works-original-nefertiti",
       "introduction": {
-        "zh": "古埃及《纳芙蒂蒂头像》的历史名作改编，保留三分之四胸像、蓝绿色高冠、彩绘项圈、黑色背景和石灰岩质感。",
-        "en": "古埃及《纳芙蒂蒂头像》的历史名作改编，保留三分之四胸像、蓝绿色高冠、彩绘项圈、黑色背景和石灰岩质感。"
-      },
-      "curatorialNote": {
-        "zh": "古埃及《纳芙蒂蒂头像》的历史名作改编，保留三分之四胸像、蓝绿色高冠、彩绘项圈、黑色背景和石灰岩质感。",
-        "en": "古埃及《纳芙蒂蒂头像》的历史名作改编，保留三分之四胸像、蓝绿色高冠、彩绘项圈、黑色背景和石灰岩质感。"
-      },
-      "trivia": {
         "zh": "古埃及《纳芙蒂蒂头像》的历史名作改编，保留三分之四胸像、蓝绿色高冠、彩绘项圈、黑色背景和石灰岩质感。",
         "en": "古埃及《纳芙蒂蒂头像》的历史名作改编，保留三分之四胸像、蓝绿色高冠、彩绘项圈、黑色背景和石灰岩质感。"
       },
@@ -3513,16 +2102,7 @@
       "year": "c. 478 BCE",
       "accession": "MFM · ANT-03",
       "primaryAssetId": "asset-local-122576ea-6ce1-4b8b-89b0-685b91de59f5",
-      "originalAssetId": "asset-missing-assets-context-works-original-charioteer",
       "introduction": {
-        "zh": "古希腊《德尔斐御者》的历史名作改编，保留正面全身站姿、窄头带、垂直褶衣、缰绳和灰绿色古铜包浆。",
-        "en": "古希腊《德尔斐御者》的历史名作改编，保留正面全身站姿、窄头带、垂直褶衣、缰绳和灰绿色古铜包浆。"
-      },
-      "curatorialNote": {
-        "zh": "古希腊《德尔斐御者》的历史名作改编，保留正面全身站姿、窄头带、垂直褶衣、缰绳和灰绿色古铜包浆。",
-        "en": "古希腊《德尔斐御者》的历史名作改编，保留正面全身站姿、窄头带、垂直褶衣、缰绳和灰绿色古铜包浆。"
-      },
-      "trivia": {
         "zh": "古希腊《德尔斐御者》的历史名作改编，保留正面全身站姿、窄头带、垂直褶衣、缰绳和灰绿色古铜包浆。",
         "en": "古希腊《德尔斐御者》的历史名作改编，保留正面全身站姿、窄头带、垂直褶衣、缰绳和灰绿色古铜包浆。"
       },
@@ -3546,16 +2126,7 @@
       "year": "c. 1345",
       "accession": "MFM · MED-01",
       "primaryAssetId": "asset-local-7c53c1de-fee5-4174-b1f7-76c3f5208994",
-      "originalAssetId": "asset-missing-assets-context-works-w11",
       "introduction": {
-        "zh": "巴黎圣母院始建于1163年，历时近两百年方成，是哥特建筑的杰作。飞扶壁将穹顶的重量向外导引，让高墙得以镂空为巨大的玫瑰花窗，阳光透过彩色玻璃洒入中殿。2019年的大火烧毁了尖塔与木构屋顶，全球随即展开修复。",
-        "en": "巴黎圣母院始建于1163年，历时近两百年方成，是哥特建筑的杰作。飞扶壁将穹顶的重量向外导引，让高墙得以镂空为巨大的玫瑰花窗，阳光透过彩色玻璃洒入中殿。2019年的大火烧毁了尖塔与木构屋顶，全球随即展开修复。"
-      },
-      "curatorialNote": {
-        "zh": "巴黎圣母院始建于1163年，历时近两百年方成，是哥特建筑的杰作。飞扶壁将穹顶的重量向外导引，让高墙得以镂空为巨大的玫瑰花窗，阳光透过彩色玻璃洒入中殿。2019年的大火烧毁了尖塔与木构屋顶，全球随即展开修复。",
-        "en": "巴黎圣母院始建于1163年，历时近两百年方成，是哥特建筑的杰作。飞扶壁将穹顶的重量向外导引，让高墙得以镂空为巨大的玫瑰花窗，阳光透过彩色玻璃洒入中殿。2019年的大火烧毁了尖塔与木构屋顶，全球随即展开修复。"
-      },
-      "trivia": {
         "zh": "巴黎圣母院始建于1163年，历时近两百年方成，是哥特建筑的杰作。飞扶壁将穹顶的重量向外导引，让高墙得以镂空为巨大的玫瑰花窗，阳光透过彩色玻璃洒入中殿。2019年的大火烧毁了尖塔与木构屋顶，全球随即展开修复。",
         "en": "巴黎圣母院始建于1163年，历时近两百年方成，是哥特建筑的杰作。飞扶壁将穹顶的重量向外导引，让高墙得以镂空为巨大的玫瑰花窗，阳光透过彩色玻璃洒入中殿。2019年的大火烧毁了尖塔与木构屋顶，全球随即展开修复。"
       },
@@ -3579,16 +2150,7 @@
       "year": "c. 1280",
       "accession": "MFM · MED-02",
       "primaryAssetId": "asset-local-772af387-8105-412b-a662-2349b4eb5b70",
-      "originalAssetId": "asset-missing-assets-context-works-w12",
       "introduction": {
-        "zh": "契马布埃约1280年的《宝座圣母像》属拜占庭向文艺复兴过渡的时代。金色背景、扁平的空间与庄严的正面姿态仍是中世纪程式，但圣母衣褶间已透出一丝对体积与柔和的追求。契马布埃据传是乔托的老师，而乔托将把绘画彻底推向写实。",
-        "en": "契马布埃约1280年的《宝座圣母像》属拜占庭向文艺复兴过渡的时代。金色背景、扁平的空间与庄严的正面姿态仍是中世纪程式，但圣母衣褶间已透出一丝对体积与柔和的追求。契马布埃据传是乔托的老师，而乔托将把绘画彻底推向写实。"
-      },
-      "curatorialNote": {
-        "zh": "契马布埃约1280年的《宝座圣母像》属拜占庭向文艺复兴过渡的时代。金色背景、扁平的空间与庄严的正面姿态仍是中世纪程式，但圣母衣褶间已透出一丝对体积与柔和的追求。契马布埃据传是乔托的老师，而乔托将把绘画彻底推向写实。",
-        "en": "契马布埃约1280年的《宝座圣母像》属拜占庭向文艺复兴过渡的时代。金色背景、扁平的空间与庄严的正面姿态仍是中世纪程式，但圣母衣褶间已透出一丝对体积与柔和的追求。契马布埃据传是乔托的老师，而乔托将把绘画彻底推向写实。"
-      },
-      "trivia": {
         "zh": "契马布埃约1280年的《宝座圣母像》属拜占庭向文艺复兴过渡的时代。金色背景、扁平的空间与庄严的正面姿态仍是中世纪程式，但圣母衣褶间已透出一丝对体积与柔和的追求。契马布埃据传是乔托的老师，而乔托将把绘画彻底推向写实。",
         "en": "契马布埃约1280年的《宝座圣母像》属拜占庭向文艺复兴过渡的时代。金色背景、扁平的空间与庄严的正面姿态仍是中世纪程式，但圣母衣褶间已透出一丝对体积与柔和的追求。契马布埃据传是乔托的老师，而乔托将把绘画彻底推向写实。"
       },
@@ -3612,16 +2174,7 @@
       "year": "1495–1498",
       "accession": "MFM · REN-01",
       "primaryAssetId": "asset-local-167088ba-ccfe-4cfd-b4a9-a4d320689e2e",
-      "originalAssetId": "asset-missing-assets-context-works-w15",
       "introduction": {
-        "zh": "达·芬奇约1495至1498年为米兰圣玛利亚感恩教堂餐厅所作的《最后的晚餐》，凝固了耶稣说出\"你们中有一人要出卖我\"的刹那，十二门徒各现惊愕、疑惑、愤怒。他大胆采用干壁画法以求细节，却使颜料很快剥落，此后数百年屡经修复。",
-        "en": "达·芬奇约1495至1498年为米兰圣玛利亚感恩教堂餐厅所作的《最后的晚餐》，凝固了耶稣说出\"你们中有一人要出卖我\"的刹那，十二门徒各现惊愕、疑惑、愤怒。他大胆采用干壁画法以求细节，却使颜料很快剥落，此后数百年屡经修复。"
-      },
-      "curatorialNote": {
-        "zh": "达·芬奇约1495至1498年为米兰圣玛利亚感恩教堂餐厅所作的《最后的晚餐》，凝固了耶稣说出\"你们中有一人要出卖我\"的刹那，十二门徒各现惊愕、疑惑、愤怒。他大胆采用干壁画法以求细节，却使颜料很快剥落，此后数百年屡经修复。",
-        "en": "达·芬奇约1495至1498年为米兰圣玛利亚感恩教堂餐厅所作的《最后的晚餐》，凝固了耶稣说出\"你们中有一人要出卖我\"的刹那，十二门徒各现惊愕、疑惑、愤怒。他大胆采用干壁画法以求细节，却使颜料很快剥落，此后数百年屡经修复。"
-      },
-      "trivia": {
         "zh": "达·芬奇约1495至1498年为米兰圣玛利亚感恩教堂餐厅所作的《最后的晚餐》，凝固了耶稣说出\"你们中有一人要出卖我\"的刹那，十二门徒各现惊愕、疑惑、愤怒。他大胆采用干壁画法以求细节，却使颜料很快剥落，此后数百年屡经修复。",
         "en": "达·芬奇约1495至1498年为米兰圣玛利亚感恩教堂餐厅所作的《最后的晚餐》，凝固了耶稣说出\"你们中有一人要出卖我\"的刹那，十二门徒各现惊愕、疑惑、愤怒。他大胆采用干壁画法以求细节，却使颜料很快剥落，此后数百年屡经修复。"
       },
@@ -3645,16 +2198,7 @@
       "year": "1508–1512",
       "accession": "MFM · REN-02",
       "primaryAssetId": "asset-local-1f031e8f-e028-43e1-a890-0aa1c2cc2ed0",
-      "originalAssetId": "asset-missing-assets-context-works-w16",
       "introduction": {
-        "zh": "米开朗基罗1508至1512年独自仰卧脚手架，画满西斯廷礼拜堂的天顶。《创造亚当》中，上帝与亚当的指尖将触未触，那道缝隙里蓄满了赋予生命的张力。有解剖学者指出，上帝身后的红袍轮廓酷似人类大脑的剖面。",
-        "en": "米开朗基罗1508至1512年独自仰卧脚手架，画满西斯廷礼拜堂的天顶。《创造亚当》中，上帝与亚当的指尖将触未触，那道缝隙里蓄满了赋予生命的张力。有解剖学者指出，上帝身后的红袍轮廓酷似人类大脑的剖面。"
-      },
-      "curatorialNote": {
-        "zh": "米开朗基罗1508至1512年独自仰卧脚手架，画满西斯廷礼拜堂的天顶。《创造亚当》中，上帝与亚当的指尖将触未触，那道缝隙里蓄满了赋予生命的张力。有解剖学者指出，上帝身后的红袍轮廓酷似人类大脑的剖面。",
-        "en": "米开朗基罗1508至1512年独自仰卧脚手架，画满西斯廷礼拜堂的天顶。《创造亚当》中，上帝与亚当的指尖将触未触，那道缝隙里蓄满了赋予生命的张力。有解剖学者指出，上帝身后的红袍轮廓酷似人类大脑的剖面。"
-      },
-      "trivia": {
         "zh": "米开朗基罗1508至1512年独自仰卧脚手架，画满西斯廷礼拜堂的天顶。《创造亚当》中，上帝与亚当的指尖将触未触，那道缝隙里蓄满了赋予生命的张力。有解剖学者指出，上帝身后的红袍轮廓酷似人类大脑的剖面。",
         "en": "米开朗基罗1508至1512年独自仰卧脚手架，画满西斯廷礼拜堂的天顶。《创造亚当》中，上帝与亚当的指尖将触未触，那道缝隙里蓄满了赋予生命的张力。有解剖学者指出，上帝身后的红袍轮廓酷似人类大脑的剖面。"
       },
@@ -3678,16 +2222,7 @@
       "year": "1509–1511",
       "accession": "MFM · REN-03",
       "primaryAssetId": "asset-local-1e8697ae-7f52-44b3-938e-c62186512dd6",
-      "originalAssetId": "asset-missing-assets-context-works-w17",
       "introduction": {
-        "zh": "拉斐尔1509至1511年为梵蒂冈签字厅所绘的《雅典学院》，把跨越数百年的古代哲人聚于一堂：中央柏拉图指天、亚里士多德指地，象征理念与现实之争。据信画中许多面孔借用了同代人——沉思的赫拉克利特便是米开朗基罗的模样。",
-        "en": "拉斐尔1509至1511年为梵蒂冈签字厅所绘的《雅典学院》，把跨越数百年的古代哲人聚于一堂：中央柏拉图指天、亚里士多德指地，象征理念与现实之争。据信画中许多面孔借用了同代人——沉思的赫拉克利特便是米开朗基罗的模样。"
-      },
-      "curatorialNote": {
-        "zh": "拉斐尔1509至1511年为梵蒂冈签字厅所绘的《雅典学院》，把跨越数百年的古代哲人聚于一堂：中央柏拉图指天、亚里士多德指地，象征理念与现实之争。据信画中许多面孔借用了同代人——沉思的赫拉克利特便是米开朗基罗的模样。",
-        "en": "拉斐尔1509至1511年为梵蒂冈签字厅所绘的《雅典学院》，把跨越数百年的古代哲人聚于一堂：中央柏拉图指天、亚里士多德指地，象征理念与现实之争。据信画中许多面孔借用了同代人——沉思的赫拉克利特便是米开朗基罗的模样。"
-      },
-      "trivia": {
         "zh": "拉斐尔1509至1511年为梵蒂冈签字厅所绘的《雅典学院》，把跨越数百年的古代哲人聚于一堂：中央柏拉图指天、亚里士多德指地，象征理念与现实之争。据信画中许多面孔借用了同代人——沉思的赫拉克利特便是米开朗基罗的模样。",
         "en": "拉斐尔1509至1511年为梵蒂冈签字厅所绘的《雅典学院》，把跨越数百年的古代哲人聚于一堂：中央柏拉图指天、亚里士多德指地，象征理念与现实之争。据信画中许多面孔借用了同代人——沉思的赫拉克利特便是米开朗基罗的模样。"
       },
@@ -3711,16 +2246,7 @@
       "year": "1565",
       "accession": "MFM · REN-04",
       "primaryAssetId": "asset-local-eecacb66-1966-4783-82d3-34b9b767ba02",
-      "originalAssetId": "asset-missing-assets-context-works-original-hunters-snow",
       "introduction": {
-        "zh": "老彼得·勃鲁盖尔《雪中猎人》的历史名作改编，保留左侧下坡猎人、猎犬、裸树、结冰河面和远山村庄。",
-        "en": "老彼得·勃鲁盖尔《雪中猎人》的历史名作改编，保留左侧下坡猎人、猎犬、裸树、结冰河面和远山村庄。"
-      },
-      "curatorialNote": {
-        "zh": "老彼得·勃鲁盖尔《雪中猎人》的历史名作改编，保留左侧下坡猎人、猎犬、裸树、结冰河面和远山村庄。",
-        "en": "老彼得·勃鲁盖尔《雪中猎人》的历史名作改编，保留左侧下坡猎人、猎犬、裸树、结冰河面和远山村庄。"
-      },
-      "trivia": {
         "zh": "老彼得·勃鲁盖尔《雪中猎人》的历史名作改编，保留左侧下坡猎人、猎犬、裸树、结冰河面和远山村庄。",
         "en": "老彼得·勃鲁盖尔《雪中猎人》的历史名作改编，保留左侧下坡猎人、猎犬、裸树、结冰河面和远山村庄。"
       },
@@ -3744,16 +2270,7 @@
       "year": "1533",
       "accession": "MFM · REN-05",
       "primaryAssetId": "asset-local-520a49e4-f385-48b7-8212-7774996a8b69",
-      "originalAssetId": "asset-missing-assets-context-works-original-ambassadors",
       "introduction": {
-        "zh": "小汉斯·霍尔拜因《大使们》的历史名作改编，保留双人全身构图、绿色帷幕、科学仪器桌和前景斜置骷髅。",
-        "en": "小汉斯·霍尔拜因《大使们》的历史名作改编，保留双人全身构图、绿色帷幕、科学仪器桌和前景斜置骷髅。"
-      },
-      "curatorialNote": {
-        "zh": "小汉斯·霍尔拜因《大使们》的历史名作改编，保留双人全身构图、绿色帷幕、科学仪器桌和前景斜置骷髅。",
-        "en": "小汉斯·霍尔拜因《大使们》的历史名作改编，保留双人全身构图、绿色帷幕、科学仪器桌和前景斜置骷髅。"
-      },
-      "trivia": {
         "zh": "小汉斯·霍尔拜因《大使们》的历史名作改编，保留双人全身构图、绿色帷幕、科学仪器桌和前景斜置骷髅。",
         "en": "小汉斯·霍尔拜因《大使们》的历史名作改编，保留双人全身构图、绿色帷幕、科学仪器桌和前景斜置骷髅。"
       },
@@ -3777,16 +2294,7 @@
       "year": "c. 1669",
       "accession": "MFM · BAR-01",
       "primaryAssetId": "asset-local-57d39942-8604-4a24-a1e2-a55f042fdeaa",
-      "originalAssetId": "asset-missing-assets-context-works-original-prodigal",
       "introduction": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "curatorialNote": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "trivia": {
         "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
         "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
       },
@@ -3810,16 +2318,7 @@
       "year": "1601",
       "accession": "MFM · BAR-02",
       "primaryAssetId": "asset-local-7c054faa-166b-40fe-9bd3-004b0af43748",
-      "originalAssetId": "asset-missing-assets-context-works-original-emmaus",
       "introduction": {
-        "zh": "卡拉瓦乔《以马忤斯的晚餐》的历史名作改编，保留中央人物、两侧门徒、白桌布、水果和戏剧性明暗对照。",
-        "en": "卡拉瓦乔《以马忤斯的晚餐》的历史名作改编，保留中央人物、两侧门徒、白桌布、水果和戏剧性明暗对照。"
-      },
-      "curatorialNote": {
-        "zh": "卡拉瓦乔《以马忤斯的晚餐》的历史名作改编，保留中央人物、两侧门徒、白桌布、水果和戏剧性明暗对照。",
-        "en": "卡拉瓦乔《以马忤斯的晚餐》的历史名作改编，保留中央人物、两侧门徒、白桌布、水果和戏剧性明暗对照。"
-      },
-      "trivia": {
         "zh": "卡拉瓦乔《以马忤斯的晚餐》的历史名作改编，保留中央人物、两侧门徒、白桌布、水果和戏剧性明暗对照。",
         "en": "卡拉瓦乔《以马忤斯的晚餐》的历史名作改编，保留中央人物、两侧门徒、白桌布、水果和戏剧性明暗对照。"
       },
@@ -3843,16 +2342,7 @@
       "year": "c. 1666–1668",
       "accession": "MFM · BAR-03",
       "primaryAssetId": "asset-local-713861a5-f99f-4357-b118-a7e583931f69",
-      "originalAssetId": "asset-missing-assets-context-works-original-art-of-painting",
       "introduction": {
-        "zh": "约翰内斯·维米尔《绘画的艺术》的历史名作改编，保留左侧帷幕、背对观者的画家、中央模特、地图、吊灯和棋盘地面。",
-        "en": "约翰内斯·维米尔《绘画的艺术》的历史名作改编，保留左侧帷幕、背对观者的画家、中央模特、地图、吊灯和棋盘地面。"
-      },
-      "curatorialNote": {
-        "zh": "约翰内斯·维米尔《绘画的艺术》的历史名作改编，保留左侧帷幕、背对观者的画家、中央模特、地图、吊灯和棋盘地面。",
-        "en": "约翰内斯·维米尔《绘画的艺术》的历史名作改编，保留左侧帷幕、背对观者的画家、中央模特、地图、吊灯和棋盘地面。"
-      },
-      "trivia": {
         "zh": "约翰内斯·维米尔《绘画的艺术》的历史名作改编，保留左侧帷幕、背对观者的画家、中央模特、地图、吊灯和棋盘地面。",
         "en": "约翰内斯·维米尔《绘画的艺术》的历史名作改编，保留左侧帷幕、背对观者的画家、中央模特、地图、吊灯和棋盘地面。"
       },
@@ -3876,16 +2366,7 @@
       "year": "1662",
       "accession": "MFM · BAR-04",
       "primaryAssetId": "asset-local-9977d7e0-258e-4b48-a7ff-2120aedabb6b",
-      "originalAssetId": "asset-missing-assets-context-works-original-syndics",
       "introduction": {
-        "zh": "伦勃朗《布商同业公会理事》的历史名作改编，保留五人围桌、红色桌布、深色木墙、打开的书和左侧暖光。",
-        "en": "伦勃朗《布商同业公会理事》的历史名作改编，保留五人围桌、红色桌布、深色木墙、打开的书和左侧暖光。"
-      },
-      "curatorialNote": {
-        "zh": "伦勃朗《布商同业公会理事》的历史名作改编，保留五人围桌、红色桌布、深色木墙、打开的书和左侧暖光。",
-        "en": "伦勃朗《布商同业公会理事》的历史名作改编，保留五人围桌、红色桌布、深色木墙、打开的书和左侧暖光。"
-      },
-      "trivia": {
         "zh": "伦勃朗《布商同业公会理事》的历史名作改编，保留五人围桌、红色桌布、深色木墙、打开的书和左侧暖光。",
         "en": "伦勃朗《布商同业公会理事》的历史名作改编，保留五人围桌、红色桌布、深色木墙、打开的书和左侧暖光。"
       },
@@ -3909,16 +2390,7 @@
       "year": "c. 1638–1639",
       "accession": "MFM · BAR-05",
       "primaryAssetId": "asset-local-b9fa594c-02e1-4eca-a855-593f339b48bd",
-      "originalAssetId": "asset-missing-assets-context-works-original-artemisia",
       "introduction": {
-        "zh": "阿尔泰米西娅·真蒂莱斯基《作为绘画寓意的自画像》的历史名作改编，保留抬臂作画、画笔、调色板、绿色衣袖和斜向身体关系。",
-        "en": "阿尔泰米西娅·真蒂莱斯基《作为绘画寓意的自画像》的历史名作改编，保留抬臂作画、画笔、调色板、绿色衣袖和斜向身体关系。"
-      },
-      "curatorialNote": {
-        "zh": "阿尔泰米西娅·真蒂莱斯基《作为绘画寓意的自画像》的历史名作改编，保留抬臂作画、画笔、调色板、绿色衣袖和斜向身体关系。",
-        "en": "阿尔泰米西娅·真蒂莱斯基《作为绘画寓意的自画像》的历史名作改编，保留抬臂作画、画笔、调色板、绿色衣袖和斜向身体关系。"
-      },
-      "trivia": {
         "zh": "阿尔泰米西娅·真蒂莱斯基《作为绘画寓意的自画像》的历史名作改编，保留抬臂作画、画笔、调色板、绿色衣袖和斜向身体关系。",
         "en": "阿尔泰米西娅·真蒂莱斯基《作为绘画寓意的自画像》的历史名作改编，保留抬臂作画、画笔、调色板、绿色衣袖和斜向身体关系。"
       },
@@ -3942,16 +2414,7 @@
       "year": "c. 1635–1640",
       "accession": "MFM · BAR-06",
       "primaryAssetId": "asset-local-e31233f8-4852-4eb7-9861-336c8d515a5e",
-      "originalAssetId": "asset-missing-assets-context-works-original-magdalen",
       "introduction": {
-        "zh": "乔治·德·拉·图尔《油灯前的抹大拉》的历史名作改编，保留侧身坐姿、骷髅、油灯、书本、绳索和红棕色暗背景。",
-        "en": "乔治·德·拉·图尔《油灯前的抹大拉》的历史名作改编，保留侧身坐姿、骷髅、油灯、书本、绳索和红棕色暗背景。"
-      },
-      "curatorialNote": {
-        "zh": "乔治·德·拉·图尔《油灯前的抹大拉》的历史名作改编，保留侧身坐姿、骷髅、油灯、书本、绳索和红棕色暗背景。",
-        "en": "乔治·德·拉·图尔《油灯前的抹大拉》的历史名作改编，保留侧身坐姿、骷髅、油灯、书本、绳索和红棕色暗背景。"
-      },
-      "trivia": {
         "zh": "乔治·德·拉·图尔《油灯前的抹大拉》的历史名作改编，保留侧身坐姿、骷髅、油灯、书本、绳索和红棕色暗背景。",
         "en": "乔治·德·拉·图尔《油灯前的抹大拉》的历史名作改编，保留侧身坐姿、骷髅、油灯、书本、绳索和红棕色暗背景。"
       },
@@ -3975,16 +2438,7 @@
       "year": "1857",
       "accession": "MFM · REA-01",
       "primaryAssetId": "asset-local-2c000d1b-076c-4b80-9821-2637cc525a6b",
-      "originalAssetId": "asset-missing-assets-context-works-original-gleaners",
       "introduction": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "curatorialNote": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "trivia": {
         "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
         "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
       },
@@ -4008,16 +2462,7 @@
       "year": "1819",
       "accession": "MFM · ROM-01",
       "primaryAssetId": "asset-local-678faed6-daf6-41c1-8b11-d652952bbd4b",
-      "originalAssetId": "asset-missing-assets-context-works-original-medusa",
       "introduction": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "curatorialNote": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "trivia": {
         "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
         "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
       },
@@ -4041,16 +2486,7 @@
       "year": "1814",
       "accession": "MFM · ROM-02",
       "primaryAssetId": "asset-local-ed0856cd-f09c-45f8-8cac-e6c1fd070216",
-      "originalAssetId": "asset-missing-assets-context-works-original-may3",
       "introduction": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "curatorialNote": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "trivia": {
         "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
         "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
       },
@@ -4074,16 +2510,7 @@
       "year": "1830",
       "accession": "MFM · ROM-03",
       "primaryAssetId": "asset-local-a3c063d3-8845-4788-8a1a-c66158f002a9",
-      "originalAssetId": "asset-missing-assets-context-works-original-liberty",
       "introduction": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "curatorialNote": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "trivia": {
         "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
         "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
       },
@@ -4107,16 +2534,7 @@
       "year": "1851–1852",
       "accession": "MFM · PRA-01",
       "primaryAssetId": "asset-local-80e8c443-002b-47f8-a048-22fcf06e8350",
-      "originalAssetId": "asset-missing-assets-context-works-original-ophelia",
       "introduction": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "curatorialNote": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "trivia": {
         "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
         "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
       },
@@ -4140,16 +2558,7 @@
       "year": "约1870–1872",
       "accession": "MFM · PRA-02",
       "primaryAssetId": "asset-local-0b28761f-70bb-43a9-aa92-28fa821763e7",
-      "originalAssetId": "asset-missing-assets-context-works-original-beata-beatrix",
       "introduction": {
-        "zh": "但丁·加百列·罗塞蒂《贝娅塔·贝亚特丽克斯》的历史名作改编，保留闭眼仰首的出神姿态、深绿长袍、红色鸽子与罂粟、右侧日晷和远景人物。",
-        "en": "但丁·加百列·罗塞蒂《贝娅塔·贝亚特丽克斯》的历史名作改编，保留闭眼仰首的出神姿态、深绿长袍、红色鸽子与罂粟、右侧日晷和远景人物。"
-      },
-      "curatorialNote": {
-        "zh": "但丁·加百列·罗塞蒂《贝娅塔·贝亚特丽克斯》的历史名作改编，保留闭眼仰首的出神姿态、深绿长袍、红色鸽子与罂粟、右侧日晷和远景人物。",
-        "en": "但丁·加百列·罗塞蒂《贝娅塔·贝亚特丽克斯》的历史名作改编，保留闭眼仰首的出神姿态、深绿长袍、红色鸽子与罂粟、右侧日晷和远景人物。"
-      },
-      "trivia": {
         "zh": "但丁·加百列·罗塞蒂《贝娅塔·贝亚特丽克斯》的历史名作改编，保留闭眼仰首的出神姿态、深绿长袍、红色鸽子与罂粟、右侧日晷和远景人物。",
         "en": "但丁·加百列·罗塞蒂《贝娅塔·贝亚特丽克斯》的历史名作改编，保留闭眼仰首的出神姿态、深绿长袍、红色鸽子与罂粟、右侧日晷和远景人物。"
       },
@@ -4173,16 +2582,7 @@
       "year": "约1902",
       "accession": "MFM · PRA-03",
       "primaryAssetId": "asset-local-3ef4514f-fd5a-44e4-b5d5-f9fab483ba25",
-      "originalAssetId": "asset-missing-assets-context-works-original-crystal-ball",
       "introduction": {
-        "zh": "约翰·威廉·沃特豪斯《水晶球》的历史名作改编，保留低头凝视水晶球的侧面视线、连续深红长裙、拱形窗、骷髅与书桌、棋盘地面和右侧椅子。",
-        "en": "约翰·威廉·沃特豪斯《水晶球》的历史名作改编，保留低头凝视水晶球的侧面视线、连续深红长裙、拱形窗、骷髅与书桌、棋盘地面和右侧椅子。"
-      },
-      "curatorialNote": {
-        "zh": "约翰·威廉·沃特豪斯《水晶球》的历史名作改编，保留低头凝视水晶球的侧面视线、连续深红长裙、拱形窗、骷髅与书桌、棋盘地面和右侧椅子。",
-        "en": "约翰·威廉·沃特豪斯《水晶球》的历史名作改编，保留低头凝视水晶球的侧面视线、连续深红长裙、拱形窗、骷髅与书桌、棋盘地面和右侧椅子。"
-      },
-      "trivia": {
         "zh": "约翰·威廉·沃特豪斯《水晶球》的历史名作改编，保留低头凝视水晶球的侧面视线、连续深红长裙、拱形窗、骷髅与书桌、棋盘地面和右侧椅子。",
         "en": "约翰·威廉·沃特豪斯《水晶球》的历史名作改编，保留低头凝视水晶球的侧面视线、连续深红长裙、拱形窗、骷髅与书桌、棋盘地面和右侧椅子。"
       },
@@ -4206,16 +2606,7 @@
       "year": "c. 1831",
       "accession": "MFM · UKI-01",
       "primaryAssetId": "asset-local-faae9e15-0297-45aa-90fc-97ca152db9bf",
-      "originalAssetId": "asset-missing-assets-context-works-w03",
       "introduction": {
-        "zh": "葛饰北斋的《神奈川冲浪里》约作于1831年，是《富岳三十六景》系列的一幅木版画。巨浪以\"普鲁士蓝\"这种当时新进口的颜料印成，浪爪如利齿般扑向船只，而远处的富士山静默渺小。这幅画随浮世绘流入欧洲，深深影响了梵高、莫奈与德彪西，成为\"日本主义\"浪潮的象征。",
-        "en": "葛饰北斋的《神奈川冲浪里》约作于1831年，是《富岳三十六景》系列的一幅木版画。巨浪以\"普鲁士蓝\"这种当时新进口的颜料印成，浪爪如利齿般扑向船只，而远处的富士山静默渺小。这幅画随浮世绘流入欧洲，深深影响了梵高、莫奈与德彪西，成为\"日本主义\"浪潮的象征。"
-      },
-      "curatorialNote": {
-        "zh": "葛饰北斋的《神奈川冲浪里》约作于1831年，是《富岳三十六景》系列的一幅木版画。巨浪以\"普鲁士蓝\"这种当时新进口的颜料印成，浪爪如利齿般扑向船只，而远处的富士山静默渺小。这幅画随浮世绘流入欧洲，深深影响了梵高、莫奈与德彪西，成为\"日本主义\"浪潮的象征。",
-        "en": "葛饰北斋的《神奈川冲浪里》约作于1831年，是《富岳三十六景》系列的一幅木版画。巨浪以\"普鲁士蓝\"这种当时新进口的颜料印成，浪爪如利齿般扑向船只，而远处的富士山静默渺小。这幅画随浮世绘流入欧洲，深深影响了梵高、莫奈与德彪西，成为\"日本主义\"浪潮的象征。"
-      },
-      "trivia": {
         "zh": "葛饰北斋的《神奈川冲浪里》约作于1831年，是《富岳三十六景》系列的一幅木版画。巨浪以\"普鲁士蓝\"这种当时新进口的颜料印成，浪爪如利齿般扑向船只，而远处的富士山静默渺小。这幅画随浮世绘流入欧洲，深深影响了梵高、莫奈与德彪西，成为\"日本主义\"浪潮的象征。",
         "en": "葛饰北斋的《神奈川冲浪里》约作于1831年，是《富岳三十六景》系列的一幅木版画。巨浪以\"普鲁士蓝\"这种当时新进口的颜料印成，浪爪如利齿般扑向船只，而远处的富士山静默渺小。这幅画随浮世绘流入欧洲，深深影响了梵高、莫奈与德彪西，成为\"日本主义\"浪潮的象征。"
       },
@@ -4239,16 +2630,7 @@
       "year": "c. 1857",
       "accession": "MFM · UKI-02",
       "primaryAssetId": "asset-local-e65be311-19a7-4517-9119-73f51f9ef520",
-      "originalAssetId": "asset-missing-assets-context-works-w28",
       "introduction": {
-        "zh": "广重的雪景以靛蓝、灰白和桥上微小的行旅人物制造寂静的纵深。裹在冬衣中的奶蛙沿桥而行，成为雪幕中唯一温暖的色点。",
-        "en": "广重的雪景以靛蓝、灰白和桥上微小的行旅人物制造寂静的纵深。裹在冬衣中的奶蛙沿桥而行，成为雪幕中唯一温暖的色点。"
-      },
-      "curatorialNote": {
-        "zh": "广重的雪景以靛蓝、灰白和桥上微小的行旅人物制造寂静的纵深。裹在冬衣中的奶蛙沿桥而行，成为雪幕中唯一温暖的色点。",
-        "en": "广重的雪景以靛蓝、灰白和桥上微小的行旅人物制造寂静的纵深。裹在冬衣中的奶蛙沿桥而行，成为雪幕中唯一温暖的色点。"
-      },
-      "trivia": {
         "zh": "广重的雪景以靛蓝、灰白和桥上微小的行旅人物制造寂静的纵深。裹在冬衣中的奶蛙沿桥而行，成为雪幕中唯一温暖的色点。",
         "en": "广重的雪景以靛蓝、灰白和桥上微小的行旅人物制造寂静的纵深。裹在冬衣中的奶蛙沿桥而行，成为雪幕中唯一温暖的色点。"
       },
@@ -4272,16 +2654,7 @@
       "year": "c. 1840",
       "accession": "MFM · UKI-03",
       "primaryAssetId": "asset-local-image-01m11bkbwh100fjs0314082hpk",
-      "originalAssetId": "asset-missing-assets-context-works-w29",
       "introduction": {
-        "zh": "江户相扑绘以粗壮姿态、动态构图和鲜明木版色彩记录力士的公众形象。两只奶蛙在土俵中央角力，服饰、动作与版画节奏保持非色情的民俗竞技气质。",
-        "en": "江户相扑绘以粗壮姿态、动态构图和鲜明木版色彩记录力士的公众形象。两只奶蛙在土俵中央角力，服饰、动作与版画节奏保持非色情的民俗竞技气质。"
-      },
-      "curatorialNote": {
-        "zh": "江户相扑绘以粗壮姿态、动态构图和鲜明木版色彩记录力士的公众形象。两只奶蛙在土俵中央角力，服饰、动作与版画节奏保持非色情的民俗竞技气质。",
-        "en": "江户相扑绘以粗壮姿态、动态构图和鲜明木版色彩记录力士的公众形象。两只奶蛙在土俵中央角力，服饰、动作与版画节奏保持非色情的民俗竞技气质。"
-      },
-      "trivia": {
         "zh": "江户相扑绘以粗壮姿态、动态构图和鲜明木版色彩记录力士的公众形象。两只奶蛙在土俵中央角力，服饰、动作与版画节奏保持非色情的民俗竞技气质。",
         "en": "江户相扑绘以粗壮姿态、动态构图和鲜明木版色彩记录力士的公众形象。两只奶蛙在土俵中央角力，服饰、动作与版画节奏保持非色情的民俗竞技气质。"
       },
@@ -4305,16 +2678,7 @@
       "year": "1916",
       "accession": "MFM · IMP-01",
       "primaryAssetId": "asset-local-50058f95-82e4-4dcf-89c1-409a92af27b1",
-      "originalAssetId": "asset-missing-assets-context-monet-waterlilies",
       "introduction": {
-        "zh": "莫奈晚年在吉维尼的花园里挖池、引水、种睡莲，用近三十年反复描绘同一片水面。他要画的不是莲，而是光与倒影在水上的流动，以至于取消了地平线，让观者仿佛悬浮于池上。这批《睡莲》共约250幅，是他在白内障几近失明、又痛失爱妻与长子后完成的，被视为通向抽象艺术的桥梁。",
-        "en": "莫奈晚年在吉维尼的花园里挖池、引水、种睡莲，用近三十年反复描绘同一片水面。他要画的不是莲，而是光与倒影在水上的流动，以至于取消了地平线，让观者仿佛悬浮于池上。这批《睡莲》共约250幅，是他在白内障几近失明、又痛失爱妻与长子后完成的，被视为通向抽象艺术的桥梁。"
-      },
-      "curatorialNote": {
-        "zh": "莫奈晚年在吉维尼的花园里挖池、引水、种睡莲，用近三十年反复描绘同一片水面。他要画的不是莲，而是光与倒影在水上的流动，以至于取消了地平线，让观者仿佛悬浮于池上。这批《睡莲》共约250幅，是他在白内障几近失明、又痛失爱妻与长子后完成的，被视为通向抽象艺术的桥梁。",
-        "en": "莫奈晚年在吉维尼的花园里挖池、引水、种睡莲，用近三十年反复描绘同一片水面。他要画的不是莲，而是光与倒影在水上的流动，以至于取消了地平线，让观者仿佛悬浮于池上。这批《睡莲》共约250幅，是他在白内障几近失明、又痛失爱妻与长子后完成的，被视为通向抽象艺术的桥梁。"
-      },
-      "trivia": {
         "zh": "莫奈晚年在吉维尼的花园里挖池、引水、种睡莲，用近三十年反复描绘同一片水面。他要画的不是莲，而是光与倒影在水上的流动，以至于取消了地平线，让观者仿佛悬浮于池上。这批《睡莲》共约250幅，是他在白内障几近失明、又痛失爱妻与长子后完成的，被视为通向抽象艺术的桥梁。",
         "en": "莫奈晚年在吉维尼的花园里挖池、引水、种睡莲，用近三十年反复描绘同一片水面。他要画的不是莲，而是光与倒影在水上的流动，以至于取消了地平线，让观者仿佛悬浮于池上。这批《睡莲》共约250幅，是他在白内障几近失明、又痛失爱妻与长子后完成的，被视为通向抽象艺术的桥梁。"
       },
@@ -4338,16 +2702,7 @@
       "year": "1875",
       "accession": "MFM · IMP-02",
       "primaryAssetId": "asset-local-1b2e1bc4-75c1-4632-80f9-c8cca5c3ae57",
-      "originalAssetId": "asset-missing-assets-context-works-w06",
       "introduction": {
-        "zh": "《撑阳伞的女人》是莫奈1875年在阿让特伊描绘妻子卡蜜儿与儿子让的户外写生。人物从低处仰视，衣裙与面纱被风掀动，草叶与云影皆是快速的笔触——这正是印象派的核心：捕捉某个转瞬即逝的光线与空气的瞬间。卡蜜儿四年后病逝，画中这抹明媚遂成追忆。",
-        "en": "《撑阳伞的女人》是莫奈1875年在阿让特伊描绘妻子卡蜜儿与儿子让的户外写生。人物从低处仰视，衣裙与面纱被风掀动，草叶与云影皆是快速的笔触——这正是印象派的核心：捕捉某个转瞬即逝的光线与空气的瞬间。卡蜜儿四年后病逝，画中这抹明媚遂成追忆。"
-      },
-      "curatorialNote": {
-        "zh": "《撑阳伞的女人》是莫奈1875年在阿让特伊描绘妻子卡蜜儿与儿子让的户外写生。人物从低处仰视，衣裙与面纱被风掀动，草叶与云影皆是快速的笔触——这正是印象派的核心：捕捉某个转瞬即逝的光线与空气的瞬间。卡蜜儿四年后病逝，画中这抹明媚遂成追忆。",
-        "en": "《撑阳伞的女人》是莫奈1875年在阿让特伊描绘妻子卡蜜儿与儿子让的户外写生。人物从低处仰视，衣裙与面纱被风掀动，草叶与云影皆是快速的笔触——这正是印象派的核心：捕捉某个转瞬即逝的光线与空气的瞬间。卡蜜儿四年后病逝，画中这抹明媚遂成追忆。"
-      },
-      "trivia": {
         "zh": "《撑阳伞的女人》是莫奈1875年在阿让特伊描绘妻子卡蜜儿与儿子让的户外写生。人物从低处仰视，衣裙与面纱被风掀动，草叶与云影皆是快速的笔触——这正是印象派的核心：捕捉某个转瞬即逝的光线与空气的瞬间。卡蜜儿四年后病逝，画中这抹明媚遂成追忆。",
         "en": "《撑阳伞的女人》是莫奈1875年在阿让特伊描绘妻子卡蜜儿与儿子让的户外写生。人物从低处仰视，衣裙与面纱被风掀动，草叶与云影皆是快速的笔触——这正是印象派的核心：捕捉某个转瞬即逝的光线与空气的瞬间。卡蜜儿四年后病逝，画中这抹明媚遂成追忆。"
       },
@@ -4371,16 +2726,7 @@
       "year": "1890–1891",
       "accession": "MFM · IMP-03",
       "primaryAssetId": "asset-local-52ac175f-35f1-4c97-bcbb-4815f2c2ade9",
-      "originalAssetId": "asset-missing-assets-context-works-w30",
       "introduction": {
-        "zh": "莫奈的《干草堆》系列在同一组乡村景物中追踪季节、天气与时刻变化。这个版本保留互补色的振动与暮光中的草垛，让一只小小的奶蛙农夫成为光色秩序中的尺度。",
-        "en": "莫奈的《干草堆》系列在同一组乡村景物中追踪季节、天气与时刻变化。这个版本保留互补色的振动与暮光中的草垛，让一只小小的奶蛙农夫成为光色秩序中的尺度。"
-      },
-      "curatorialNote": {
-        "zh": "莫奈的《干草堆》系列在同一组乡村景物中追踪季节、天气与时刻变化。这个版本保留互补色的振动与暮光中的草垛，让一只小小的奶蛙农夫成为光色秩序中的尺度。",
-        "en": "莫奈的《干草堆》系列在同一组乡村景物中追踪季节、天气与时刻变化。这个版本保留互补色的振动与暮光中的草垛，让一只小小的奶蛙农夫成为光色秩序中的尺度。"
-      },
-      "trivia": {
         "zh": "莫奈的《干草堆》系列在同一组乡村景物中追踪季节、天气与时刻变化。这个版本保留互补色的振动与暮光中的草垛，让一只小小的奶蛙农夫成为光色秩序中的尺度。",
         "en": "莫奈的《干草堆》系列在同一组乡村景物中追踪季节、天气与时刻变化。这个版本保留互补色的振动与暮光中的草垛，让一只小小的奶蛙农夫成为光色秩序中的尺度。"
       },
@@ -4404,16 +2750,7 @@
       "year": "1877",
       "accession": "MFM · IMP-04",
       "primaryAssetId": "asset-local-14c6323c-4be5-4054-b2f9-375c01dbec98",
-      "originalAssetId": "asset-missing-assets-context-works-original-paris-rain",
       "introduction": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "curatorialNote": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "trivia": {
         "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
         "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
       },
@@ -4437,16 +2774,7 @@
       "year": "1889",
       "accession": "MFM · PIM-01",
       "primaryAssetId": "asset-local-3e95ae62-0fcf-4701-990f-8680f0337980",
-      "originalAssetId": "asset-missing-assets-context-works-w08",
       "introduction": {
-        "zh": "梵高1889年在圣雷米的圣保罗精神疗养院中，凭记忆与想象画下这片旋涡般的夜空。柏树如火焰般刺向星群，村庄安睡于山谷——现实中他的病房并无此景。画作生前几乎无人问津，如今却成为最广为人知的画之一，那些翻卷的星流甚至被后人拿来比附湍流的物理。",
-        "en": "梵高1889年在圣雷米的圣保罗精神疗养院中，凭记忆与想象画下这片旋涡般的夜空。柏树如火焰般刺向星群，村庄安睡于山谷——现实中他的病房并无此景。画作生前几乎无人问津，如今却成为最广为人知的画之一，那些翻卷的星流甚至被后人拿来比附湍流的物理。"
-      },
-      "curatorialNote": {
-        "zh": "梵高1889年在圣雷米的圣保罗精神疗养院中，凭记忆与想象画下这片旋涡般的夜空。柏树如火焰般刺向星群，村庄安睡于山谷——现实中他的病房并无此景。画作生前几乎无人问津，如今却成为最广为人知的画之一，那些翻卷的星流甚至被后人拿来比附湍流的物理。",
-        "en": "梵高1889年在圣雷米的圣保罗精神疗养院中，凭记忆与想象画下这片旋涡般的夜空。柏树如火焰般刺向星群，村庄安睡于山谷——现实中他的病房并无此景。画作生前几乎无人问津，如今却成为最广为人知的画之一，那些翻卷的星流甚至被后人拿来比附湍流的物理。"
-      },
-      "trivia": {
         "zh": "梵高1889年在圣雷米的圣保罗精神疗养院中，凭记忆与想象画下这片旋涡般的夜空。柏树如火焰般刺向星群，村庄安睡于山谷——现实中他的病房并无此景。画作生前几乎无人问津，如今却成为最广为人知的画之一，那些翻卷的星流甚至被后人拿来比附湍流的物理。",
         "en": "梵高1889年在圣雷米的圣保罗精神疗养院中，凭记忆与想象画下这片旋涡般的夜空。柏树如火焰般刺向星群，村庄安睡于山谷——现实中他的病房并无此景。画作生前几乎无人问津，如今却成为最广为人知的画之一，那些翻卷的星流甚至被后人拿来比附湍流的物理。"
       },
@@ -4470,16 +2798,7 @@
       "year": "1888",
       "accession": "MFM · PIM-02",
       "primaryAssetId": "asset-local-d8f91af4-7158-47f4-b861-f071f474be5d",
-      "originalAssetId": "asset-missing-assets-context-works-original-sunflowers",
       "introduction": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "curatorialNote": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "trivia": {
         "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
         "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
       },
@@ -4503,16 +2822,7 @@
       "year": "c. 1904–1906",
       "accession": "MFM · PIM-03",
       "primaryAssetId": "asset-local-0c5e0f75-faa7-40e3-869c-51e1f66e51f2",
-      "originalAssetId": "asset-missing-assets-context-works-original-cezanne",
       "introduction": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "curatorialNote": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "trivia": {
         "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
         "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
       },
@@ -4536,16 +2846,7 @@
       "year": "1923",
       "accession": "MFM · MOD-01",
       "primaryAssetId": "asset-local-d1ff0fbd-6c4b-4a5e-8a26-46ea51687613",
-      "originalAssetId": "asset-missing-assets-context-works-w01",
       "introduction": {
-        "zh": "康定斯基1923年的《构成 VIII》以圆、三角、网格、弧线和斜线组织出近似乐谱的视觉节奏。这一改编没有把完整角色贴在画面上，而是将奶蛙拆解为嵌入构图的眼形圆环、黄赭与乳白碎片、短口线和深色末端；画面先保持康定斯基的抽象秩序，随后才显出奶蛙。",
-        "en": "康定斯基1923年的《构成 VIII》以圆、三角、网格、弧线和斜线组织出近似乐谱的视觉节奏。这一改编没有把完整角色贴在画面上，而是将奶蛙拆解为嵌入构图的眼形圆环、黄赭与乳白碎片、短口线和深色末端；画面先保持康定斯基的抽象秩序，随后才显出奶蛙。"
-      },
-      "curatorialNote": {
-        "zh": "康定斯基1923年的《构成 VIII》以圆、三角、网格、弧线和斜线组织出近似乐谱的视觉节奏。这一改编没有把完整角色贴在画面上，而是将奶蛙拆解为嵌入构图的眼形圆环、黄赭与乳白碎片、短口线和深色末端；画面先保持康定斯基的抽象秩序，随后才显出奶蛙。",
-        "en": "康定斯基1923年的《构成 VIII》以圆、三角、网格、弧线和斜线组织出近似乐谱的视觉节奏。这一改编没有把完整角色贴在画面上，而是将奶蛙拆解为嵌入构图的眼形圆环、黄赭与乳白碎片、短口线和深色末端；画面先保持康定斯基的抽象秩序，随后才显出奶蛙。"
-      },
-      "trivia": {
         "zh": "康定斯基1923年的《构成 VIII》以圆、三角、网格、弧线和斜线组织出近似乐谱的视觉节奏。这一改编没有把完整角色贴在画面上，而是将奶蛙拆解为嵌入构图的眼形圆环、黄赭与乳白碎片、短口线和深色末端；画面先保持康定斯基的抽象秩序，随后才显出奶蛙。",
         "en": "康定斯基1923年的《构成 VIII》以圆、三角、网格、弧线和斜线组织出近似乐谱的视觉节奏。这一改编没有把完整角色贴在画面上，而是将奶蛙拆解为嵌入构图的眼形圆环、黄赭与乳白碎片、短口线和深色末端；画面先保持康定斯基的抽象秩序，随后才显出奶蛙。"
       },
@@ -4569,16 +2870,7 @@
       "year": "c. 1920",
       "accession": "MFM · MOD-02",
       "primaryAssetId": "asset-local-0fa1e94a-959f-4d8e-91ad-bd84a9c9c294",
-      "originalAssetId": "asset-missing-assets-context-works-w04",
       "introduction": {
-        "zh": "构成主义诞生于1917年革命后的俄国，李西茨基等艺术家主张艺术应服务于社会建设，用几何形、红黑对角线和无衬线字体取代传统绘画。最著名的《用红楔子攻打白军》以纯粹的抽象形状讲述内战。这场运动重塑了现代平面设计、排版与建筑的语言。",
-        "en": "构成主义诞生于1917年革命后的俄国，李西茨基等艺术家主张艺术应服务于社会建设，用几何形、红黑对角线和无衬线字体取代传统绘画。最著名的《用红楔子攻打白军》以纯粹的抽象形状讲述内战。这场运动重塑了现代平面设计、排版与建筑的语言。"
-      },
-      "curatorialNote": {
-        "zh": "构成主义诞生于1917年革命后的俄国，李西茨基等艺术家主张艺术应服务于社会建设，用几何形、红黑对角线和无衬线字体取代传统绘画。最著名的《用红楔子攻打白军》以纯粹的抽象形状讲述内战。这场运动重塑了现代平面设计、排版与建筑的语言。",
-        "en": "构成主义诞生于1917年革命后的俄国，李西茨基等艺术家主张艺术应服务于社会建设，用几何形、红黑对角线和无衬线字体取代传统绘画。最著名的《用红楔子攻打白军》以纯粹的抽象形状讲述内战。这场运动重塑了现代平面设计、排版与建筑的语言。"
-      },
-      "trivia": {
         "zh": "构成主义诞生于1917年革命后的俄国，李西茨基等艺术家主张艺术应服务于社会建设，用几何形、红黑对角线和无衬线字体取代传统绘画。最著名的《用红楔子攻打白军》以纯粹的抽象形状讲述内战。这场运动重塑了现代平面设计、排版与建筑的语言。",
         "en": "构成主义诞生于1917年革命后的俄国，李西茨基等艺术家主张艺术应服务于社会建设，用几何形、红黑对角线和无衬线字体取代传统绘画。最著名的《用红楔子攻打白军》以纯粹的抽象形状讲述内战。这场运动重塑了现代平面设计、排版与建筑的语言。"
       },
@@ -4602,16 +2894,7 @@
       "year": "1921",
       "accession": "MFM · MOD-03",
       "primaryAssetId": "asset-local-image-01kzgvxaqdtaqf3bq6r1dspqcv",
-      "originalAssetId": "asset-missing-assets-context-works-w05",
       "introduction": {
-        "zh": "毕加索以彼此嵌套的平面色块塑造三位演奏者，让人物、乐器和空间像剪贴纸一样互相穿插。这个版本把中央丑角重新组织成奶蛙的识别锚点，同时保留原作合成立体主义的断裂肢体、菱格衣片与压缩空间。",
-        "en": "毕加索以彼此嵌套的平面色块塑造三位演奏者，让人物、乐器和空间像剪贴纸一样互相穿插。这个版本把中央丑角重新组织成奶蛙的识别锚点，同时保留原作合成立体主义的断裂肢体、菱格衣片与压缩空间。"
-      },
-      "curatorialNote": {
-        "zh": "毕加索以彼此嵌套的平面色块塑造三位演奏者，让人物、乐器和空间像剪贴纸一样互相穿插。这个版本把中央丑角重新组织成奶蛙的识别锚点，同时保留原作合成立体主义的断裂肢体、菱格衣片与压缩空间。",
-        "en": "毕加索以彼此嵌套的平面色块塑造三位演奏者，让人物、乐器和空间像剪贴纸一样互相穿插。这个版本把中央丑角重新组织成奶蛙的识别锚点，同时保留原作合成立体主义的断裂肢体、菱格衣片与压缩空间。"
-      },
-      "trivia": {
         "zh": "毕加索以彼此嵌套的平面色块塑造三位演奏者，让人物、乐器和空间像剪贴纸一样互相穿插。这个版本把中央丑角重新组织成奶蛙的识别锚点，同时保留原作合成立体主义的断裂肢体、菱格衣片与压缩空间。",
         "en": "毕加索以彼此嵌套的平面色块塑造三位演奏者，让人物、乐器和空间像剪贴纸一样互相穿插。这个版本把中央丑角重新组织成奶蛙的识别锚点，同时保留原作合成立体主义的断裂肢体、菱格衣片与压缩空间。"
       },
@@ -4635,16 +2918,7 @@
       "year": "1893",
       "accession": "MFM · MOD-04",
       "primaryAssetId": "asset-local-d97df347-d862-4b3d-b283-455439db1e10",
-      "originalAssetId": "asset-missing-assets-context-works-w07",
       "introduction": {
-        "zh": "蒙克的《呐喊》作于1893年，灵感来自他某次黄昏散步时\"感到天空突然变得血红\"，一声穿透自然的尖叫向他袭来。扭曲的桥、翻涌的橙红天空与骷髅般的面孔，画的不是听见尖叫，而是那份弥漫的现代性焦虑。它是表现主义的开山之作，蒙克共画了四个版本。",
-        "en": "蒙克的《呐喊》作于1893年，灵感来自他某次黄昏散步时\"感到天空突然变得血红\"，一声穿透自然的尖叫向他袭来。扭曲的桥、翻涌的橙红天空与骷髅般的面孔，画的不是听见尖叫，而是那份弥漫的现代性焦虑。它是表现主义的开山之作，蒙克共画了四个版本。"
-      },
-      "curatorialNote": {
-        "zh": "蒙克的《呐喊》作于1893年，灵感来自他某次黄昏散步时\"感到天空突然变得血红\"，一声穿透自然的尖叫向他袭来。扭曲的桥、翻涌的橙红天空与骷髅般的面孔，画的不是听见尖叫，而是那份弥漫的现代性焦虑。它是表现主义的开山之作，蒙克共画了四个版本。",
-        "en": "蒙克的《呐喊》作于1893年，灵感来自他某次黄昏散步时\"感到天空突然变得血红\"，一声穿透自然的尖叫向他袭来。扭曲的桥、翻涌的橙红天空与骷髅般的面孔，画的不是听见尖叫，而是那份弥漫的现代性焦虑。它是表现主义的开山之作，蒙克共画了四个版本。"
-      },
-      "trivia": {
         "zh": "蒙克的《呐喊》作于1893年，灵感来自他某次黄昏散步时\"感到天空突然变得血红\"，一声穿透自然的尖叫向他袭来。扭曲的桥、翻涌的橙红天空与骷髅般的面孔，画的不是听见尖叫，而是那份弥漫的现代性焦虑。它是表现主义的开山之作，蒙克共画了四个版本。",
         "en": "蒙克的《呐喊》作于1893年，灵感来自他某次黄昏散步时\"感到天空突然变得血红\"，一声穿透自然的尖叫向他袭来。扭曲的桥、翻涌的橙红天空与骷髅般的面孔，画的不是听见尖叫，而是那份弥漫的现代性焦虑。它是表现主义的开山之作，蒙克共画了四个版本。"
       },
@@ -4668,16 +2942,7 @@
       "year": "1897",
       "accession": "MFM · MOD-05",
       "primaryAssetId": "asset-local-5f9da0d4-06c8-416e-912f-5acb65f0fdd0",
-      "originalAssetId": "asset-missing-assets-context-works-original-sleeping-gypsy",
       "introduction": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "curatorialNote": {
-        "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
-        "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
-      },
-      "trivia": {
         "zh": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。",
         "en": "该作品为历史名作改编，保留原作的构图、人物关系、动作和画面语言。"
       },
@@ -4701,16 +2966,7 @@
       "year": "1942",
       "accession": "MFM · MOD-06",
       "primaryAssetId": "asset-local-312270ba-8a5f-44b5-963b-234dd83355c5",
-      "originalAssetId": "asset-missing-assets-context-works-original-nighthawks",
       "introduction": {
-        "zh": "爱德华·霍普《夜游者》的历史名作改编，保留深夜餐馆、弧形吧台、角窗、三位顾客和中央服务员位置。",
-        "en": "爱德华·霍普《夜游者》的历史名作改编，保留深夜餐馆、弧形吧台、角窗、三位顾客和中央服务员位置。"
-      },
-      "curatorialNote": {
-        "zh": "爱德华·霍普《夜游者》的历史名作改编，保留深夜餐馆、弧形吧台、角窗、三位顾客和中央服务员位置。",
-        "en": "爱德华·霍普《夜游者》的历史名作改编，保留深夜餐馆、弧形吧台、角窗、三位顾客和中央服务员位置。"
-      },
-      "trivia": {
         "zh": "爱德华·霍普《夜游者》的历史名作改编，保留深夜餐馆、弧形吧台、角窗、三位顾客和中央服务员位置。",
         "en": "爱德华·霍普《夜游者》的历史名作改编，保留深夜餐馆、弧形吧台、角窗、三位顾客和中央服务员位置。"
       },
@@ -4734,16 +2990,7 @@
       "year": "1907–1908",
       "accession": "MFM · MOD-07",
       "primaryAssetId": "asset-local-5eb502df-ee30-4f91-85aa-497187e2560e",
-      "originalAssetId": "asset-missing-assets-context-works-original-adele",
       "introduction": {
-        "zh": "古斯塔夫·克里姆特《阿黛尔·布洛赫-鲍尔肖像一号》的历史名作改编，保留正面半身肖像、金色背景和马赛克几何装饰。",
-        "en": "古斯塔夫·克里姆特《阿黛尔·布洛赫-鲍尔肖像一号》的历史名作改编，保留正面半身肖像、金色背景和马赛克几何装饰。"
-      },
-      "curatorialNote": {
-        "zh": "古斯塔夫·克里姆特《阿黛尔·布洛赫-鲍尔肖像一号》的历史名作改编，保留正面半身肖像、金色背景和马赛克几何装饰。",
-        "en": "古斯塔夫·克里姆特《阿黛尔·布洛赫-鲍尔肖像一号》的历史名作改编，保留正面半身肖像、金色背景和马赛克几何装饰。"
-      },
-      "trivia": {
         "zh": "古斯塔夫·克里姆特《阿黛尔·布洛赫-鲍尔肖像一号》的历史名作改编，保留正面半身肖像、金色背景和马赛克几何装饰。",
         "en": "古斯塔夫·克里姆特《阿黛尔·布洛赫-鲍尔肖像一号》的历史名作改编，保留正面半身肖像、金色背景和马赛克几何装饰。"
       },
@@ -4767,16 +3014,7 @@
       "year": "新石器时代",
       "accession": "MFM · CNQ-01",
       "primaryAssetId": "asset-local-854b518d-e017-485c-a6f4-b28870548667",
-      "originalAssetId": "asset-missing-assets-context-works-original-neolithic-pottery",
       "introduction": {
-        "zh": "作品以新石器时代彩陶为原型，将圆腹器形、矿物颜料和重复几何纹样组织成早期器物图像。奶蛙被压缩为器壁上的平面纹样，强调身体轮廓与集体装饰之间的关系。",
-        "en": "作品以新石器时代彩陶为原型，将圆腹器形、矿物颜料和重复几何纹样组织成早期器物图像。奶蛙被压缩为器壁上的平面纹样，强调身体轮廓与集体装饰之间的关系。"
-      },
-      "curatorialNote": {
-        "zh": "作品以新石器时代彩陶为原型，将圆腹器形、矿物颜料和重复几何纹样组织成早期器物图像。奶蛙被压缩为器壁上的平面纹样，强调身体轮廓与集体装饰之间的关系。",
-        "en": "作品以新石器时代彩陶为原型，将圆腹器形、矿物颜料和重复几何纹样组织成早期器物图像。奶蛙被压缩为器壁上的平面纹样，强调身体轮廓与集体装饰之间的关系。"
-      },
-      "trivia": {
         "zh": "作品以新石器时代彩陶为原型，将圆腹器形、矿物颜料和重复几何纹样组织成早期器物图像。奶蛙被压缩为器壁上的平面纹样，强调身体轮廓与集体装饰之间的关系。",
         "en": "作品以新石器时代彩陶为原型，将圆腹器形、矿物颜料和重复几何纹样组织成早期器物图像。奶蛙被压缩为器壁上的平面纹样，强调身体轮廓与集体装饰之间的关系。"
       },
@@ -4800,16 +3038,7 @@
       "year": "约公元前3300—2300年",
       "accession": "MFM · CNQ-02",
       "primaryAssetId": "asset-local-55e0b5ca-3207-49b4-bee4-74bcf4332d67",
-      "originalAssetId": "asset-missing-assets-context-works-original-liangzhu-cong",
       "introduction": {
-        "zh": "作品以良渚文化玉琮为原型，将方圆相套的器形、层叠纹带和神人兽面浅浮雕转译为奶蛙的玉雕身份。放大的黑色瞳孔成为中心面具的视觉锚点。",
-        "en": "作品以良渚文化玉琮为原型，将方圆相套的器形、层叠纹带和神人兽面浅浮雕转译为奶蛙的玉雕身份。放大的黑色瞳孔成为中心面具的视觉锚点。"
-      },
-      "curatorialNote": {
-        "zh": "作品以良渚文化玉琮为原型，将方圆相套的器形、层叠纹带和神人兽面浅浮雕转译为奶蛙的玉雕身份。放大的黑色瞳孔成为中心面具的视觉锚点。",
-        "en": "作品以良渚文化玉琮为原型，将方圆相套的器形、层叠纹带和神人兽面浅浮雕转译为奶蛙的玉雕身份。放大的黑色瞳孔成为中心面具的视觉锚点。"
-      },
-      "trivia": {
         "zh": "作品以良渚文化玉琮为原型，将方圆相套的器形、层叠纹带和神人兽面浅浮雕转译为奶蛙的玉雕身份。放大的黑色瞳孔成为中心面具的视觉锚点。",
         "en": "作品以良渚文化玉琮为原型，将方圆相套的器形、层叠纹带和神人兽面浅浮雕转译为奶蛙的玉雕身份。放大的黑色瞳孔成为中心面具的视觉锚点。"
       },
@@ -4833,16 +3062,7 @@
       "year": "约公元前13世纪",
       "accession": "MFM · CNQ-03",
       "primaryAssetId": "asset-local-120426e0-a5ee-462d-9924-5087513223e1",
-      "originalAssetId": "asset-missing-assets-context-works-original-four-rams-zun",
       "introduction": {
-        "zh": "作品以商代四羊方尊为原型，保留方尊的高颈、方体、圈足、饕餮纹和雷纹结构，将四个转角的羊首改铸为奶蛙首，讨论礼器威严与角色身份之间的转换。",
-        "en": "作品以商代四羊方尊为原型，保留方尊的高颈、方体、圈足、饕餮纹和雷纹结构，将四个转角的羊首改铸为奶蛙首，讨论礼器威严与角色身份之间的转换。"
-      },
-      "curatorialNote": {
-        "zh": "作品以商代四羊方尊为原型，保留方尊的高颈、方体、圈足、饕餮纹和雷纹结构，将四个转角的羊首改铸为奶蛙首，讨论礼器威严与角色身份之间的转换。",
-        "en": "作品以商代四羊方尊为原型，保留方尊的高颈、方体、圈足、饕餮纹和雷纹结构，将四个转角的羊首改铸为奶蛙首，讨论礼器威严与角色身份之间的转换。"
-      },
-      "trivia": {
         "zh": "作品以商代四羊方尊为原型，保留方尊的高颈、方体、圈足、饕餮纹和雷纹结构，将四个转角的羊首改铸为奶蛙首，讨论礼器威严与角色身份之间的转换。",
         "en": "作品以商代四羊方尊为原型，保留方尊的高颈、方体、圈足、饕餮纹和雷纹结构，将四个转角的羊首改铸为奶蛙首，讨论礼器威严与角色身份之间的转换。"
       },
@@ -4866,16 +3086,7 @@
       "year": "约公元前210年",
       "accession": "MFM · QH-01",
       "primaryAssetId": "asset-local-a5bf9d3a-3b31-46d1-b439-f63f42ee4cc5",
-      "originalAssetId": "asset-missing-assets-context-works-original-kneeling-archer",
       "introduction": {
-        "zh": "作品以秦始皇陵跪射俑为原型，保留一膝着地、另一膝抬起、身体转向和双手持弓的战备姿态。奶蛙的圆钝头身被译入陶俑体量，铠甲片和火烧土色构成秦俑的沉着质感。",
-        "en": "作品以秦始皇陵跪射俑为原型，保留一膝着地、另一膝抬起、身体转向和双手持弓的战备姿态。奶蛙的圆钝头身被译入陶俑体量，铠甲片和火烧土色构成秦俑的沉着质感。"
-      },
-      "curatorialNote": {
-        "zh": "作品以秦始皇陵跪射俑为原型，保留一膝着地、另一膝抬起、身体转向和双手持弓的战备姿态。奶蛙的圆钝头身被译入陶俑体量，铠甲片和火烧土色构成秦俑的沉着质感。",
-        "en": "作品以秦始皇陵跪射俑为原型，保留一膝着地、另一膝抬起、身体转向和双手持弓的战备姿态。奶蛙的圆钝头身被译入陶俑体量，铠甲片和火烧土色构成秦俑的沉着质感。"
-      },
-      "trivia": {
         "zh": "作品以秦始皇陵跪射俑为原型，保留一膝着地、另一膝抬起、身体转向和双手持弓的战备姿态。奶蛙的圆钝头身被译入陶俑体量，铠甲片和火烧土色构成秦俑的沉着质感。",
         "en": "作品以秦始皇陵跪射俑为原型，保留一膝着地、另一膝抬起、身体转向和双手持弓的战备姿态。奶蛙的圆钝头身被译入陶俑体量，铠甲片和火烧土色构成秦俑的沉着质感。"
       },
@@ -4899,16 +3110,7 @@
       "year": "约公元前2世纪",
       "accession": "MFM · QH-02",
       "primaryAssetId": "asset-local-938681e1-ed72-43b3-8875-b558309427d3",
-      "originalAssetId": "asset-missing-assets-context-works-original-lamp",
       "introduction": {
-        "zh": "作品以西汉长信宫灯为原型，保留跪坐宫女托举灯盘、长袖兼作烟道、灯罩可启闭的器物结构。奶蛙身份被铸入鎏金铜像，使宫廷照明、工艺技术和人物姿态合为一体。",
-        "en": "作品以西汉长信宫灯为原型，保留跪坐宫女托举灯盘、长袖兼作烟道、灯罩可启闭的器物结构。奶蛙身份被铸入鎏金铜像，使宫廷照明、工艺技术和人物姿态合为一体。"
-      },
-      "curatorialNote": {
-        "zh": "作品以西汉长信宫灯为原型，保留跪坐宫女托举灯盘、长袖兼作烟道、灯罩可启闭的器物结构。奶蛙身份被铸入鎏金铜像，使宫廷照明、工艺技术和人物姿态合为一体。",
-        "en": "作品以西汉长信宫灯为原型，保留跪坐宫女托举灯盘、长袖兼作烟道、灯罩可启闭的器物结构。奶蛙身份被铸入鎏金铜像，使宫廷照明、工艺技术和人物姿态合为一体。"
-      },
-      "trivia": {
         "zh": "作品以西汉长信宫灯为原型，保留跪坐宫女托举灯盘、长袖兼作烟道、灯罩可启闭的器物结构。奶蛙身份被铸入鎏金铜像，使宫廷照明、工艺技术和人物姿态合为一体。",
         "en": "作品以西汉长信宫灯为原型，保留跪坐宫女托举灯盘、长袖兼作烟道、灯罩可启闭的器物结构。奶蛙身份被铸入鎏金铜像，使宫廷照明、工艺技术和人物姿态合为一体。"
       },
@@ -4932,16 +3134,7 @@
       "year": "约公元2世纪",
       "accession": "MFM · QH-03",
       "primaryAssetId": "asset-local-bc765551-38c1-4587-81e7-80fbdf14b9bd",
-      "originalAssetId": "asset-missing-assets-context-works-original-han-entertainer",
       "introduction": {
-        "zh": "作品以东汉击鼓说唱俑为原型，保留一手举槌、一手抱鼓、身体前倾的表演动作。宽腹、张力十足的四肢和灰陶表面共同记录了汉代俑像对民间表演与身体节奏的兴趣。",
-        "en": "作品以东汉击鼓说唱俑为原型，保留一手举槌、一手抱鼓、身体前倾的表演动作。宽腹、张力十足的四肢和灰陶表面共同记录了汉代俑像对民间表演与身体节奏的兴趣。"
-      },
-      "curatorialNote": {
-        "zh": "作品以东汉击鼓说唱俑为原型，保留一手举槌、一手抱鼓、身体前倾的表演动作。宽腹、张力十足的四肢和灰陶表面共同记录了汉代俑像对民间表演与身体节奏的兴趣。",
-        "en": "作品以东汉击鼓说唱俑为原型，保留一手举槌、一手抱鼓、身体前倾的表演动作。宽腹、张力十足的四肢和灰陶表面共同记录了汉代俑像对民间表演与身体节奏的兴趣。"
-      },
-      "trivia": {
         "zh": "作品以东汉击鼓说唱俑为原型，保留一手举槌、一手抱鼓、身体前倾的表演动作。宽腹、张力十足的四肢和灰陶表面共同记录了汉代俑像对民间表演与身体节奏的兴趣。",
         "en": "作品以东汉击鼓说唱俑为原型，保留一手举槌、一手抱鼓、身体前倾的表演动作。宽腹、张力十足的四肢和灰陶表面共同记录了汉代俑像对民间表演与身体节奏的兴趣。"
       },
@@ -4965,16 +3158,7 @@
       "year": "约4世纪",
       "accession": "MFM · WJN-01",
       "primaryAssetId": "asset-local-6a04de9a-0edd-45ac-8277-1011bff5e844",
-      "originalAssetId": "asset-missing-assets-context-works-original-luoshen",
       "introduction": {
-        "zh": "作品以东晋顾恺之传《洛神赋图》为原型，保留水岸、流云、飘带、侍从与马匹组成的连续叙事，将奶蛙置于长卷人物画的中心位置。",
-        "en": "作品以东晋顾恺之传《洛神赋图》为原型，保留水岸、流云、飘带、侍从与马匹组成的连续叙事，将奶蛙置于长卷人物画的中心位置。"
-      },
-      "curatorialNote": {
-        "zh": "作品以东晋顾恺之传《洛神赋图》为原型，保留水岸、流云、飘带、侍从与马匹组成的连续叙事，将奶蛙置于长卷人物画的中心位置。",
-        "en": "作品以东晋顾恺之传《洛神赋图》为原型，保留水岸、流云、飘带、侍从与马匹组成的连续叙事，将奶蛙置于长卷人物画的中心位置。"
-      },
-      "trivia": {
         "zh": "作品以东晋顾恺之传《洛神赋图》为原型，保留水岸、流云、飘带、侍从与马匹组成的连续叙事，将奶蛙置于长卷人物画的中心位置。",
         "en": "作品以东晋顾恺之传《洛神赋图》为原型，保留水岸、流云、飘带、侍从与马匹组成的连续叙事，将奶蛙置于长卷人物画的中心位置。"
       },
@@ -4998,16 +3182,7 @@
       "year": "约5世纪",
       "accession": "MFM · WJN-02",
       "primaryAssetId": "asset-local-89ad5644-a88f-4233-b5a0-7b1dc5e1c447",
-      "originalAssetId": "asset-missing-assets-context-works-original-yungang-buddha",
       "introduction": {
-        "zh": "作品以北魏云冈石窟佛像为原型，保留石窟龛像、圆形背光、袈裟层次和砂岩凿痕，将奶蛙的简洁脸部身份转译为石雕造像。",
-        "en": "作品以北魏云冈石窟佛像为原型，保留石窟龛像、圆形背光、袈裟层次和砂岩凿痕，将奶蛙的简洁脸部身份转译为石雕造像。"
-      },
-      "curatorialNote": {
-        "zh": "作品以北魏云冈石窟佛像为原型，保留石窟龛像、圆形背光、袈裟层次和砂岩凿痕，将奶蛙的简洁脸部身份转译为石雕造像。",
-        "en": "作品以北魏云冈石窟佛像为原型，保留石窟龛像、圆形背光、袈裟层次和砂岩凿痕，将奶蛙的简洁脸部身份转译为石雕造像。"
-      },
-      "trivia": {
         "zh": "作品以北魏云冈石窟佛像为原型，保留石窟龛像、圆形背光、袈裟层次和砂岩凿痕，将奶蛙的简洁脸部身份转译为石雕造像。",
         "en": "作品以北魏云冈石窟佛像为原型，保留石窟龛像、圆形背光、袈裟层次和砂岩凿痕，将奶蛙的简洁脸部身份转译为石雕造像。"
       },
@@ -5031,16 +3206,7 @@
       "year": "约5—6世纪",
       "accession": "MFM · WJN-03",
       "primaryAssetId": "asset-local-be8fc0c8-fcdc-4172-acd1-94b7461428a1",
-      "originalAssetId": "asset-missing-assets-context-works-original-seven-sages",
       "introduction": {
-        "zh": "作品以南朝墓室砖画《竹林七贤与荣启期》为原型，保留长条砖面、竹林、树石、乐器和八位人物的分段节奏，让每位高士都成为姿态不同的奶蛙。",
-        "en": "作品以南朝墓室砖画《竹林七贤与荣启期》为原型，保留长条砖面、竹林、树石、乐器和八位人物的分段节奏，让每位高士都成为姿态不同的奶蛙。"
-      },
-      "curatorialNote": {
-        "zh": "作品以南朝墓室砖画《竹林七贤与荣启期》为原型，保留长条砖面、竹林、树石、乐器和八位人物的分段节奏，让每位高士都成为姿态不同的奶蛙。",
-        "en": "作品以南朝墓室砖画《竹林七贤与荣启期》为原型，保留长条砖面、竹林、树石、乐器和八位人物的分段节奏，让每位高士都成为姿态不同的奶蛙。"
-      },
-      "trivia": {
         "zh": "作品以南朝墓室砖画《竹林七贤与荣启期》为原型，保留长条砖面、竹林、树石、乐器和八位人物的分段节奏，让每位高士都成为姿态不同的奶蛙。",
         "en": "作品以南朝墓室砖画《竹林七贤与荣启期》为原型，保留长条砖面、竹林、树石、乐器和八位人物的分段节奏，让每位高士都成为姿态不同的奶蛙。"
       },
@@ -5064,16 +3230,7 @@
       "year": "约8世纪",
       "accession": "MFM · SUT-01",
       "primaryAssetId": "asset-local-85d3d313-e2a3-4b97-9200-8df0bb754346",
-      "originalAssetId": "asset-missing-assets-context-works-original-tangcamel",
       "introduction": {
-        "zh": "作品以唐代三彩骆驼载乐俑为原型，保留骆驼、鞍具、乐队与琥珀绿釉色，将中央乐师改作奶蛙，突出丝路交流和唐代器物的动势。",
-        "en": "作品以唐代三彩骆驼载乐俑为原型，保留骆驼、鞍具、乐队与琥珀绿釉色，将中央乐师改作奶蛙，突出丝路交流和唐代器物的动势。"
-      },
-      "curatorialNote": {
-        "zh": "作品以唐代三彩骆驼载乐俑为原型，保留骆驼、鞍具、乐队与琥珀绿釉色，将中央乐师改作奶蛙，突出丝路交流和唐代器物的动势。",
-        "en": "作品以唐代三彩骆驼载乐俑为原型，保留骆驼、鞍具、乐队与琥珀绿釉色，将中央乐师改作奶蛙，突出丝路交流和唐代器物的动势。"
-      },
-      "trivia": {
         "zh": "作品以唐代三彩骆驼载乐俑为原型，保留骆驼、鞍具、乐队与琥珀绿釉色，将中央乐师改作奶蛙，突出丝路交流和唐代器物的动势。",
         "en": "作品以唐代三彩骆驼载乐俑为原型，保留骆驼、鞍具、乐队与琥珀绿釉色，将中央乐师改作奶蛙，突出丝路交流和唐代器物的动势。"
       },
@@ -5081,876 +3238,6 @@
       "order": 54
     }
   ],
-  "quiz": {
-    "questions": [
-      {
-        "id": "question-01",
-        "question": {
-          "zh": "如果你在博物馆里发现一扇禁止进入的门，你会？",
-          "en": "如果你在博物馆里发现一扇禁止进入的门，你会？"
-        },
-        "options": [
-          {
-            "zh": "进去看看",
-            "en": "进去看看"
-          },
-          {
-            "zh": "先拍照",
-            "en": "先拍照"
-          },
-          {
-            "zh": "假装没看见",
-            "en": "假装没看见"
-          },
-          {
-            "zh": "找馆长投诉",
-            "en": "找馆长投诉"
-          }
-        ],
-        "order": 0,
-        "visible": true
-      },
-      {
-        "id": "question-02",
-        "question": {
-          "zh": "馆长送你一件礼物，你第一反应是？",
-          "en": "馆长送你一件礼物，你第一反应是？"
-        },
-        "options": [
-          {
-            "zh": "这是什么",
-            "en": "这是什么"
-          },
-          {
-            "zh": "好可爱",
-            "en": "好可爱"
-          },
-          {
-            "zh": "能吃吗",
-            "en": "能吃吗"
-          },
-          {
-            "zh": "先收下再说",
-            "en": "先收下再说"
-          }
-        ],
-        "order": 1,
-        "visible": true
-      },
-      {
-        "id": "question-03",
-        "question": {
-          "zh": "如果必须在身上带一样东西生活一年，你选？",
-          "en": "如果必须在身上带一样东西生活一年，你选？"
-        },
-        "options": [
-          {
-            "zh": "枕头",
-            "en": "枕头"
-          },
-          {
-            "zh": "零食",
-            "en": "零食"
-          },
-          {
-            "zh": "手机",
-            "en": "手机"
-          },
-          {
-            "zh": "一只不知道有什么用的小蛙",
-            "en": "一只不知道有什么用的小蛙"
-          }
-        ],
-        "order": 2,
-        "visible": true
-      },
-      {
-        "id": "question-04",
-        "question": {
-          "zh": "你觉得自己比较像？",
-          "en": "你觉得自己比较像？"
-        },
-        "options": [
-          {
-            "zh": "一种生物",
-            "en": "一种生物"
-          },
-          {
-            "zh": "一件物品",
-            "en": "一件物品"
-          },
-          {
-            "zh": "一种天气",
-            "en": "一种天气"
-          },
-          {
-            "zh": "一个暂时无法解释的现象",
-            "en": "一个暂时无法解释的现象"
-          }
-        ],
-        "order": 3,
-        "visible": true
-      }
-    ],
-    "results": [
-      {
-        "id": "result-01",
-        "name": {
-          "zh": "雨天会自己长出来的蘑菇蛙",
-          "en": "雨天会自己长出来的蘑菇蛙"
-        },
-        "collectionNumber": "N-0182",
-        "rarity": 4,
-        "habitat": {
-          "zh": "潮湿的窗台",
-          "en": "潮湿的窗台"
-        },
-        "comment": [
-          {
-            "zh": "“没有发现任何攻击性。”",
-            "en": "“没有发现任何攻击性。”"
-          },
-          {
-            "zh": "“但也没有发现什么用。”",
-            "en": "“但也没有发现什么用。”"
-          },
-          {
-            "zh": "“建议继续观察。”",
-            "en": "“建议继续观察。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f01",
-        "order": 0,
-        "visible": true
-      },
-      {
-        "id": "result-02",
-        "name": {
-          "zh": "只在凌晨 3:17 出现的蛙",
-          "en": "只在凌晨 3:17 出现的蛙"
-        },
-        "collectionNumber": "N-0317",
-        "rarity": 5,
-        "habitat": {
-          "zh": "无人的走廊尽头",
-          "en": "无人的走廊尽头"
-        },
-        "comment": [
-          {
-            "zh": "“白天从未被目击。”",
-            "en": "“白天从未被目击。”"
-          },
-          {
-            "zh": "“出现时间非常准时。”",
-            "en": "“出现时间非常准时。”"
-          },
-          {
-            "zh": "“不建议熬夜等它。”",
-            "en": "“不建议熬夜等它。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f02",
-        "order": 1,
-        "visible": true
-      },
-      {
-        "id": "result-03",
-        "name": {
-          "zh": "据说会帮人保管秘密的蛙",
-          "en": "据说会帮人保管秘密的蛙"
-        },
-        "collectionNumber": "N-0456",
-        "rarity": 4,
-        "habitat": {
-          "zh": "信箱深处",
-          "en": "信箱深处"
-        },
-        "comment": [
-          {
-            "zh": "“它知道很多事。”",
-            "en": "“它知道很多事。”"
-          },
-          {
-            "zh": "“但从不说。”",
-            "en": "“但从不说。”"
-          },
-          {
-            "zh": "“口风极严。”",
-            "en": "“口风极严。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f03",
-        "order": 2,
-        "visible": true
-      },
-      {
-        "id": "result-04",
-        "name": {
-          "zh": "已经绝版但本人不知道的蛙",
-          "en": "已经绝版但本人不知道的蛙"
-        },
-        "collectionNumber": "N-0001",
-        "rarity": 5,
-        "habitat": {
-          "zh": "库房最里面那叠箱子",
-          "en": "库房最里面那叠箱子"
-        },
-        "comment": [
-          {
-            "zh": "“十分稀有。”",
-            "en": "“十分稀有。”"
-          },
-          {
-            "zh": "“它对此毫无自觉。”",
-            "en": "“它对此毫无自觉。”"
-          },
-          {
-            "zh": "“请勿告知。”",
-            "en": "“请勿告知。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f04",
-        "order": 3,
-        "visible": true
-      },
-      {
-        "id": "result-05",
-        "name": {
-          "zh": "混进博物馆 27 年还没被发现的蛙",
-          "en": "混进博物馆 27 年还没被发现的蛙"
-        },
-        "collectionNumber": "N-1997",
-        "rarity": 5,
-        "habitat": {
-          "zh": "一根没人注意的大理石柱旁",
-          "en": "一根没人注意的大理石柱旁"
-        },
-        "comment": [
-          {
-            "zh": "“登记在册上找不到它。”",
-            "en": "“登记在册上找不到它。”"
-          },
-          {
-            "zh": "“但它确实一直在。”",
-            "en": "“但它确实一直在。”"
-          },
-          {
-            "zh": "“已补办入馆手续。”",
-            "en": "“已补办入馆手续。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f05",
-        "order": 4,
-        "visible": true
-      },
-      {
-        "id": "result-06",
-        "name": {
-          "zh": "看起来很贵但没人知道为什么的蛙",
-          "en": "看起来很贵但没人知道为什么的蛙"
-        },
-        "collectionNumber": "N-0888",
-        "rarity": 4,
-        "habitat": {
-          "zh": "玻璃展柜里的丝绒垫上",
-          "en": "玻璃展柜里的丝绒垫上"
-        },
-        "comment": [
-          {
-            "zh": "“估值很高。”",
-            "en": "“估值很高。”"
-          },
-          {
-            "zh": "“依据不明。”",
-            "en": "“依据不明。”"
-          },
-          {
-            "zh": "“仍建议投保。”",
-            "en": "“仍建议投保。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f06",
-        "order": 5,
-        "visible": true
-      },
-      {
-        "id": "result-07",
-        "name": {
-          "zh": "只喜欢坐电梯的蛙",
-          "en": "只喜欢坐电梯的蛙"
-        },
-        "collectionNumber": "N-0026",
-        "rarity": 3,
-        "habitat": {
-          "zh": "上下往返的电梯间",
-          "en": "上下往返的电梯间"
-        },
-        "comment": [
-          {
-            "zh": "“从不说自己要去哪层。”",
-            "en": "“从不说自己要去哪层。”"
-          },
-          {
-            "zh": "“似乎不为抵达，只为乘坐。”",
-            "en": "“似乎不为抵达，只为乘坐。”"
-          },
-          {
-            "zh": "“已为它预留专梯。”",
-            "en": "“已为它预留专梯。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f07",
-        "order": 6,
-        "visible": true
-      },
-      {
-        "id": "result-08",
-        "name": {
-          "zh": "来自馆长童年记忆的蛙",
-          "en": "来自馆长童年记忆的蛙"
-        },
-        "collectionNumber": "N-0079",
-        "rarity": 5,
-        "habitat": {
-          "zh": "旧玩具箱的最底层",
-          "en": "旧玩具箱的最底层"
-        },
-        "comment": [
-          {
-            "zh": "“馆长看到它时沉默了很久。”",
-            "en": "“馆长看到它时沉默了很久。”"
-          },
-          {
-            "zh": "“未作进一步说明。”",
-            "en": "“未作进一步说明。”"
-          },
-          {
-            "zh": "“建议妥善保存。”",
-            "en": "“建议妥善保存。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f08",
-        "order": 7,
-        "visible": true
-      },
-      {
-        "id": "result-09",
-        "name": {
-          "zh": "被误认为是雕塑的蛙",
-          "en": "被误认为是雕塑的蛙"
-        },
-        "collectionNumber": "N-0210",
-        "rarity": 4,
-        "habitat": {
-          "zh": "展厅中央的基座上",
-          "en": "展厅中央的基座上"
-        },
-        "comment": [
-          {
-            "zh": "“一动不动。”",
-            "en": "“一动不动。”"
-          },
-          {
-            "zh": "“曾有观众为它鼓掌。”",
-            "en": "“曾有观众为它鼓掌。”"
-          },
-          {
-            "zh": "“它假装没听见。”",
-            "en": "“它假装没听见。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f09",
-        "order": 8,
-        "visible": true
-      },
-      {
-        "id": "result-10",
-        "name": {
-          "zh": "一生只旅行一次的蛙",
-          "en": "一生只旅行一次的蛙"
-        },
-        "collectionNumber": "N-0143",
-        "rarity": 4,
-        "habitat": {
-          "zh": "行李箱旁边",
-          "en": "行李箱旁边"
-        },
-        "comment": [
-          {
-            "zh": "“那一次去了哪里，没有人知道。”",
-            "en": "“那一次去了哪里，没有人知道。”"
-          },
-          {
-            "zh": "“它也不再提。”",
-            "en": "“它也不再提。”"
-          },
-          {
-            "zh": "“行李从未拆开。”",
-            "en": "“行李从未拆开。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f10",
-        "order": 9,
-        "visible": true
-      },
-      {
-        "id": "result-11",
-        "name": {
-          "zh": "疑似拥有房产但拒绝提供证明的蛙",
-          "en": "疑似拥有房产但拒绝提供证明的蛙"
-        },
-        "collectionNumber": "N-0621",
-        "rarity": 4,
-        "habitat": {
-          "zh": "不肯透露的某处",
-          "en": "不肯透露的某处"
-        },
-        "comment": [
-          {
-            "zh": "“相关文件未能出示。”",
-            "en": "“相关文件未能出示。”"
-          },
-          {
-            "zh": "“它表示不方便说。”",
-            "en": "“它表示不方便说。”"
-          },
-          {
-            "zh": "“此项仍在核实。”",
-            "en": "“此项仍在核实。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f11",
-        "order": 10,
-        "visible": true
-      },
-      {
-        "id": "result-12",
-        "name": {
-          "zh": "会在别人睡觉时偷偷换位置的蛙",
-          "en": "会在别人睡觉时偷偷换位置的蛙"
-        },
-        "collectionNumber": "N-0413",
-        "rarity": 3,
-        "habitat": {
-          "zh": "每天都不太一样的角落",
-          "en": "每天都不太一样的角落"
-        },
-        "comment": [
-          {
-            "zh": "“早上总在另一个地方。”",
-            "en": "“早上总在另一个地方。”"
-          },
-          {
-            "zh": "“目前无法预测下一步。”",
-            "en": "“目前无法预测下一步。”"
-          },
-          {
-            "zh": "“建议多拍几张存档。”",
-            "en": "“建议多拍几张存档。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f12",
-        "order": 11,
-        "visible": true
-      },
-      {
-        "id": "result-13",
-        "name": {
-          "zh": "把纸箱当房子住的蛙",
-          "en": "把纸箱当房子住的蛙"
-        },
-        "collectionNumber": "N-0013",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一个尺寸刚好的纸箱里",
-          "en": "一个尺寸刚好的纸箱里"
-        },
-        "comment": [
-          {
-            "zh": "“对房型十分满意。”",
-            "en": "“对房型十分满意。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f13",
-        "order": 12,
-        "visible": true
-      },
-      {
-        "id": "result-14",
-        "name": {
-          "zh": "拿了一张没人看得懂的证书的蛙",
-          "en": "拿了一张没人看得懂的证书的蛙"
-        },
-        "collectionNumber": "N-0014",
-        "rarity": 3,
-        "habitat": {
-          "zh": "歪掉的相框旁边",
-          "en": "歪掉的相框旁边"
-        },
-        "comment": [
-          {
-            "zh": "“证书内容无人能读懂。”",
-            "en": "“证书内容无人能读懂。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f14",
-        "order": 13,
-        "visible": true
-      },
-      {
-        "id": "result-15",
-        "name": {
-          "zh": "从早到晚都在伸懒腰的蛙",
-          "en": "从早到晚都在伸懒腰的蛙"
-        },
-        "collectionNumber": "N-0015",
-        "rarity": 3,
-        "habitat": {
-          "zh": "下午阳光最好的那块",
-          "en": "下午阳光最好的那块"
-        },
-        "comment": [
-          {
-            "zh": "“从未真正清醒过。”",
-            "en": "“从未真正清醒过。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f15",
-        "order": 14,
-        "visible": true
-      },
-      {
-        "id": "result-16",
-        "name": {
-          "zh": "只收集门票却从不入场的蛙",
-          "en": "只收集门票却从不入场的蛙"
-        },
-        "collectionNumber": "N-0016",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一堆旧门票的中间",
-          "en": "一堆旧门票的中间"
-        },
-        "comment": [
-          {
-            "zh": "“票很多，从未使用。”",
-            "en": "“票很多，从未使用。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f16",
-        "order": 15,
-        "visible": true
-      },
-      {
-        "id": "result-17",
-        "name": {
-          "zh": "半夜偷偷把灯打开的蛙",
-          "en": "半夜偷偷把灯打开的蛙"
-        },
-        "collectionNumber": "N-0017",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一盏本不该亮的台灯下",
-          "en": "一盏本不该亮的台灯下"
-        },
-        "comment": [
-          {
-            "zh": "“白天从不开灯。”",
-            "en": "“白天从不开灯。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f17",
-        "order": 16,
-        "visible": true
-      },
-      {
-        "id": "result-18",
-        "name": {
-          "zh": "影子和本人对不上的蛙",
-          "en": "影子和本人对不上的蛙"
-        },
-        "collectionNumber": "N-0018",
-        "rarity": 3,
-        "habitat": {
-          "zh": "墙上那块不太对的阴影里",
-          "en": "墙上那块不太对的阴影里"
-        },
-        "comment": [
-          {
-            "zh": "“影子形状与本体不符。”",
-            "en": "“影子形状与本体不符。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f18",
-        "order": 17,
-        "visible": true
-      },
-      {
-        "id": "result-19",
-        "name": {
-          "zh": "总装作很忙的蛙",
-          "en": "总装作很忙的蛙"
-        },
-        "collectionNumber": "N-0019",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一张摆着文件的小书桌后",
-          "en": "一张摆着文件的小书桌后"
-        },
-        "comment": [
-          {
-            "zh": "“桌上文件从未翻动。”",
-            "en": "“桌上文件从未翻动。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f19",
-        "order": 18,
-        "visible": true
-      },
-      {
-        "id": "result-20",
-        "name": {
-          "zh": "晴天也在室内撑伞的蛙",
-          "en": "晴天也在室内撑伞的蛙"
-        },
-        "collectionNumber": "N-0020",
-        "rarity": 3,
-        "habitat": {
-          "zh": "窗边干燥的地板上",
-          "en": "窗边干燥的地板上"
-        },
-        "comment": [
-          {
-            "zh": "“防备心理偏高。”",
-            "en": "“防备心理偏高。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f20",
-        "order": 19,
-        "visible": true
-      },
-      {
-        "id": "result-21",
-        "name": {
-          "zh": "总躲在帘子后面偷看的蛙",
-          "en": "总躲在帘子后面偷看的蛙"
-        },
-        "collectionNumber": "N-0021",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一块重重的展厅帘幕后",
-          "en": "一块重重的展厅帘幕后"
-        },
-        "comment": [
-          {
-            "zh": "“只露出半个身子。”",
-            "en": "“只露出半个身子。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f21",
-        "order": 20,
-        "visible": true
-      },
-      {
-        "id": "result-22",
-        "name": {
-          "zh": "一直坐在空展厅正中央的蛙",
-          "en": "一直坐在空展厅正中央的蛙"
-        },
-        "collectionNumber": "N-0022",
-        "rarity": 3,
-        "habitat": {
-          "zh": "空无一物的展厅中央",
-          "en": "空无一物的展厅中央"
-        },
-        "comment": [
-          {
-            "zh": "“周围什么都没有。”",
-            "en": "“周围什么都没有。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f22",
-        "order": 21,
-        "visible": true
-      },
-      {
-        "id": "result-23",
-        "name": {
-          "zh": "自己给自己过生日的蛙",
-          "en": "自己给自己过生日的蛙"
-        },
-        "collectionNumber": "N-0023",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一块小蛋糕旁边",
-          "en": "一块小蛋糕旁边"
-        },
-        "comment": [
-          {
-            "zh": "“没有邀请其他客人。”",
-            "en": "“没有邀请其他客人。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f23",
-        "order": 22,
-        "visible": true
-      },
-      {
-        "id": "result-24",
-        "name": {
-          "zh": "被泡在标本瓶里但不介意的蛙",
-          "en": "被泡在标本瓶里但不介意的蛙"
-        },
-        "collectionNumber": "N-0024",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一只泡着液体的玻璃瓶里",
-          "en": "一只泡着液体的玻璃瓶里"
-        },
-        "comment": [
-          {
-            "zh": "“神情从容。”",
-            "en": "“神情从容。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f24",
-        "order": 23,
-        "visible": true
-      },
-      {
-        "id": "result-25",
-        "name": {
-          "zh": "满墙都是自己画像的蛙",
-          "en": "满墙都是自己画像的蛙"
-        },
-        "collectionNumber": "N-0025",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一面挂满自己胖像的墙前",
-          "en": "一面挂满自己胖像的墙前"
-        },
-        "comment": [
-          {
-            "zh": "“每幅都长得一样。”",
-            "en": "“每幅都长得一样。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f25",
-        "order": 24,
-        "visible": true
-      },
-      {
-        "id": "result-26",
-        "name": {
-          "zh": "一边看“请勿触碰”一边触碰的蛙",
-          "en": "一边看“请勿触碰”一边触碰的蛙"
-        },
-        "collectionNumber": "N-0026",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一块“请勿触碰”的牌子旁",
-          "en": "一块“请勿触碰”的牌子旁"
-        },
-        "comment": [
-          {
-            "zh": "“仍在触碰中。”",
-            "en": "“仍在触碰中。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f26",
-        "order": 25,
-        "visible": true
-      },
-      {
-        "id": "result-27",
-        "name": {
-          "zh": "把自己埋进落叶堆的蛙",
-          "en": "把自己埋进落叶堆的蛙"
-        },
-        "collectionNumber": "N-0027",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一堆干燥的秋叶里",
-          "en": "一堆干燥的秋叶里"
-        },
-        "comment": [
-          {
-            "zh": "“只露出一个头。”",
-            "en": "“只露出一个头。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f27",
-        "order": 26,
-        "visible": true
-      },
-      {
-        "id": "result-28",
-        "name": {
-          "zh": "站上体重秤出现不可能数字的蛙",
-          "en": "站上体重秤出现不可能数字的蛙"
-        },
-        "collectionNumber": "N-0028",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一台老式体重秤上",
-          "en": "一台老式体重秤上"
-        },
-        "comment": [
-          {
-            "zh": "“读数超出量程。”",
-            "en": "“读数超出量程。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f28",
-        "order": 27,
-        "visible": true
-      },
-      {
-        "id": "result-29",
-        "name": {
-          "zh": "把一盆小苗当成挚友的蛙",
-          "en": "把一盆小苗当成挚友的蛙"
-        },
-        "collectionNumber": "N-0029",
-        "rarity": 3,
-        "habitat": {
-          "zh": "一盆小植物旁边",
-          "en": "一盆小植物旁边"
-        },
-        "comment": [
-          {
-            "zh": "“两者形影不离。”",
-            "en": "“两者形影不离。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f29",
-        "order": 28,
-        "visible": true
-      },
-      {
-        "id": "result-30",
-        "name": {
-          "zh": "只在一束阳光里晒太阳的蛙",
-          "en": "只在一束阳光里晒太阳的蛙"
-        },
-        "collectionNumber": "N-0030",
-        "rarity": 3,
-        "habitat": {
-          "zh": "高窗洒下的那束光里",
-          "en": "高窗洒下的那束光里"
-        },
-        "comment": [
-          {
-            "zh": "“阳光移走后也跟着移。”",
-            "en": "“阳光移走后也跟着移。”"
-          }
-        ],
-        "imageAssetId": "asset-missing-assets-quiz-f30",
-        "order": 29,
-        "visible": true
-      }
-    ]
-  },
   "logs": [
     {
       "id": "log-001",
@@ -6044,8 +3331,8 @@
         "en": "古典馆藏新增两件作品"
       },
       "body": {
-        "zh": "新增《纳芙蒂蒂头像奶蛙》和《德尔斐御者奶蛙》，补充原作参考图、作品介绍、艺术鉴赏与创作轶事。",
-        "en": "新增《纳芙蒂蒂头像奶蛙》和《德尔斐御者奶蛙》，补充原作参考图、作品介绍、艺术鉴赏与创作轶事。"
+        "zh": "新增《纳芙蒂蒂头像奶蛙》和《德尔斐御者奶蛙》，补充作品介绍。",
+        "en": "新增《纳芙蒂蒂头像奶蛙》和《德尔斐御者奶蛙》，补充作品介绍。"
       },
       "visible": true,
       "order": 6
@@ -6063,34 +3350,6 @@
       },
       "visible": true,
       "order": 7
-    },
-    {
-      "id": "log-009",
-      "date": "2026-08-25",
-      "title": {
-        "zh": "奶蛙鉴定所上线",
-        "en": "奶蛙鉴定所上线"
-      },
-      "body": {
-        "zh": "新增身份测试、随机鉴定结果与可保存的奶蛙鉴定卡片。",
-        "en": "新增身份测试、随机鉴定结果与可保存的奶蛙鉴定卡片。"
-      },
-      "visible": true,
-      "order": 8
-    },
-    {
-      "id": "log-010",
-      "date": "2026-08-24",
-      "title": {
-        "zh": "夜间模式与双语界面",
-        "en": "夜间模式与双语界面"
-      },
-      "body": {
-        "zh": "新增夜间模式与中文 / English 切换，参观偏好会自动保留。",
-        "en": "新增夜间模式与中文 / English 切换，参观偏好会自动保留。"
-      },
-      "visible": true,
-      "order": 9
     }
   ]
 }

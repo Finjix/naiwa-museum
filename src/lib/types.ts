@@ -26,13 +26,11 @@ export interface MediaAsset {
 export interface SiteConfig {
   title: LocalizedText;
   heroVideoAssetId?: string;
-  heroPosterAssetId?: string;
   intro: LocalizedText;
   curator: LocalizedText;
   footerTagline: LocalizedText;
   openingHours: LocalizedText;
   contact: LocalizedText;
-  easterNote: LocalizedText;
 }
 
 export interface Era {
@@ -66,37 +64,9 @@ export interface Work {
   year: string;
   accession: string;
   primaryAssetId: string;
-  originalAssetId?: string;
   introduction: LocalizedText;
-  curatorialNote: LocalizedText;
-  trivia: LocalizedText;
   visible: boolean;
   order: number;
-}
-
-export interface QuizQuestion {
-  id: string;
-  question: LocalizedText;
-  options: LocalizedText[];
-  order: number;
-  visible: boolean;
-}
-
-export interface QuizResult {
-  id: string;
-  name: LocalizedText;
-  collectionNumber: string;
-  rarity: number;
-  habitat: LocalizedText;
-  comment: LocalizedText[];
-  imageAssetId?: string;
-  order: number;
-  visible: boolean;
-}
-
-export interface QuizConfig {
-  questions: QuizQuestion[];
-  results: QuizResult[];
 }
 
 export interface UpdateLog {
@@ -117,7 +87,6 @@ export interface ContentDocument {
   eras: Era[];
   artists: Artist[];
   works: Work[];
-  quiz: QuizConfig;
   logs: UpdateLog[];
 }
 

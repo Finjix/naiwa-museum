@@ -67,16 +67,11 @@ export function erasForCollection(document: ContentDocument, collection: Collect
 export function referencedAssetIds(document: ContentDocument) {
   const refs = new Set<string>();
   if (document.site.heroVideoAssetId) refs.add(document.site.heroVideoAssetId);
-  if (document.site.heroPosterAssetId) refs.add(document.site.heroPosterAssetId);
   document.works.forEach((work) => {
     refs.add(work.primaryAssetId);
-    if (work.originalAssetId) refs.add(work.originalAssetId);
   });
   document.artists.forEach((artist) => {
     if (artist.portraitAssetId) refs.add(artist.portraitAssetId);
-  });
-  document.quiz.results.forEach((result) => {
-    if (result.imageAssetId) refs.add(result.imageAssetId);
   });
   return refs;
 }

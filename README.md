@@ -44,9 +44,9 @@ npm run migration:blob
 ## 管理后台
 
 - `/admin/login`：登录
-- `/admin`：发布状态与迁移概览
+- `/admin`：发布状态
 - `/admin/works`、`/admin/artists`、`/admin/eras`：展品资料
-- `/admin/site`、`/admin/logs`、`/admin/quiz`：站点、日志和鉴定所
+- `/admin/site`、`/admin/logs`：站点与更新日志
 - `/admin/assets`：媒体上传、预览和引用保护
 - `/admin/feedback`：意见收件、已读/归档和私有附件查看
 

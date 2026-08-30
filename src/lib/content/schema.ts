@@ -23,13 +23,11 @@ export const mediaAssetSchema = z.object({
 const siteSchema = z.object({
   title: localizedTextSchema,
   heroVideoAssetId: z.string().optional(),
-  heroPosterAssetId: z.string().optional(),
   intro: localizedTextSchema,
   curator: localizedTextSchema,
   footerTagline: localizedTextSchema,
   openingHours: localizedTextSchema,
   contact: localizedTextSchema,
-  easterNote: localizedTextSchema,
 });
 
 const eraSchema = z.object({
@@ -63,32 +61,9 @@ const workSchema = z.object({
   year: z.string(),
   accession: z.string().min(1),
   primaryAssetId: z.string().min(1),
-  originalAssetId: z.string().optional(),
   introduction: localizedTextSchema,
-  curatorialNote: localizedTextSchema,
-  trivia: localizedTextSchema,
   visible: z.boolean(),
   order: z.number().int(),
-});
-
-const quizQuestionSchema = z.object({
-  id: z.string().min(1),
-  question: localizedTextSchema,
-  options: z.array(localizedTextSchema).min(2),
-  order: z.number().int(),
-  visible: z.boolean(),
-});
-
-const quizResultSchema = z.object({
-  id: z.string().min(1),
-  name: localizedTextSchema,
-  collectionNumber: z.string().min(1),
-  rarity: z.number().int().min(1).max(5),
-  habitat: localizedTextSchema,
-  comment: z.array(localizedTextSchema).min(1),
-  imageAssetId: z.string().optional(),
-  order: z.number().int(),
-  visible: z.boolean(),
 });
 
 const updateLogSchema = z.object({
@@ -109,12 +84,15 @@ export const contentDocumentSchema = z.object({
   eras: z.array(eraSchema),
   artists: z.array(artistSchema),
   works: z.array(workSchema),
-  quiz: z.object({
-    questions: z.array(quizQuestionSchema),
-    results: z.array(quizResultSchema),
-  }),
   logs: z.array(updateLogSchema),
 });
+
+function isRemovedLegacyAsset(asset: { pathname: string; status: string }) {
+  return asset.status === "missing" && (
+    asset.pathname.startsWith("assets/context/works/") ||
+    asset.pathname.startsWith("assets/quiz/")
+  );
+}
 
 export const feedbackAttachmentSchema = z.object({
   id: z.string().min(1),
@@ -128,14 +106,15 @@ export const feedbackAttachmentSchema = z.object({
 export const feedbackRecordSchema = z.object({
   id: z.string().min(1),
   message: z.string().min(1).max(10000),
-  attachments: z.array(feedbackAttachmentSchema).max(6),
+  attachments: z.array(feedbackAttachmentSchema).max(1),
   status: z.enum(["new", "read", "archived"]),
   createdAt: z.string().min(1),
   updatedAt: z.string().min(1),
 });
 
 export function parseContentDocument(value: unknown): ContentDocument {
-  return contentDocumentSchema.parse(value) as ContentDocument;
+  const parsed = contentDocumentSchema.parse(value) as ContentDocument;
+  return { ...parsed, assets: parsed.assets.filter((asset) => !isRemovedLegacyAsset(asset)) };
 }
 
 export function parseFeedbackRecord(value: unknown): FeedbackRecord {
